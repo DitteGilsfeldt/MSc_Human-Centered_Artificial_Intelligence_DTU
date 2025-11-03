@@ -400,7 +400,8 @@
     "rock",
     "roll",
     "rockabilly",
-    "pop"
+    "pop",
+    "country"
   ],
   "Bullet_for_My_Valentine": [
     "melodic metalcore",
@@ -625,9 +626,7 @@
   "Days_of_the_New": [
     "post-grunge",
     "alternative rock",
-    "grunge",
-    "acoustic rock",
-    "alternative metal"
+    "acoustic"
   ],
   "Death_Cab_for_Cutie": [
     "indie rock",
@@ -1064,7 +1063,6 @@
     "alternative rock",
     "jangle pop",
     "power pop",
-    "post-grunge",
     "country rock"
   ],
   "Glenn_Frey": [
@@ -1090,7 +1088,6 @@
   "Goo_Goo_Dolls": [
     "alternative rock",
     "pop rock",
-    "post-grunge",
     "punk rock"
   ],
   "Good_Charlotte": [
@@ -2610,11 +2607,10 @@
     "power pop"
   ],
   "The_Jesus_and_Mary_Chain": [
+    "noise pop",
     "alternative rock",
     "indie rock",
-    "noise pop",
-    "post-punk",
-    "shoegaze"
+    "post-punk"
   ],
   "The_Killers": [
     "alternative rock",
