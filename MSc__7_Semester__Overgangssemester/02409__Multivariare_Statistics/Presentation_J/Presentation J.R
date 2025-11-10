@@ -34,7 +34,7 @@ anova(model2,model1)
 
 summary(model1)
 
-Slide 14:
+# Slide 14:
 
 tab <- cbind(coef(summary(model1))[ , 1:2], "Lower" = confint(model1)[ , 1],
              "Upper" = confint(model1)[ , 2])
