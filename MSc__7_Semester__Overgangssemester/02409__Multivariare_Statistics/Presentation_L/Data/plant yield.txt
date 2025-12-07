@@ -1,0 +1,10 @@
+Type        Yield             B1     B2     B3    B4     B5    B6
+"Marchigiana" "Dry matter"     9.170 10.683 10.063 8.104 10.018 9.570
+"Marchigiana" "Nitrogen"       0.286 0.335 0.315 0.259 0.319 0.304
+"Marchigiana" "Green matter"  40.959 47.677 44.950 36.919 45.859 43.838
+"Kayseri"     "Dry matter"     9.403 10.914 11.018 11.385 13.387 12.848
+"Kayseri"     "Nitrogen"       0.285 0.330 0.333 0.339 0.400 0.383
+"Kayseri"     "Green matter"  42.475 49.546 50.152 51.718 60.758 58.334
+"Atlantic"    "Dry matter"    11.349 10.971 9.794 8.944 11.715 11.903
+"Atlantic"    "Nitrogen"       0.369 0.357 0.319 0.291 0.379 0.386
+"Atlantic"    "Green matter"  52.475 50.757 45.151 42.221 55.505 56.364
