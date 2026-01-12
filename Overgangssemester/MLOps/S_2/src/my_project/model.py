@@ -22,6 +22,12 @@ class MyAwesomeModel(pl.LightningModule):
         self.loss_fn = nn.CrossEntropyLoss()
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
+         # Check: must be 4D: [N, C, H, W]
+        if x.ndim != 4:
+            raise ValueError('Expected input to a 4D tensor')
+        if x.shape[1] != 1 or x.shape[2] != 28 or x.shape[3] != 28:
+            raise ValueError('Expected each sample to have shape [1, 28, 28]')
+        
         """Forward pass."""
         x = torch.relu(self.conv1(x))
         x = torch.max_pool2d(x, 2, 2)
@@ -30,7 +36,7 @@ class MyAwesomeModel(pl.LightningModule):
         x = torch.relu(self.conv3(x))
         x = torch.max_pool2d(x, 2, 2)
         x = torch.flatten(x, 1)
-        x = self.dropout(x)
+        x = self.dropout(x)        
         return self.fc1(x)
 
     def training_step(self, batch):
