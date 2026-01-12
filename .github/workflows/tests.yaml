@@ -1,4 +1,4 @@
-name: "Run tests"
+name: Run tests
 
 on:
   push:
@@ -12,43 +12,15 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: ["ubuntu-latest", "windows-latest", "macos-latest"]
+        os: [macos-latest]
         python-version: ["3.10", "3.11", "3.12"]
 
-  steps:
-  - uses: actions/checkout@v5
-  - uses: astral-sh/setup-uv@v7
-    with:
-      python-version: 3.12
-      enable-cache: false
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
 
-  # steps:
-  #   - name: Checkout
-  #     uses: actions/checkout@v5
-
-  #   - name: Setup uv
-  #     uses: astral-sh/setup-uv@v7
-  #     with:
-  #       python-version: ${{ matrix.python-version }}
-
-# jobs:
-#   build:
-
-#     runs-on: ["ubuntu-latest", "macos-latest", "windows-latest"]
-
-#     steps:
-#     - name: Checkout
-#       uses: actions/checkout@v5
-
-#     - name: Setup uv
-#       uses: astral-sh/setup-uv@v7
-#       with:
-#         python-version: ["3.10", "3.11", "3.12"]
-
-#     - name: Install dependencies
-#       run: |
-#         uv sync --dev --locked
-
-#     - name: Test with pytest
-#       run: |
-#         uv run pytest -v
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
