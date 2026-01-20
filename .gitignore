@@ -11,3 +11,6 @@ MSc__7_Semester__Overgangssemester/02805__Social_Grapg_and_Interaction/data/rock
 #MLOps
 Overgangssemester/MLOps/S_4/datasets
 Overgangssemester/MLOps/S_4/log
+*.lfw-deepfunneled
+*.lfw-deepfunneled.zip
+Overgangssemester/MLOps/S_9/lfw-deepfunneled
