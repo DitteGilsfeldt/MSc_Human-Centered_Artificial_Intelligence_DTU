@@ -98,14 +98,12 @@ def timing_experiment(
             pin_memory=pin_memory,
         )
 
-        # Warm-up to reduce one-off overhead in timing
         if warmup_batches > 0:
             _iterate_n_batches(dataloader, warmup_batches)
 
         start = time.perf_counter()
         _iterate_n_batches(dataloader, batches_to_check)
         end = time.perf_counter()
-
         times.append(end - start)
 
     t = torch.tensor(times, dtype=torch.float32)
@@ -116,25 +114,32 @@ def timing_experiment(
 
 def main():
     parser = argparse.ArgumentParser()
+
+    # Must run with no additional args
     parser.add_argument("--data_root", type=str, default="lfw-deepfunneled")
     parser.add_argument("--batch_size", type=int, default=8)
-    parser.add_argument("--num_workers", type=int, default=0)
-    parser.add_argument("--batches_to_check", type=int, default=100)
+
+    # Add BOTH single-dash and double-dash aliases in ONE place (no duplicates)
+    parser.add_argument("-num_workers", "--num_workers", type=int, default=0)
+    parser.add_argument("-batches_to_check", "--batches_to_check", type=int, default=100)
+
+    # Keep repeats as double-dash only (exercise doesn't require single-dash here)
     parser.add_argument("--repeats", type=int, default=5)
 
-    parser.add_argument("--visualize_batch", action="store_true")
-    parser.add_argument("--get_timing", action="store_true")
+    # Exercise uses -visualize_batch and -get_timing
+    parser.add_argument("-visualize_batch", "--visualize_batch", action="store_true")
+    parser.add_argument("-get_timing", "--get_timing", action="store_true")
+
+    # Keep heavy augmentation as double-dash (you can add alias if you want)
     parser.add_argument("--heavy_aug", action="store_true")
 
     # macOS multiprocessing
     parser.add_argument("--mp_context", type=str, default="fork", choices=["fork", "spawn"])
 
-    # DataLoader performance knobs
+    # DataLoader knobs (optional)
     parser.add_argument("--prefetch_factor", type=int, default=2)
     parser.add_argument("--persistent_workers", action="store_true")
     parser.add_argument("--pin_memory", action="store_true")
-
-    # Timing hygiene
     parser.add_argument("--warmup_batches", type=int, default=10)
 
     args = parser.parse_args()
@@ -155,7 +160,6 @@ def main():
         pin_memory=args.pin_memory,
     )
 
-    # Sanity check
     batch = next(iter(dataloader))
     print("Sanity check batch shape:", tuple(batch.shape))
 
