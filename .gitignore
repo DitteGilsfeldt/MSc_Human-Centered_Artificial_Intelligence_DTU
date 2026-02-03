@@ -4,6 +4,7 @@
 .DS_Store
 *DS_Store
 *.pdf
+*.png
 
 # Overgangssemester
 # 02805 Social Graph and Interaction
