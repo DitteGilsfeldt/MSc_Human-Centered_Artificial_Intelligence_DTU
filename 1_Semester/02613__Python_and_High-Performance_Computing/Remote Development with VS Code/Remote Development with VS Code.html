@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html><head></head><body style="color: rgb(32, 33, 34); font-family: Verdana; font-size: 12pt;"><h1>Remote Development with VS Code</h1>
+<p>Instead of uploading / downloading our files constantly or working through ThinLinc, we can use the remote development feature of Visual Studio Code to work directly on the HPC system.</p>
+<p>The step-by-step guide here is based loosely on the <a href="https://code.visualstudio.com/docs/remote/ssh" title="official guide by Microsoft">official guide by Microsoft</a>.</p>
+<p><span style="text-decoration: underline;">Note:</span> If you are <em>not on DTU wifi</em> you may need to connect with a VPN first or set up ssh keys (see: <a href="https://www.hpc.dtu.dk/?page_id=4317)">https://www.hpc.dtu.dk/?page_id=4317)</a>.</p>
+<h2>Issues with VS Code version 1.86</h2>
+<p><strong>Note:</strong> These issues have been fixed in the latest release, cf., the&nbsp;<a href="https://code.visualstudio.com/updates/v1_86" title="VS Code January 2024 (version 1.86)">release notes</a> and this <a href="https://github.com/microsoft/vscode/issues/204344" title="Provide legacy server when remote requirements fail">GitHub issue</a>. If you still have issues, either upgrade your VS Code version, or (if that fails) follow the guide below.</p>
+<p>From version 1.86 VS Code upgraded the minimum requirements for the remote hosts it will connect to, and the DTU HPC system does not (currently) meet these.</p>
+<p><strong>Workaround:</strong> <a href="https://code.visualstudio.com/docs/remote/faq#_can-i-run-vs-code-server-on-older-linux-distributions" title="Microsofts recommends">Microsofts recommends</a> getting around this by using version VS Code version 1.85 in Portable Mode (this way, you can have the frozen 1.85 version for HPC work and the newest version for "normal" work). To set this up:</p>
+<ol>
+<li>Download the zip installation of VS Code version 1.85 (links adapted from <a href="https://code.visualstudio.com/updates/v1_85" title="November 2023 (version 1.85)">here</a>)<br><span style="text-decoration: underline;">Windows:</span> <a href="https://update.code.visualstudio.com/1.85.2/win32-x64-archive/stable" title="VS Code 1.85 Win64 zip">Click this link to download.</a><br><span style="text-decoration: underline;">Linux:</span> <a href="https://update.code.visualstudio.com/1.85.2/linux-x64/stable" title="VS Code 1.85 Linux tarball">Click this link to download.</a><br><span style="text-decoration: underline;">Mac:</span> <a href="https://update.code.visualstudio.com/1.85.2/darwin-universal/stable" title="VS Code 1.85 Darwin Universal zip">Click this link to download.</a></li>
+<li>Unzip the downloaded folder to a suitable location, i.e., not your Downloads. Any folder will work.</li>
+<li>Follow the instructions at this link: <a href="https://code.visualstudio.com/docs/editor/portable#_enable-portable-mode" title="Enable Portable Mode">Enable Portable Mode</a></li>
+</ol>
+<h2>First-Time Connection</h2>
+<p>If you have already followed these steps (successfully) once, please scroll down to the Future Connections section.</p>
+<ol>
+<li>Install the Remote Development extension in VS Code if you haven't already.<br><img src="image_20240201085752418.png" style="max-width: 100%;" data-d2l-editor-default-img-style="true"><br><br></li>
+<li>Open the Remote Explorer window<br><img src="image_20240201085819800.png" style="max-width: 100%;" data-d2l-editor-default-img-style="true"><br><br></li>
+<li>Select "Remotes (Tunnels/SSH) in the drop down menu<br><img src="image_20240201085847970.png" style="max-width: 100%;" data-d2l-editor-default-img-style="true"><br><br></li>
+<li>Click the '+' to add a New Remote<br><img src="image_20240201085928480.png" style="max-width: 100%;" data-d2l-editor-default-img-style="true"><br><br></li>
+<li>Type in the SSH command you normally use to log in to the HPC. Replace "&lt;username&gt;" with your own DTU user name. See also the guide <a href="/d2l/le/lessons/187812/topics/728840" title="Connecting to an HPC Terminal">Connecting to an HPC Terminal</a>.<br><img src="image_20240201090033155.png" style="max-width: 100%;" data-d2l-editor-default-img-style="true"><br><br></li>
+<li>Pick any of the top options. This is the file VS Code will store the SSH command for future use - you do not need to access this file yourself<br><img src="image_20240201090259228.png" style="max-width: 100%;" data-d2l-editor-default-img-style="true"><br><br></li>
+<li>Press the "Connect" button in the lower right corner<br><img src="image_20240201090326431.png" style="max-width: 100%;" data-d2l-editor-default-img-style="true"><br><br></li>
+<li>Select "Linux" as the platform of the remote host, since the HPC runs a Linux system. You may be asked this again - just pick Linux.<br><img src="image_20240201090601188.png" style="max-width: 100%;" data-d2l-editor-default-img-style="true"><br><br></li>
+<li>Enter your DTU password to complete the login<br><img src="image_20240201090601213.png" style="max-width: 100%;" data-d2l-editor-default-img-style="true"><br><br></li>
+<li>You can now select a folder/directory on the HPC where you want to work. This works the same as when you run VS Code on your personal computer. You may be prompted for your password again<br><img src="image_20240201090708210.png" style="max-width: 100%;" data-d2l-editor-default-img-style="true"><br><br></li>
+<li>If you open the embedded terminal in VS Code you should now see that it is connected to the HPC. You can now run 'linuxsh' or bsub job scripts like you would if you connected with SSH<br><img src="image_20240201090827751.png" style="max-width: 100%;" data-d2l-editor-default-img-style="true"></li>
+</ol>
+<h2>Future Connections</h2>
+<p>Once you've followed the steps above, you should see the host you logged in to in the list of SSH remotes. Click one of the highlighted buttons to log in again. You will then be prompted for your DTU password and you should be on. You may be asked for the host platform again: pick Linux.</p>
+<p><img src="image_20240201091306791.png" style="max-width: 100%;" data-d2l-editor-default-img-style="true"></p></body></html>

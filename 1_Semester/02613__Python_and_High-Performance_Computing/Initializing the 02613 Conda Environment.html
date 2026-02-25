@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html><head></head><body style="color: rgb(32, 33, 34); font-family: Verdana; font-size: 12pt;"><h1>Initializing the 02613&nbsp;Conda Environment</h1>
+<p>To (hopefully) simplify package management, we have set up a shared Anaconda installation and conda environment for the course. <strong>To use it</strong>, first log on to the node you want to work on (see, e.g., <a href="/d2l/le/lessons/187812/topics/728840" title="Connecting to an HPC Terminal">Connecting to an HPC Terminal</a>). Then, run:</p>
+<p><code>source /dtu/projects/02613_2025/conda/conda_init.sh</code></p>
+<p>to activate the shared Anaconda installation (this should still work even if you have previously installed Anaconda on your own). Finally, run:</p>
+<p><code>conda activate 02613</code></p>
+<p>to activate the course conda environment. That should be it! You should now see your prompt has changed to something like&nbsp;<code>(02613) ~@n-62-11-21 $</code>.&nbsp;<span style="text-decoration: underline;"><strong>If you get an error</strong></span>, then see <strong>Known Issues</strong> at the bottom of this guide.</p>
+<p><strong>Note:&nbsp;</strong>You must do this <span style="text-decoration: underline;"><strong></strong><strong>every time</strong></span> you change nodes. E.g., if you run this after logging in and then call&nbsp;<code>linuxsh</code> to jump to a work node, you must initialize the conda environment&nbsp;<em>again.</em></p>
+<p><strong>To verify everything has been activated</strong> correctly, run:</p>
+<p><code>python -c "import sys; print(sys.executable)"</code>&nbsp;</p>
+<p>This should print "<code>/dtu/projects/02613_2025/conda/miniconda3/envs/02613/bin/python</code>".</p>
+<h2>In Batch Scripts for bsub</h2>
+<p>To use the course conda environment in your batch jobs, add the following two lines to the script after all the <code>#BSUB</code> comments, but before all other commands:</p>
+<p><code>source /dtu/projects/02613_2025/conda/conda_init.sh<br></code><code>conda activate 02613</code></p>
+<h3>Example:</h3>
+<div>
+<div><code>#!/bin/bash</code></div>
+<div><code>#BSUB -J sleeper</code></div>
+<div><code>#BSUB -q hpc</code></div>
+<div><code>#BSUB -W 2</code></div>
+<div><code>#BSUB -R “rusage[mem=512MB]”</code></div>
+<div><code>#BSUB -o sleeper_%J.out</code></div>
+<div><code>#BSUB -e sleeper_%J.err</code></div>
+</div>
+<div>
+<div><br><code>source /dtu/projects/02613_2025/conda/conda_init.sh<br>conda activate 02613</code><br><br><code>python -u script.py</code></div>
+<div></div>
+<h2>Known Issues</h2>
+<ul>
+<li><strong><code>ModuleNotFound: No module named 'encodings'</code> when running <code>conda activate 02613</code></strong><br>There are two known causes of this:<br><br>1. Check the file .bashrc in your home folder (path: ~/.bashrc). If it ends with something similar to:<br><code># This line below was added by the 10240 setup script<br>source /zhome/ab/123456/teaching/autorun/setup_environment.bashrc</code><br>then comment out the last line beginning with&nbsp;<code>source</code>, i.e., add a <code>#</code> to the start of the line. Then, log out, log back in, and try initializing the Conda environment again.<br><br>2. Check if you have already loaded the python3 module. This can happen if you manually loaded the module or put it into your&nbsp;<code>~/.gbarrc</code> file. <span style="text-decoration: underline;">To check:</span> Run&nbsp;<code>module list</code>. If something like <code>python3/3.XX.YY</code> is listed under&nbsp;<code>Currently Loaded Modulefiles:</code>, the python3 module is loaded, which interferes with <code>conda</code>. <span style="text-decoration: underline;">To fix it:</span> Run <code>module unload python3</code> and initialize the course conda environment as normal.</li>
+</ul>
+</div></body></html>

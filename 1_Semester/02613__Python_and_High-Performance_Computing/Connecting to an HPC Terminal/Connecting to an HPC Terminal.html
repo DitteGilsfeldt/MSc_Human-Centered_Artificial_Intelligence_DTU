@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html><head></head><body style="color: rgb(32, 33, 34); font-family: Verdana; font-size: 12pt;"><h1>Connecting to an HPC Terminal</h1>
+<p>NOTE: If you are <em>not on DTU wifi</em> you may need to connect with a VPN first or set up ssh keys (see: <a href="https://www.hpc.dtu.dk/?page_id=4317" target="_blank" rel="noopener">https://www.hpc.dtu.dk/?page_id=4317</a>).</p>
+<p>Additional information can also be found here: <a href="https://www.hpc.dtu.dk/?page_id=2501">https://www.hpc.dtu.dk/?page_id=2501</a></p>
+<h2>Via SSH (Recommended)</h2>
+<p>To connect to HPC run one of the following in a terminal on your personal computer:</p>
+<ul>
+<li><code>ssh &lt;username&gt;@login.hpc.dtu.dk</code></li>
+<li><code>ssh &lt;username&gt;@login2.hpc.dtu.dk</code></li>
+<li><code>ssh &lt;username&gt;@login.gbar.dtu.dk</code></li>
+<li><code>ssh &lt;username&gt;@login2.gbar.dtu.dk</code></li>
+</ul>
+<p>Here, <code>&lt;username&gt;</code> is your DTU user name, e.g., your study number. Then, type in your DTU password. <span style="text-decoration: underline;">If it times out</span>, try another one. The node may be overloaded.</p>
+<p>You have now logged on to a login node on the HPC! <strong>If you want to run something</strong>, then run</p>
+<p><code>linuxsh</code></p>
+<p>to log on to work node. Please, <em>do not</em> run any heavy stuff on the login nodes!</p>
+<h2>Via ThinLinc</h2>
+<ol>
+<li>Download and install the ThinLinc client (<a href="https://www.cendio.com/thinlinc/download/)">https://www.cendio.com/thinlinc/download/)</a>. Alternatively, you can access ThinLinc directly in your browser from:&nbsp;<a href="https://thinlinc.gbar.dtu.dk/">https://thinlinc.gbar.dtu.dk/</a></li>
+<li>Login with you DTU username (e.g., your study number) and password:<br>ThinLinc client:<br><img src="image_20240109114316757.png" style="max-width: 100%;" data-d2l-editor-default-img-style="true"><br>Browser:<br><img src="image_20240109114455569.png" style="max-width: 100%;" data-d2l-editor-default-img-style="true"></li>
+<li>You should be at your ThinLinc desktop. Start a work terminal by going to (top right corner) Applications -&gt; DTU -&gt; xterm (LSF-application node).<br><img src="pic0_20250211083337362.png" style="max-width: 100%;" data-d2l-editor-default-img-style="true"></li>
+</ol>
+<p></p></body></html>

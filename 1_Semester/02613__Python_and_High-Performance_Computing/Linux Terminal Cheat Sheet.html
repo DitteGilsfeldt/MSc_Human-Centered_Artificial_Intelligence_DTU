@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html><head></head><body style="color: rgb(32, 33, 34); font-family: Verdana; font-size: 12pt;"><h1>Linux Terminal Cheat Sheet</h1>
+<p>Most important (for this course) subset of Bash Cheat Sheet by GitHub user RehanSaeed:&nbsp;<a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">https://github.com/RehanSaeed/Bash-Cheat-Sheet</a></p>
+<h2 dir="auto" tabindex="-1">Navigating Directories</h2>
+<p><code>pwd &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # Print current directory path<br>ls &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# List directories<br>ls -a|--all &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # List directories including hidden<br>ls -l &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # List directories in long form<br>ls -l -h|--human-readable # List directories in long form with human readable sizes<br>ls -t &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # List directories by modification time, newest first<br>stat foo.txt &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# List size, created and modified timestamps for a file<br>stat foo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# List size, created and modified timestamps for a directory<br>tree &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# List directory and file tree<br>tree -a &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # List directory and file tree including hidden<br>tree -d &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # List directory tree<br>cd foo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Go to foo sub-directory<br>cd &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Go to home directory<br>cd ~ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Go to home directory<br>cd - &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Go to last directory<br>pushd foo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # Go to foo sub-directory and add previous directory to stack<br>popd &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Go back to directory in stack saved by `pushd`</code></p>
+<h2 dir="auto" tabindex="-1">Creating Directories</h2>
+<p><code>mkdir foo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Create a directory</code><br><code>mkdir foo bar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Create multiple directories</code><br><code>mkdir -p|--parents foo/bar &nbsp; &nbsp; &nbsp; # Create nested directory</code><br><code>mkdir -p|--parents {foo,bar}/baz # Create multiple nested directories</code><code></code></p>
+<p><code>mktemp -d|--directory &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Create a temporary directory</code></p>
+<h2 dir="auto" tabindex="-1">Moving Directories</h2>
+<pre><code>cp -R|--recursive foo bar                               # Copy directory
+mv foo bar                                              # Move directory
+
+rsync -z|--compress -v|--verbose /foo /bar              # Copy directory, overwrites destination
+rsync -a|--archive -z|--compress -v|--verbose /foo /bar # Copy directory, without overwriting destination
+rsync -avz /foo username@hostname:/bar                  # Copy local directory to remote directory
+rsync -avz username@hostname:/foo /bar                  # Copy remote directory to local directory</code></pre>
+<h2 dir="auto" tabindex="-1">Deleting Directories</h2>
+<p><code>rmdir foo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Delete empty directory</code><br><code>rm -r|--recursive foo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Delete directory including contents</code><br><code>rm -r|--recursive -f|--force foo # Delete directory including contents, ignore nonexistent files and never prompt</code></p>
+<h2 dir="auto" tabindex="-1">Creating Files</h2>
+<p><code>touch foo.txt &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Create file or update existing files modified timestamp</code><br><code>touch foo.txt bar.txt &nbsp;# Create multiple files</code><br><code>touch {foo,bar}.txt &nbsp; &nbsp;# Create multiple files</code><br><code>touch test{1..3} &nbsp; &nbsp; &nbsp; # Create test1, test2 and test3 files</code><br><code>touch test{a..c} &nbsp; &nbsp; &nbsp; # Create testa, testb and testc files</code></p>
+<p><code>mktemp &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # Create a temporary file</code></p>
+<h2 dir="auto" tabindex="-1">Moving Files</h2>
+<p><code>cp foo.txt bar.txt &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Copy file</code><br><code>mv foo.txt bar.txt &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Move file</code></p>
+<p><code>rsync -z|--compress -v|--verbose /foo.txt /bar &nbsp; &nbsp;# Copy file quickly if not changed</code><br><code>rsync z|--compress -v|--verbose /foo.txt /bar.txt # Copy and rename file quickly if not changed</code></p>
+<h2 dir="auto" tabindex="-1">Deleting Files</h2>
+<p dir="auto" tabindex="-1"><code><a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet/blob/main/README.md#reading-files" aria-hidden="true" id="user-content-reading-files" tabindex="-1"></a>rm foo.txt &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Delete file</code><br><code>rm -f|--force foo.txt # Delete file, ignore nonexistent files and never prompt</code></p>
+<h2 dir="auto" tabindex="-1">Reading Files</h2>
+<p dir="auto" tabindex="-1"><a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet/blob/main/README.md#compressing-files" aria-hidden="true" id="user-content-compressing-files" tabindex="-1"></a><code>cat foo.txt &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Print all contents</code><br><code>less foo.txt &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # Print some contents at a time (g - go to top of file, SHIFT+g, go to bottom of file, /foo to search for 'foo')</code><br><code>head foo.txt &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # Print top 10 lines of file</code><br><code>tail foo.txt &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # Print bottom 10 lines of file</code><br><code>open foo.txt &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # Open file in the default editor</code><br><code>wc foo.txt &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # List number of lines words and characters in the file</code></p>
+<h2 dir="auto" tabindex="-1">Compressing Files</h2>
+<h3 dir="auto" tabindex="-1">zip</h3>
+<p><code>zip foo.zip /bar.txt &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Compress bar.txt into foo.zip</code><br><code>zip foo.zip /bar.txt /baz.txt &nbsp; &nbsp; &nbsp; # Compress bar.txt and baz.txt into foo.zip</code><br><code>zip foo.zip /{bar,baz}.txt &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Compress bar.txt and baz.txt into foo.zip</code><br><code>zip -r|--recurse-paths foo.zip /bar # Compress directory bar into foo.zip</code></p>
+<h3>gzip</h3>
+<p><code>gzip /bar.txt foo.gz &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # Compress bar.txt into foo.gz and then delete bar.txt</code><br><code>gzip -k|--keep /bar.txt foo.gz # Compress bar.txt into foo.gz</code></p>
+<h3>tar -c</h3>
+<p><code>tar -c|--create -z|--gzip -f|--file=foo.tgz /bar.txt /baz.txt # Compress bar.txt and baz.txt into foo.tgz</code><br><code>tar -c|--create -z|--gzip -f|--file=foo.tgz /{bar,baz}.txt &nbsp; &nbsp;# Compress bar.txt and baz.txt into foo.tgz</code><br><code>tar -c|--create -z|--gzip -f|--file=foo.tgz /bar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Compress directory bar into foo.tgz</code></p>
+<h2 dir="auto" tabindex="-1">Decompressing Files</h2>
+<h3 dir="auto" tabindex="-1"><a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet/blob/main/README.md#disk-usage" aria-hidden="true" id="user-content-disk-usage" tabindex="-1"></a>unzip</h3>
+<p><code>unzip foo.zip &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Unzip foo.zip into current directory</code></p>
+<h3>gunzip</h3>
+<p><code>gunzip foo.gz &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # Unzip foo.gz into current directory and delete foo.gz</code><br><code>gunzip -k|--keep foo.gz # Unzip foo.gz into current directory</code></p>
+<h3>tar -x</h3>
+<p><code>tar -x|--extract -z|--gzip -f|--file=foo.tar.gz # Un-compress foo.tar.gz into current directory</code><br><code>tar -x|--extract -f|--file=foo.tar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Un-combine foo.tar into current directory</code></p>
+<h2 dir="auto" tabindex="-1">Disk Usage</h2>
+<p><code>df &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # List disks, size, used and available space</code><br><code>df -h|--human-readable # List disks, size, used and available space in a human readable format</code></p>
+<p><code>du &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # List current directory, subdirectories and file sizes</code><br><code>du /foo/bar &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# List specified directory, subdirectories and file sizes</code><br><code>du -h|--human-readable # List current directory, subdirectories and file sizes in a human readable format</code><br><code>du -d|--max-depth &nbsp; &nbsp; &nbsp;# List current directory, subdirectories and file sizes within the max depth</code><br><code>du -d 0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# List current directory size</code></p>
+<h2 dir="auto" tabindex="-1">Memory Usage</h2>
+<p dir="auto" tabindex="-1"><a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet/blob/main/README.md#terminal-multiplexers" aria-hidden="true" id="user-content-terminal-multiplexers" tabindex="-1"></a><code>free &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # Show memory usage</code><br><code>free -h|--human &nbsp; &nbsp; &nbsp; &nbsp;# Show human readable memory usage</code><br><code>free -h|--human --si &nbsp; # Show human readable memory usage in power of 1000 instead of 1024</code><br><code>free -s|--seconds 5 &nbsp; &nbsp;# Show memory usage and update continuously every five seconds</code></p>
+<h2 dir="auto" tabindex="-1">Terminal Multiplexers</h2>
+<p><code>tmux &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # Start a new session (CTRL-b + d to detach)</code><br><code>tmux ls &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# List all sessions</code><br><code>tmux attach -t 0 # Reattach to a session</code></p>
+<p><code>screen &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # Start a new session (CTRL-a + d to detach)</code><br><code>screen -ls &nbsp; &nbsp; &nbsp; # List all sessions</code><br><code>screen -R 31166 &nbsp;# Reattach to a session</code></p>
+<p>exit &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # Exit a session</p>
+<h2 dir="auto" tabindex="-1">Standard Output, Standard Error and Standard Input</h2>
+<pre><code>echo "foo" &gt; bar.txt       # Overwrite file with content
+echo "foo" &gt;&gt; bar.txt      # Append to file with content
+
+ls exists 1&gt; stdout.txt    # Redirect the standard output to a file
+ls noexist 2&gt; stderror.txt # Redirect the standard error output to a file
+ls 2&gt;&amp;1 &gt; out.txt          # Redirect standard output and error to a file
+ls &gt; /dev/null             # Discard standard output and error
+
+read foo                   # Read from standard input and write to the variable foo</code></pre>
+<h2 dir="auto" tabindex="-1">Command History</h2>
+<p><code>!! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Run the last command</code></p>
+<p><code>touch foo.sh</code><br><code>chmod +x !$ &nbsp; # !$ is the last argument of the last command i.e. foo.sh</code></p>
+<h2 dir="auto" tabindex="-1">Bash Scripting</h2>
+<h3>Variables</h3>
+<p><code>#!/bin/bash</code></p>
+<p><code>foo=123 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Initialize variable foo with 123</code><br><code>declare -i foo=123 &nbsp; &nbsp; # Initialize an integer foo with 123</code><br><code>declare -r foo=123 &nbsp; &nbsp; # Initialize readonly variable foo with 123</code><br><code>echo $foo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Print variable foo</code><br><code>echo ${foo}_'bar' &nbsp; &nbsp; &nbsp;# Print variable foo followed by _bar</code><br><code>echo ${foo:-'default'} # Print variable foo if it exists otherwise print default</code></p>
+<p><code>export foo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # Make foo available to child processes</code><br><code>unset foo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Make foo unavailable to child processes</code></p>
+<h3>Environment Variables</h3>
+<p><code>#!/bin/bash</code></p>
+<p><code>env &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# List all environment variables</code><br><code>echo $PATH &nbsp; &nbsp; # Print PATH environment variable</code><br><code>export FOO=Bar # Set an environment variable</code></p>
+<h3 dir="auto" tabindex="-1">Statements</h3>
+<h4>For Loops</h4>
+<p><code>#!/bin/bash</code></p>
+<p><code>for i in {0..10..2}</code><br><code>&nbsp; do</code><br><code>&nbsp; &nbsp; echo "Index: $i"</code><br><code>&nbsp; done</code></p>
+<p><code>for filename in file1 file2 file3</code><br><code>&nbsp; do</code><br><code>&nbsp; &nbsp; echo "Content: " &gt;&gt; $filename</code><br><code>&nbsp; done</code></p>
+<p><code>for filename in *;</code><br><code>&nbsp; do</code><br><code>&nbsp; &nbsp; echo "Content: " &gt;&gt; $filename</code><br><code>&nbsp; done</code></p>
+<h4>While Loops</h4>
+<p><code>#!/bin/bash</code></p>
+<p><code>declare -i counter</code><br><code>counter=10</code><br><code>while [$counter -gt 2]; do</code><br><code>&nbsp; echo The counter is $counter</code><br><code>&nbsp; counter=counter-1</code><br><code>done</code></p>
+<h4 dir="auto" tabindex="-1">If Statements<a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet/blob/main/README.md#inline-if-statements" aria-hidden="true" id="user-content-inline-if-statements" tabindex="-1"></a></h4>
+<p><code>#!/bin/bash</code></p>
+<p><code>if [[$foo = 'bar']]; then</code><br><code>&nbsp; echo 'one'</code><br><code>elif [[$foo = 'bar']] || [[$foo = 'baz']]; then</code><br><code>&nbsp; echo 'two'</code><br><code>elif [[$foo = 'ban']] &amp;&amp; [[$USER = 'bat']]; then</code><br><code>&nbsp; echo 'three'</code><br><code>else</code><br><code>&nbsp; echo 'four'</code><br><code>fi</code></p>
+<h4 dir="auto" tabindex="-1">Inline If Statements</h4>
+<p><code>#!/bin/bash</code></p>
+<p><code>if [[$foo = 'bar']]; then</code><br><code>&nbsp; echo 'one'</code><br><code>elif [[$foo = 'bar']] || [[$foo = 'baz']]; then</code><br><code>&nbsp; echo 'two'</code><br><code>elif [[$foo = 'ban']] &amp;&amp; [[$USER = 'bat']]; then</code><br><code>&nbsp; echo 'three'</code><br><code>else</code><br><code>&nbsp; echo 'four'</code><br><code>fi</code></p>
+<h4 dir="auto" tabindex="-1">Case Statements</h4>
+<p><code>#!/bin/bash</code></p>
+<p><code>echo "What's the weather like tomorrow?"</code><br><code>read weather</code></p>
+<p><code>case $weather in</code><br><code>&nbsp; sunny | warm ) echo "Nice weather: " $weather</code><br><code>&nbsp; ;;</code><br><code>&nbsp; cloudy | cool ) echo "Not bad weather: " $weather</code><br><code>&nbsp; ;;</code><br><code>&nbsp; rainy | cold ) echo "Terrible weather: " $weather</code><br><code>&nbsp; ;;</code><br><code>&nbsp; * ) echo "Don't understand"</code><br><code>&nbsp; ;;</code><br><code>esac</code></p>
+<h4 dir="auto" tabindex="-1">Boolean Operators</h4>
+<ul>
+<li dir="auto" tabindex="-1"><code>$foo</code> - Is true</li>
+<li dir="auto" tabindex="-1"><code>!$foo</code> - Is false</li>
+</ul>
+<h4 dir="auto" tabindex="-1">Numeric Operators</h4>
+<ul>
+<li dir="auto" tabindex="-1"><code>-eq</code> - Equals</li>
+<li dir="auto" tabindex="-1"><code>-ne</code> - Not equals</li>
+<li><code>-gt</code> - Greater than</li>
+<li><code>-ge</code> - Greater than or equal to</li>
+<li><code>-lt</code> - Less than</li>
+<li><code>-le</code> - Less than or equal to</li>
+<li><code>-e foo.txt</code> - Check file exists</li>
+<li><code>-z foo</code> - Check if variable exists</li>
+</ul>
+<h4 dir="auto" tabindex="-1">String Operators</h4>
+<ul>
+<li><code>=</code> - Equals</li>
+<li><code>==</code> - Equals</li>
+<li><code>-z</code> - Is null</li>
+<li><code>-n</code> - Is not null</li>
+<li><code>&lt;</code> - Is less than in ASCII alphabetical order</li>
+<li><code>&gt;</code> - Is greater than in ASCII alphabetical order</li>
+</ul>
+<h3 dir="auto" tabindex="-1">Functions</h3>
+<p><code>#!/bin/bash</code></p>
+<p><code>greet() {</code><br><code>&nbsp; local world = "World"</code><br><code>&nbsp; echo "$1 $world"</code><br><code>&nbsp; return "$1 $world"</code><br><code>}</code><br><code>greet "Hello"</code><br><code>greeting=$(greet "Hello")</code></p>
+<h3 dir="auto" tabindex="-1">Exit Codes</h3>
+<p><code>#!/bin/bash</code></p>
+<p><code>exit 0 &nbsp; # Exit the script successfully</code><br><code>exit 1 &nbsp; # Exit the script unsuccessfully</code><br><code>echo $? &nbsp;# Print the last exit code</code></p></body></html>
