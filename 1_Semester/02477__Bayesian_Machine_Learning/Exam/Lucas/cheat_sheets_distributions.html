@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>02477 BML — Distribution Cheat Sheet</title>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<style>
+:root {
+  --bg:       #0d1117;
+  --s1:       #161b22;
+  --s2:       #1c2128;
+  --border:   #30363d;
+  --text:     #e6edf3;
+  --muted:    #8b949e;
+  --blue:     #79c0ff;
+  --green:    #56d364;
+  --orange:   #ffa657;
+  --purple:   #d2a8ff;
+  --teal:     #39d353;
+  --red:      #ff7b72;
+  --yellow:   #e3b341;
+  --pink:     #f778ba;
+
+  --cat-disc:   #1f3a5f;
+  --cat-cont:   #1a3a2a;
+  --cat-mv:     #3a1f3a;
+  --cat-conj:   #3a2a1a;
+  --cat-gp:     #1a2a3a;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); font-size: 13px; line-height: 1.55; }
+
+header { background: linear-gradient(135deg,#0d1b2a,#0d1117); border-bottom:1px solid var(--border); padding:18px 28px; position:sticky; top:0; z-index:200; display:flex; align-items:center; justify-content:space-between; gap:12px; }
+header h1 { font-size:16px; font-weight:700; color:#fff; }
+header p  { font-size:11px; color:var(--muted); margin-top:2px; }
+.badge { font-size:11px; font-weight:600; padding:3px 10px; border-radius:20px; white-space:nowrap; }
+.badge-disc { background:#1f3a5f; color:var(--blue); }
+.badge-cont { background:#1a3a2a; color:var(--green); }
+.badge-mv   { background:#3a1f3a; color:var(--purple); }
+.badge-conj { background:#3a2a1a; color:var(--orange); }
+.badge-gp   { background:#1a2a3a; color:var(--teal); }
+
+nav { background:var(--s1); border-bottom:1px solid var(--border); display:flex; gap:2px; padding:0 28px; overflow-x:auto; scrollbar-width:none; position:sticky; top:61px; z-index:100; }
+nav::-webkit-scrollbar { display:none; }
+nav a { color:var(--muted); text-decoration:none; font-size:12px; font-weight:500; padding:9px 12px; border-bottom:2px solid transparent; white-space:nowrap; transition:color .12s,border-color .12s; }
+nav a:hover { color:var(--text); }
+nav a.active { color:var(--blue); border-bottom-color:var(--blue); }
+
+main { max-width:1500px; margin:0 auto; padding:20px 28px 40px; }
+h2 { font-size:14px; font-weight:700; color:#fff; margin:28px 0 12px; padding-bottom:8px; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:8px; }
+h2 .dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
+
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(360px,1fr)); gap:14px; }
+
+.dist-card { background:var(--s1); border:1px solid var(--border); border-radius:10px; overflow:hidden; display:flex; flex-direction:column; }
+.dist-card .dh { padding:9px 14px 7px; display:flex; align-items:center; gap:8px; border-bottom:1px solid var(--border); }
+.dist-card .dh .name { font-size:13px; font-weight:700; color:#fff; }
+.dist-card .dh .sym  { font-size:11px; color:var(--muted); margin-left:auto; }
+.dist-card .db { padding:10px 14px; flex:1; }
+
+.cat-disc-card .dh { background: var(--cat-disc); }
+.cat-cont-card .dh { background: var(--cat-cont); }
+.cat-mv-card   .dh { background: var(--cat-mv);   }
+
+.row { margin:4px 0; display:flex; gap:6px; }
+.lbl { color:var(--muted); font-size:11px; min-width:58px; padding-top:1px; flex-shrink:0; }
+.val { color:var(--text); font-size:12px; flex:1; }
+.divider { height:1px; background:var(--border); margin:8px 0; }
+
+.conj-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(460px,1fr)); gap:14px; }
+.conj-card { background:var(--s1); border:1px solid var(--border); border-radius:10px; overflow:hidden; }
+.conj-card .ch { background:var(--cat-conj); padding:9px 14px 7px; display:flex; align-items:center; gap:8px; border-bottom:1px solid var(--border); }
+.conj-card .ch .name { font-weight:700; color:#fff; font-size:13px; }
+.conj-card .ch .week { font-size:11px; color:var(--orange); margin-left:auto; font-weight:600; }
+.conj-card .cb { padding:12px 14px; }
+
+.flow { display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin:6px 0; }
+.flow-box { background:var(--s2); border:1px solid var(--border); border-radius:6px; padding:5px 10px; font-size:12px; }
+.flow-box.prior  { border-color:#5e72b6; }
+.flow-box.lik    { border-color:#5e9e6a; }
+.flow-box.post   { border-color:#c0743a; background:#1e1610; border-width:1.5px; }
+.flow-arrow { color:var(--muted); font-size:14px; }
+
+.update-box { background:var(--s2); border:1px solid var(--border); border-radius:7px; padding:8px 12px; margin-top:8px; font-size:12px; }
+.update-label { font-size:10px; font-weight:600; color:var(--orange); text-transform:uppercase; letter-spacing:.7px; margin-bottom:5px; }
+.pred-box { background:#1a2010; border:1px solid #3a5020; border-radius:7px; padding:8px 12px; margin-top:6px; font-size:12px; }
+.pred-label { font-size:10px; font-weight:600; color:var(--green); text-transform:uppercase; letter-spacing:.7px; margin-bottom:5px; }
+
+.gp-card { background:var(--s1); border:1px solid var(--border); border-radius:10px; overflow:hidden; }
+.gp-card .gh { background:var(--cat-gp); padding:9px 14px; border-bottom:1px solid var(--border); font-weight:700; color:#fff; font-size:13px; }
+.gp-card .gb { padding:14px 16px; }
+.gp-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+
+.tbl { width:100%; border-collapse:collapse; font-size:12px; }
+.tbl th { background:var(--s2); padding:7px 12px; text-align:left; color:var(--muted); font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:.5px; border-bottom:1px solid var(--border); }
+.tbl td { padding:7px 12px; border-top:1px solid var(--border); vertical-align:middle; }
+.tbl tr:hover td { background:var(--s2); }
+.tbl .hl { color:var(--blue); }
+
+pre { font-family:'Cascadia Code','Fira Code',Consolas,monospace; background:#0d1117; border:1px solid var(--border); border-radius:7px; padding:10px 12px; overflow-x:auto; font-size:11.5px; line-height:1.7; color:#c9d1d9; margin:8px 0; }
+.kw{color:#ff7b72}.fn{color:#d2a8ff}.num{color:#79c0ff}.cmt{color:#6e7681;font-style:italic}
+
+@media(max-width:800px) { main{padding:12px} .grid,.conj-grid,.gp-grid{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>02477 Bayesian ML — Distributions &amp; Conjugate Models</h1>
+    <p>Functional forms &middot; moments &middot; conjugate posterior update rules</p>
+  </div>
+  <div style="display:flex;gap:6px;flex-wrap:wrap">
+    <span class="badge badge-disc">Discrete</span>
+    <span class="badge badge-cont">Continuous</span>
+    <span class="badge badge-mv">Multivariate</span>
+    <span class="badge badge-conj">Conjugate</span>
+    <span class="badge badge-gp">GP</span>
+  </div>
+</header>
+
+<nav id="topnav">
+  <a href="#disc"  class="active">Discrete</a>
+  <a href="#cont">Continuous</a>
+  <a href="#mv">Multivariate</a>
+  <a href="#conj">Conjugate Models</a>
+  <a href="#gp">Gaussian Process</a>
+  <a href="#summary">Summary Table</a>
+</nav>
+
+<main>
+
+<!-- DISCRETE -->
+<h2 id="disc"><span class="dot" style="background:var(--blue)"></span>Discrete Distributions</h2>
+<div class="grid">
+
+  <div class="dist-card cat-disc-card">
+    <div class="dh"><div class="name">Bernoulli</div><div class="sym">\(\text{Ber}(\pi)\)</div></div>
+    <div class="db">
+      <div class="row"><div class="lbl">Support</div><div class="val">\(y \in \{0,1\}\)</div></div>
+      <div class="row"><div class="lbl">Params</div><div class="val">\(\pi \in (0,1)\)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">PMF</div><div class="val">\(p(y|\pi) = \pi^y(1-\pi)^{1-y}\)</div></div>
+      <div class="row"><div class="lbl">Mean</div><div class="val">\(\pi\)</div></div>
+      <div class="row"><div class="lbl">Variance</div><div class="val">\(\pi(1-\pi)\)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">Used for</div><div class="val">Binary classification likelihoods; GP classification</div></div>
+    </div>
+  </div>
+
+  <div class="dist-card cat-disc-card">
+    <div class="dh"><div class="name">Binomial</div><div class="sym">\(\text{Bin}(n,\pi)\)</div></div>
+    <div class="db">
+      <div class="row"><div class="lbl">Support</div><div class="val">\(k \in \{0,1,\ldots,n\}\)</div></div>
+      <div class="row"><div class="lbl">Params</div><div class="val">\(n \in \mathbb{N},\;\pi \in (0,1)\)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">PMF</div><div class="val">\(p(k|n,\pi) = \binom{n}{k}\pi^k(1-\pi)^{n-k}\)</div></div>
+      <div class="row"><div class="lbl">Mean</div><div class="val">\(n\pi\)</div></div>
+      <div class="row"><div class="lbl">Variance</div><div class="val">\(n\pi(1-\pi)\)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">Used for</div><div class="val">Count of successes; Beta-Binomial (Week 1)</div></div>
+    </div>
+  </div>
+
+  <div class="dist-card cat-disc-card">
+    <div class="dh"><div class="name">Poisson</div><div class="sym">\(\text{Pois}(\lambda)\)</div></div>
+    <div class="db">
+      <div class="row"><div class="lbl">Support</div><div class="val">\(k \in \{0,1,2,\ldots\}\)</div></div>
+      <div class="row"><div class="lbl">Params</div><div class="val">\(\lambda > 0\)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">PMF</div><div class="val">\(p(k|\lambda) = \dfrac{\lambda^k e^{-\lambda}}{k!}\)</div></div>
+      <div class="row"><div class="lbl">Mean</div><div class="val">\(\lambda\)</div></div>
+      <div class="row"><div class="lbl">Variance</div><div class="val">\(\lambda\)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">Used for</div><div class="val">Count data; Bayesian Poisson regression (Week 8)</div></div>
+    </div>
+  </div>
+
+  <div class="dist-card cat-disc-card">
+    <div class="dh"><div class="name">Categorical</div><div class="sym">\(\text{Cat}(\boldsymbol{\pi})\)</div></div>
+    <div class="db">
+      <div class="row"><div class="lbl">Support</div><div class="val">\(y \in \{1,\ldots,K\}\)</div></div>
+      <div class="row"><div class="lbl">Params</div><div class="val">\(\boldsymbol{\pi} \in \Delta^{K-1},\;\sum_k\pi_k=1\)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">PMF</div><div class="val">\(p(y=k|\boldsymbol{\pi}) = \pi_k\)</div></div>
+      <div class="row"><div class="lbl">Mean</div><div class="val">\(\pi_k\) for class \(k\)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">Used for</div><div class="val">Multi-class labels; GMM assignments (Weeks 7, 10)</div></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- CONTINUOUS -->
+<h2 id="cont"><span class="dot" style="background:var(--green)"></span>Continuous Univariate Distributions</h2>
+<div class="grid">
+
+  <div class="dist-card cat-cont-card">
+    <div class="dh"><div class="name">Beta</div><div class="sym">\(\text{Beta}(a,b)\)</div></div>
+    <div class="db">
+      <div class="row"><div class="lbl">Support</div><div class="val">\(\pi \in (0,1)\)</div></div>
+      <div class="row"><div class="lbl">Params</div><div class="val">\(a,b > 0\) (shape parameters)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">PDF</div><div class="val">\(\dfrac{\pi^{a-1}(1-\pi)^{b-1}}{B(a,b)},\quad B(a,b)=\dfrac{\Gamma(a)\Gamma(b)}{\Gamma(a+b)}\)</div></div>
+      <div class="row"><div class="lbl">Mean</div><div class="val">\(\dfrac{a}{a+b}\)</div></div>
+      <div class="row"><div class="lbl">Variance</div><div class="val">\(\dfrac{ab}{(a+b)^2(a+b+1)}\)</div></div>
+      <div class="row"><div class="lbl">Mode</div><div class="val">\(\dfrac{a-1}{a+b-2}\) for \(a,b>1\)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">Used for</div><div class="val">Prior/posterior over Bernoulli/Binomial \(\pi\) (Week 1)</div></div>
+    </div>
+  </div>
+
+  <div class="dist-card cat-cont-card">
+    <div class="dh"><div class="name">Gaussian (univariate)</div><div class="sym">\(\mathcal{N}(\mu,\sigma^2)\)</div></div>
+    <div class="db">
+      <div class="row"><div class="lbl">Support</div><div class="val">\(x \in \mathbb{R}\)</div></div>
+      <div class="row"><div class="lbl">Params</div><div class="val">\(\mu \in \mathbb{R},\;\sigma^2 > 0\)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">PDF</div><div class="val">\(\dfrac{1}{\sqrt{2\pi\sigma^2}}\exp\!\left(-\dfrac{(x-\mu)^2}{2\sigma^2}\right)\)</div></div>
+      <div class="row"><div class="lbl">Mean</div><div class="val">\(\mu\)</div></div>
+      <div class="row"><div class="lbl">Variance</div><div class="val">\(\sigma^2\)</div></div>
+      <div class="row"><div class="lbl">Entropy</div><div class="val">\(\tfrac{1}{2}\ln(2\pi e\,\sigma^2)\)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">Used for</div><div class="val">Noise, priors, posteriors, likelihoods — ubiquitous</div></div>
+    </div>
+  </div>
+
+  <div class="dist-card cat-cont-card">
+    <div class="dh"><div class="name">Gamma</div><div class="sym">\(\text{Gamma}(a,b)\)</div></div>
+    <div class="db">
+      <div class="row"><div class="lbl">Support</div><div class="val">\(x > 0\)</div></div>
+      <div class="row"><div class="lbl">Params</div><div class="val">\(a>0\) (shape), \(b>0\) (rate = 1/scale)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">PDF</div><div class="val">\(\dfrac{b^a}{\Gamma(a)}\,x^{a-1}e^{-bx}\)</div></div>
+      <div class="row"><div class="lbl">Mean</div><div class="val">\(a/b\)</div></div>
+      <div class="row"><div class="lbl">Variance</div><div class="val">\(a/b^2\)</div></div>
+      <div class="row"><div class="lbl">Mode</div><div class="val">\((a-1)/b\) for \(a \ge 1\)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">Used for</div><div class="val">Prior over Poisson rate \(\lambda\) or precision \(\tau\) (Weeks 8, 10)</div></div>
+      <div class="row"><div class="lbl">Note</div><div class="val">scipy uses <code>scale=1/b</code> not rate</div></div>
+    </div>
+  </div>
+
+  <div class="dist-card cat-cont-card">
+    <div class="dh"><div class="name">Student-t</div><div class="sym">\(\mathcal{T}(\mu,\sigma^2,\nu)\)</div></div>
+    <div class="db">
+      <div class="row"><div class="lbl">Support</div><div class="val">\(x \in \mathbb{R}\)</div></div>
+      <div class="row"><div class="lbl">Params</div><div class="val">\(\mu\) (loc), \(\sigma^2\) (scale), \(\nu>0\) (dof)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">PDF</div><div class="val">\(p(x) \propto \left(1 + \dfrac{(x-\mu)^2}{\nu\sigma^2}\right)^{-(\nu+1)/2}\)</div></div>
+      <div class="row"><div class="lbl">Mean</div><div class="val">\(\mu\) (for \(\nu>1\))</div></div>
+      <div class="row"><div class="lbl">Variance</div><div class="val">\(\nu\sigma^2/(\nu-2)\) for \(\nu>2\)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">Used for</div><div class="val">Marginal likelihood; robust regression likelihood (Week 11)</div></div>
+      <div class="row"><div class="lbl">Origin</div><div class="val">Arises marginalising \(\sigma^2\) out of \(\mathcal{N}(\mu,\sigma^2)\) with Inverse-Gamma prior</div></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- MULTIVARIATE -->
+<h2 id="mv"><span class="dot" style="background:var(--purple)"></span>Multivariate Distributions</h2>
+<div class="grid">
+
+  <div class="dist-card cat-mv-card">
+    <div class="dh"><div class="name">Multivariate Gaussian</div><div class="sym">\(\mathcal{N}(\boldsymbol{\mu},\boldsymbol{\Sigma})\)</div></div>
+    <div class="db">
+      <div class="row"><div class="lbl">Support</div><div class="val">\(\mathbf{x} \in \mathbb{R}^D\)</div></div>
+      <div class="row"><div class="lbl">Params</div><div class="val">\(\boldsymbol{\mu}\in\mathbb{R}^D\), \(\boldsymbol{\Sigma}\succ 0\)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">PDF</div><div class="val">\((2\pi)^{-D/2}|\boldsymbol{\Sigma}|^{-1/2}\exp\!\left(-\tfrac{1}{2}(\mathbf{x}-\boldsymbol{\mu})^\top\boldsymbol{\Sigma}^{-1}(\mathbf{x}-\boldsymbol{\mu})\right)\)</div></div>
+      <div class="row"><div class="lbl">Mean</div><div class="val">\(\boldsymbol{\mu}\)</div></div>
+      <div class="row"><div class="lbl">Covariance</div><div class="val">\(\boldsymbol{\Sigma}\)</div></div>
+      <div class="row"><div class="lbl">Entropy</div><div class="val">\(\tfrac{1}{2}\ln\bigl((2\pi e)^D|\boldsymbol{\Sigma}|\bigr)\)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">Key props</div><div class="val">Marginals, conditionals, and affine transforms are all Gaussian</div></div>
+    </div>
+  </div>
+
+  <div class="dist-card cat-mv-card">
+    <div class="dh"><div class="name">Dirichlet</div><div class="sym">\(\text{Dir}(\boldsymbol{\alpha})\)</div></div>
+    <div class="db">
+      <div class="row"><div class="lbl">Support</div><div class="val">\(\boldsymbol{\pi} \in \Delta^{K-1}\) (simplex, \(\sum_k\pi_k=1\))</div></div>
+      <div class="row"><div class="lbl">Params</div><div class="val">\(\boldsymbol{\alpha}=(\alpha_1,\ldots,\alpha_K),\;\alpha_k>0\)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">PDF</div><div class="val">\(\dfrac{\Gamma(\alpha_0)}{\prod_k\Gamma(\alpha_k)}\prod_k\pi_k^{\alpha_k-1},\quad\alpha_0=\textstyle\sum_k\alpha_k\)</div></div>
+      <div class="row"><div class="lbl">Mean</div><div class="val">\(\mathbb{E}[\pi_k] = \alpha_k/\alpha_0\)</div></div>
+      <div class="row"><div class="lbl">Variance</div><div class="val">\(\dfrac{\alpha_k(\alpha_0-\alpha_k)}{\alpha_0^2(\alpha_0+1)}\)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">Used for</div><div class="val">Prior over mixture weights; conjugate to Categorical (Week 10)</div></div>
+      <div class="row"><div class="lbl">Note</div><div class="val">\(\alpha_k=1\) = Uniform; larger \(\alpha_k\) concentrates mass on \(\pi_k\)</div></div>
+    </div>
+  </div>
+
+  <div class="dist-card cat-mv-card">
+    <div class="dh"><div class="name">Wishart</div><div class="sym">\(\mathcal{W}(\nu,\mathbf{V})\)</div></div>
+    <div class="db">
+      <div class="row"><div class="lbl">Support</div><div class="val">\(\boldsymbol{\Lambda} \succ 0\) (\(D\times D\) positive definite)</div></div>
+      <div class="row"><div class="lbl">Params</div><div class="val">\(\nu>D-1\) (dof), \(\mathbf{V}\succ 0\) (scale matrix)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">PDF</div><div class="val">\(p(\boldsymbol{\Lambda}) \propto |\boldsymbol{\Lambda}|^{(\nu-D-1)/2}\exp\!\left(-\tfrac{1}{2}\text{tr}(\mathbf{V}^{-1}\boldsymbol{\Lambda})\right)\)</div></div>
+      <div class="row"><div class="lbl">Mean</div><div class="val">\(\nu\mathbf{V}\)</div></div>
+      <div class="row"><div class="lbl">Mode</div><div class="val">\((\nu-D-1)\mathbf{V}\) for \(\nu>D+1\)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">Used for</div><div class="val">Prior over precision matrices \(\boldsymbol{\Lambda}=\boldsymbol{\Sigma}^{-1}\) in GMM (Week 10)</div></div>
+    </div>
+  </div>
+
+  <div class="dist-card cat-mv-card">
+    <div class="dh"><div class="name">Mean-field Gaussian family</div><div class="sym">\(\prod_i\mathcal{N}(m_i,v_i)\)</div></div>
+    <div class="db">
+      <div class="row"><div class="lbl">Form</div><div class="val">\(q(\mathbf{w}) = \prod_{i=1}^D \mathcal{N}(w_i|m_i,v_i)\)</div></div>
+      <div class="row"><div class="lbl">Cov</div><div class="val">Diagonal — off-diagonals forced to 0</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">Entropy</div><div class="val">\(H[q] = \sum_{i=1}^D \tfrac{1}{2}\ln(2\pi e\,v_i)\)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">Moments</div><div class="val">\(\mathbb{E}[w_i] = m_i\)</div></div>
+      <div class="row"><div class="lbl"></div><div class="val">\(\mathbb{E}[w_i^2] = m_i^2 + v_i\)</div></div>
+      <div class="row"><div class="lbl"></div><div class="val">\(\mathbb{E}[w_i w_j] = m_i m_j\) (by independence)</div></div>
+      <div class="divider"></div>
+      <div class="row"><div class="lbl">Used for</div><div class="val">VI in Weeks 10–11; always underestimates posterior variance</div></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- CONJUGATE MODELS -->
+<h2 id="conj"><span class="dot" style="background:var(--orange)"></span>Conjugate Models — Posterior Update Rules</h2>
+<div class="conj-grid">
+
+  <div class="conj-card">
+    <div class="ch"><div class="name">Beta–Binomial</div><div class="week">Week 1</div></div>
+    <div class="cb">
+      <div class="flow">
+        <div class="flow-box prior">\(\pi \sim \text{Beta}(a,b)\)</div>
+        <div class="flow-arrow">+</div>
+        <div class="flow-box lik">\(k|\pi \sim \text{Bin}(n,\pi)\)</div>
+        <div class="flow-arrow">&rarr;</div>
+        <div class="flow-box post">\(\pi|k \sim \text{Beta}(a',b')\)</div>
+      </div>
+      <div class="update-box">
+        <div class="update-label">Posterior update</div>
+        \(a' = a + k \qquad b' = b + n - k\)
+      </div>
+      <div class="pred-box">
+        <div class="pred-label">Posterior predictive</div>
+        \(p(k^*|k) = \text{BetaBin}(n,a',b')\)
+      </div>
+      <div style="margin-top:8px;font-size:11px;color:var(--muted)">Posterior mean: \(\frac{a+k}{a+b+n}\). Prior counts: \(a\) pseudo-successes, \(b\) pseudo-failures.</div>
+    </div>
+  </div>
+
+  <div class="conj-card">
+    <div class="ch"><div class="name">Gaussian–Gaussian (unknown mean)</div><div class="week">Week 3</div></div>
+    <div class="cb">
+      <div class="flow">
+        <div class="flow-box prior">\(\mu \sim \mathcal{N}(\mu_0,\tau^2)\)</div>
+        <div class="flow-arrow">+</div>
+        <div class="flow-box lik">\(y_n|\mu \overset{iid}{\sim} \mathcal{N}(\mu,\sigma^2)\)</div>
+        <div class="flow-arrow">&rarr;</div>
+        <div class="flow-box post">\(\mu|\mathbf{y} \sim \mathcal{N}(m,v)\)</div>
+      </div>
+      <div class="update-box">
+        <div class="update-label">Posterior update</div>
+        \[v = \left(\frac{1}{\tau^2} + \frac{N}{\sigma^2}\right)^{-1}, \qquad m = v\!\left(\frac{\mu_0}{\tau^2} + \frac{\sum_n y_n}{\sigma^2}\right)\]
+      </div>
+      <div class="pred-box">
+        <div class="pred-label">Posterior predictive</div>
+        \(p(y^*|\mathbf{y}) = \mathcal{N}(y^* \mid m,\; v + \sigma^2)\)
+      </div>
+    </div>
+  </div>
+
+  <div class="conj-card">
+    <div class="ch"><div class="name">Bayesian Linear Regression</div><div class="week">Week 3</div></div>
+    <div class="cb">
+      <div class="flow">
+        <div class="flow-box prior">\(\mathbf{w} \sim \mathcal{N}(\mathbf{0},\alpha^{-1}I)\)</div>
+        <div class="flow-arrow">+</div>
+        <div class="flow-box lik">\(\mathbf{y}|\mathbf{w} \sim \mathcal{N}(\Phi\mathbf{w},\sigma^2 I)\)</div>
+        <div class="flow-arrow">&rarr;</div>
+        <div class="flow-box post">\(\mathbf{w}|\mathbf{y} \sim \mathcal{N}(\mathbf{m},S)\)</div>
+      </div>
+      <div class="update-box">
+        <div class="update-label">Posterior update</div>
+        \[S^{-1} = \alpha I + \tfrac{1}{\sigma^2}\Phi^\top\Phi, \qquad \mathbf{m} = \tfrac{1}{\sigma^2}S\,\Phi^\top\mathbf{y}\]
+      </div>
+      <div class="pred-box">
+        <div class="pred-label">Posterior predictive</div>
+        \(p(y^*|\mathbf{y},x^*) = \mathcal{N}(y^* \mid \mathbf{m}^\top\boldsymbol{\phi}^*,\;\boldsymbol{\phi}^{*\top}S\boldsymbol{\phi}^* + \sigma^2)\)
+      </div>
+      <div style="margin-top:8px;font-size:11px;color:var(--muted)">Marginal likelihood: \(p(\mathbf{y}|\alpha,\sigma^2) = \mathcal{N}(\mathbf{y} \mid \mathbf{0},\,\sigma^2 I + \alpha^{-1}\Phi\Phi^\top)\)</div>
+    </div>
+  </div>
+
+  <div class="conj-card">
+    <div class="ch"><div class="name">Gamma–Poisson</div><div class="week">Week 8</div></div>
+    <div class="cb">
+      <div class="flow">
+        <div class="flow-box prior">\(\lambda \sim \text{Gamma}(a,b)\)</div>
+        <div class="flow-arrow">+</div>
+        <div class="flow-box lik">\(k_n|\lambda \overset{iid}{\sim} \text{Pois}(\lambda)\)</div>
+        <div class="flow-arrow">&rarr;</div>
+        <div class="flow-box post">\(\lambda|\mathbf{k} \sim \text{Gamma}(a',b')\)</div>
+      </div>
+      <div class="update-box">
+        <div class="update-label">Posterior update</div>
+        \(a' = a + \textstyle\sum_n k_n \qquad b' = b + N\)
+      </div>
+      <div class="pred-box">
+        <div class="pred-label">Posterior predictive</div>
+        Negative Binomial: \(p(k^*|\mathbf{k}) = \text{NegBin}(a', b'/(b'+1))\)
+      </div>
+      <div style="margin-top:8px;font-size:11px;color:var(--muted)">Posterior mean of \(\lambda\): \(a'/b'\). Used in mortality/count regression (Week 8).</div>
+    </div>
+  </div>
+
+  <div class="conj-card">
+    <div class="ch"><div class="name">Dirichlet–Categorical</div><div class="week">Week 10</div></div>
+    <div class="cb">
+      <div class="flow">
+        <div class="flow-box prior">\(\boldsymbol{\pi} \sim \text{Dir}(\boldsymbol{\alpha})\)</div>
+        <div class="flow-arrow">+</div>
+        <div class="flow-box lik">\(y_n|\boldsymbol{\pi} \overset{iid}{\sim} \text{Cat}(\boldsymbol{\pi})\)</div>
+        <div class="flow-arrow">&rarr;</div>
+        <div class="flow-box post">\(\boldsymbol{\pi}|\mathbf{y} \sim \text{Dir}(\boldsymbol{\alpha}')\)</div>
+      </div>
+      <div class="update-box">
+        <div class="update-label">Posterior update</div>
+        \(\alpha_k' = \alpha_k + N_k \qquad N_k = \sum_n \mathbf{1}[y_n=k]\)
+      </div>
+      <div class="pred-box">
+        <div class="pred-label">Posterior predictive</div>
+        \(p(y^*=k|\mathbf{y}) = \alpha_k'/\alpha_0' \quad\text{where } \alpha_0'=\sum_k\alpha_k'\)
+      </div>
+    </div>
+  </div>
+
+  <div class="conj-card">
+    <div class="ch"><div class="name">Normal–Gamma (joint prior on \(\mu,\lambda\))</div><div class="week">Week 10 VI</div></div>
+    <div class="cb">
+      <div class="flow">
+        <div class="flow-box prior">\(\mu|\lambda\sim\mathcal{N}(m_0,(\beta_0\lambda)^{-1})\), \(\;\lambda\sim\text{Gamma}(a_0,b_0)\)</div>
+      </div>
+      <div class="flow" style="margin-top:4px">
+        <div class="flow-box lik">\(y_n|\mu,\lambda\overset{iid}{\sim}\mathcal{N}(\mu,\lambda^{-1})\)</div>
+        <div class="flow-arrow">&rarr;</div>
+        <div class="flow-box post">Normal-Gamma posterior</div>
+      </div>
+      <div class="update-box">
+        <div class="update-label">Posterior update (N observations, \(\bar{y}=\frac{1}{N}\sum y_n\))</div>
+        \[\beta_N=\beta_0+N, \quad m_N=\frac{\beta_0 m_0+N\bar{y}}{\beta_N}, \quad a_N=a_0+\frac{N}{2}\]
+        \[b_N=b_0+\frac{1}{2}\!\left[\sum_n(y_n-\bar{y})^2+\frac{\beta_0 N(\bar{y}-m_0)^2}{\beta_N}\right]\]
+      </div>
+      <div class="pred-box">
+        <div class="pred-label">Marginal predictive (integrating out \(\mu,\lambda\))</div>
+        \(p(y^*|\mathbf{y}) = \mathcal{T}\!\left(y^* \mid m_N,\;\frac{b_N(\beta_N+1)}{a_N\beta_N},\;2a_N\right)\)
+      </div>
+    </div>
+  </div>
+
+  <div class="conj-card">
+    <div class="ch"><div class="name">Normal–Wishart (GMM clusters)</div><div class="week">Week 10 GMM</div></div>
+    <div class="cb">
+      <div class="flow">
+        <div class="flow-box prior">\(\boldsymbol{\Lambda}\sim\mathcal{W}(\nu_0,\mathbf{V}_0)\), \(\;\boldsymbol{\mu}|\boldsymbol{\Lambda}\sim\mathcal{N}(\mathbf{m}_0,(\beta_0\boldsymbol{\Lambda})^{-1})\)</div>
+      </div>
+      <div class="flow" style="margin-top:4px">
+        <div class="flow-box lik">\(\mathbf{y}_n|\boldsymbol{\mu},\boldsymbol{\Lambda}\overset{iid}{\sim}\mathcal{N}(\boldsymbol{\mu},\boldsymbol{\Lambda}^{-1})\)</div>
+        <div class="flow-arrow">&rarr;</div>
+        <div class="flow-box post">Normal-Wishart posterior</div>
+      </div>
+      <div class="update-box">
+        <div class="update-label">Posterior update</div>
+        \[\beta_N=\beta_0+N,\quad\mathbf{m}_N=\frac{\beta_0\mathbf{m}_0+N\bar{\mathbf{y}}}{\beta_N},\quad\nu_N=\nu_0+N\]
+        \[\mathbf{V}_N^{-1}=\mathbf{V}_0^{-1}+\textstyle\sum_n(\mathbf{y}_n-\bar{\mathbf{y}})(\mathbf{y}_n-\bar{\mathbf{y}})^\top+\frac{\beta_0 N}{\beta_N}(\bar{\mathbf{y}}-\mathbf{m}_0)(\bar{\mathbf{y}}-\mathbf{m}_0)^\top\]
+      </div>
+      <div style="margin-top:8px;font-size:11px;color:var(--muted)">One Normal-Wishart per cluster in Bayesian GMM CAVI. CAVI alternates updating cluster params and responsibilities.</div>
+    </div>
+  </div>
+
+  <div class="conj-card">
+    <div class="ch"><div class="name">Laplace Approximation (non-conjugate)</div><div class="week">Weeks 4, 6, 7</div></div>
+    <div class="cb">
+      <p style="font-size:12px;color:var(--muted);margin-bottom:8px">For non-conjugate models (logistic regression, GP classification) where the posterior is intractable.</p>
+      <div class="flow">
+        <div class="flow-box prior">Any \(p(w)\)</div>
+        <div class="flow-arrow">+</div>
+        <div class="flow-box lik">Non-Gaussian \(p(\mathbf{y}|w)\)</div>
+        <div class="flow-arrow">&rarr;</div>
+        <div class="flow-box post">\(p(w|\mathbf{y})\approx\mathcal{N}(w|\hat{w},S)\)</div>
+      </div>
+      <div class="update-box">
+        <div class="update-label">Construction</div>
+        \[\hat{w}=\arg\max_w\log p(w,\mathbf{y}) \qquad S^{-1}=-\nabla^2\log p(w,\mathbf{y})\big|_{\hat{w}}\]
+      </div>
+      <div class="pred-box">
+        <div class="pred-label">Probit approximation of posterior predictive</div>
+        \[p(y^*=1|\mathbf{y},x^*)\approx\Phi\!\left(\frac{\mu^*}{\sqrt{8/\pi+\sigma^{2*}}}\right)\]
+        <span style="font-size:11px;color:var(--muted)">\(\mu^*,\sigma^{2*}\) = mean/variance of \(f^*=w^\top\phi(x^*)\) under the Laplace approx</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- GP -->
+<h2 id="gp"><span class="dot" style="background:var(--teal)"></span>Gaussian Process</h2>
+<div class="gp-grid">
+
+  <div class="gp-card">
+    <div class="gh">GP Prior + Gaussian Likelihood &rarr; GP Posterior (Regression)</div>
+    <div class="gb">
+      <div class="flow">
+        <div class="flow-box prior">\(f\sim\mathcal{GP}(0,k)\)</div>
+        <div class="flow-arrow">+</div>
+        <div class="flow-box lik">\(\mathbf{y}|f\sim\mathcal{N}(f,\sigma^2 I)\)</div>
+        <div class="flow-arrow">&rarr;</div>
+        <div class="flow-box post">\(f^*|\mathbf{y}\sim\mathcal{N}(\mu^*,\sigma^{2*})\)</div>
+      </div>
+      <div class="update-box" style="margin-top:10px">
+        <div class="update-label">Posterior at \(x^*\)</div>
+        \[\mu^* = \mathbf{k}^{*\top}(K+\sigma^2 I)^{-1}\mathbf{y}\]
+        \[\sigma^{2*} = k(x^*,x^*) - \mathbf{k}^{*\top}(K+\sigma^2 I)^{-1}\mathbf{k}^*\]
+        <div style="margin-top:5px;font-size:11px;color:var(--muted)">\(\mathbf{k}^*\) = covariance vector between \(x^*\) and all training points; \(K_{ij}=k(x_i,x_j)\)</div>
+      </div>
+      <div class="pred-box">
+        <div class="pred-label">Key distributions</div>
+        Prior predictive:&nbsp;\(p(y^*|x^*)=\mathcal{N}(0,\;k(x^*,x^*)+\sigma^2)\)<br>
+        Post. predictive:&nbsp;\(p(y^*|\mathbf{y},x^*)=\mathcal{N}(\mu^*,\;\sigma^{2*}+\sigma^2)\)<br>
+        Marginal likelihood:&nbsp;\(p(\mathbf{y})=\mathcal{N}(\mathbf{y}\mid\mathbf{0},\;K+\sigma^2 I)\)
+      </div>
+    </div>
+  </div>
+
+  <div class="gp-card">
+    <div class="gh">GP Classification (Laplace) + Kernel Properties</div>
+    <div class="gb">
+      <div class="flow">
+        <div class="flow-box prior">\(f\sim\mathcal{GP}(0,k)\)</div>
+        <div class="flow-arrow">+</div>
+        <div class="flow-box lik">\(y_n|f_n\sim\text{Ber}(\sigma(f_n))\)</div>
+        <div class="flow-arrow">&rarr;</div>
+        <div class="flow-box post">\(p(f|\mathbf{y})\approx\mathcal{N}(f|\mathbf{m},S)\)</div>
+      </div>
+      <div class="update-box" style="margin-top:10px">
+        <div class="update-label">Posterior at \(x^*\) given Laplace approx \((\mathbf{m},S)\)</div>
+        \[\mu_{f^*}=\mathbf{k}^{*\top}K^{-1}\mathbf{m}, \quad \sigma^2_{f^*}=k(x^*,x^*)-\mathbf{k}^{*\top}K^{-1}(K-S)K^{-1}\mathbf{k}^*\]
+        Predictive:&nbsp;\(p(y^*=1|\mathbf{y},x^*)\approx\Phi\!\left(\mu_{f^*}/\sqrt{8/\pi+\sigma^2_{f^*}}\right)\)
+      </div>
+      <div class="update-box" style="margin-top:8px">
+        <div class="update-label">Common kernels</div>
+        <div style="display:grid;gap:5px;font-size:12px;margin-top:4px">
+          <div><b style="color:var(--blue)">SE:</b> \(\kappa^2\exp\!\left(-\|x-x'\|^2/2\ell^2\right)\) — stationary, isotropic, \(C^\infty\)</div>
+          <div><b style="color:var(--green)">Mat&eacute;rn 1/2:</b> \(\kappa^2\exp(-\|x-x'\|/\ell)\) — stationary, \(C^0\)</div>
+          <div><b style="color:var(--orange)">Mat&eacute;rn 3/2:</b> \(\kappa^2(1+\sqrt{3}\|r\|/\ell)\exp(-\sqrt{3}\|r\|/\ell)\) — \(C^1\)</div>
+          <div><b style="color:var(--purple)">Linear:</b> \(k(x,x')=xx'\) — NOT stationary (breaks on \(xx'\) term)</div>
+        </div>
+        <div style="margin-top:6px;font-size:11px;color:var(--muted)">Stationary iff \(k(x,x')=f(x-x')\). Isotropic iff stationary AND \(k=f(\|x-x'\|)\).</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- SUMMARY TABLE -->
+<h2 id="summary"><span class="dot" style="background:var(--yellow)"></span>All-in-One Summary Table</h2>
+<div style="overflow-x:auto">
+<table class="tbl">
+  <tr>
+    <th>Distribution</th><th>Params</th><th>Mean</th><th>Variance</th><th>Conjugate prior for</th><th>Posterior update rule</th>
+  </tr>
+  <tr><td class="hl">Beta(\(a,b\))</td><td>\(a,b>0\)</td><td>\(\frac{a}{a+b}\)</td><td>\(\frac{ab}{(a+b)^2(a+b+1)}\)</td><td>Binomial \(\pi\)</td><td>\(a'=a+k,\;b'=b+n-k\)</td></tr>
+  <tr><td class="hl">Gamma(\(a,b\))</td><td>\(a,b>0\)</td><td>\(a/b\)</td><td>\(a/b^2\)</td><td>Poisson rate \(\lambda\)</td><td>\(a'=a+\sum k_n,\;b'=b+N\)</td></tr>
+  <tr><td class="hl">Dirichlet(\(\boldsymbol{\alpha}\))</td><td>\(\alpha_k>0\)</td><td>\(\alpha_k/\alpha_0\)</td><td>\(\frac{\alpha_k(\alpha_0-\alpha_k)}{\alpha_0^2(\alpha_0+1)}\)</td><td>Categorical \(\boldsymbol{\pi}\)</td><td>\(\alpha_k'=\alpha_k+N_k\)</td></tr>
+  <tr><td class="hl">Gaussian(\(\mu,\sigma^2\))</td><td>\(\mu\in\mathbb{R},\sigma^2>0\)</td><td>\(\mu\)</td><td>\(\sigma^2\)</td><td>Gaussian mean (known \(\sigma^2\))</td><td>\(v=(1/\tau^2+N/\sigma^2)^{-1},\;m=v(\mu_0/\tau^2+N\bar{y}/\sigma^2)\)</td></tr>
+  <tr><td class="hl">MVN(\(\boldsymbol{\mu},\boldsymbol{\Sigma}\))</td><td>\(\boldsymbol{\mu},\boldsymbol{\Sigma}\succ0\)</td><td>\(\boldsymbol{\mu}\)</td><td>\(\boldsymbol{\Sigma}\)</td><td>Linear model weights \(\mathbf{w}\)</td><td>\(S^{-1}=\alpha I+\tfrac{1}{\sigma^2}\Phi^\top\Phi,\;\mathbf{m}=\tfrac{1}{\sigma^2}S\Phi^\top\mathbf{y}\)</td></tr>
+  <tr><td class="hl">Wishart(\(\nu,\mathbf{V}\))</td><td>\(\nu>D-1,\mathbf{V}\succ0\)</td><td>\(\nu\mathbf{V}\)</td><td>—</td><td>MVN precision \(\boldsymbol{\Lambda}\)</td><td>\(\nu'=\nu+N\); \(\mathbf{V}'\) updated with scatter matrix</td></tr>
+  <tr><td class="hl">Student-t(\(\mu,\sigma^2,\nu\))</td><td>\(\mu,\sigma^2>0,\nu>0\)</td><td>\(\mu\) (\(\nu>1\))</td><td>\(\frac{\nu\sigma^2}{\nu-2}\) (\(\nu>2\))</td><td>—</td><td>Arises marginalising \(\sigma^2\) out of \(\mathcal{N}(\mu,\sigma^2)\) with InvGamma prior</td></tr>
+  <tr><td class="hl">GP(\(0,k\))</td><td>kernel \(k\)</td><td>\(\mathbf{0}\)</td><td>\(K\) (kernel matrix)</td><td>Regression \(f\) (with Gaussian lik.)</td><td>\(\mu^*=\mathbf{k}^\top(K+\sigma^2I)^{-1}\mathbf{y},\;\sigma^{2*}=k_{**}-\mathbf{k}^\top(K+\sigma^2I)^{-1}\mathbf{k}\)</td></tr>
+</table>
+</div>
+
+<div style="margin-top:20px;background:var(--s1);border:1px solid var(--border);border-radius:10px;padding:14px 16px;">
+  <div style="font-size:11px;font-weight:600;color:var(--yellow);text-transform:uppercase;letter-spacing:.7px;margin-bottom:10px">Quick code — scipy.stats</div>
+  <pre><span class="kw">from</span> scipy.stats <span class="kw">import</span> (
+    bernoulli, binom, poisson, norm, multivariate_normal <span class="kw">as</span> mvn,
+    beta, gamma, dirichlet, t <span class="kw">as</span> student_t
+)
+<span class="cmt"># Note: scipy Gamma uses scale=1/rate, not rate directly</span>
+gamma.pdf(x, a=3, scale=1/b)           <span class="cmt"># Gamma(a, b=rate)</span>
+norm.interval(0.90, loc=mu, scale=sigma)  <span class="cmt"># 90% CI</span>
+norm.interval(0.95, loc=mu, scale=sigma)  <span class="cmt"># 95% CI</span>
+mvn.logpdf(y, mean=np.zeros(N), cov=C)   <span class="cmt"># log N(y|0,C)</span>
+norm.cdf(mu_f / np.sqrt(8/np.pi + var_f))  <span class="cmt"># probit approx</span></pre>
+</div>
+
+</main>
+
+<script>
+const links = document.querySelectorAll('nav a');
+const secs  = [...document.querySelectorAll('h2[id]')];
+const io = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      links.forEach(a => a.classList.remove('active'));
+      const a = document.querySelector(`nav a[href="#${e.target.id}"]`);
+      if (a) { a.classList.add('active'); a.scrollIntoView({block:'nearest',inline:'center'}); }
+    }
+  });
+}, {threshold: 0.4});
+secs.forEach(s => io.observe(s));
+</script>
+</body>
+</html>

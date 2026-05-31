@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>02477 Bayesian ML — Cheat Sheets</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body, {
+    delimiters: [
+      {left:'$$', right:'$$', display:true},
+      {left:'$', right:'$', display:false}
+    ],
+    throwOnError: false
+  });"></script>
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --surface2: #21253a;
+    --border: #2e3348;
+    --text: #d4d8f0;
+    --muted: #6b728e;
+    --heading: #eef0fc;
+    --accent: #7b8fff;
+    --sidebar-w: 240px;
+
+    --w1: #e07b54; --w2: #e0a854; --w3: #b5d96a;
+    --w4: #5ad9a6; --w5: #54c4e0; --w6: #547de0;
+    --w7: #9b7be0; --w8: #d96a9b; --w9: #e05454;
+    --w10: #e0cf54; --w11: #5ae0b8; --w12: #a0e07b;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Georgia', serif;
+    font-size: 15px;
+    line-height: 1.7;
+    display: flex;
+  }
+
+  /* ── Sidebar ── */
+  aside {
+    width: var(--sidebar-w);
+    min-width: var(--sidebar-w);
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    padding: 0 0 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar-title {
+    padding: 1.2rem 1rem 1rem;
+    font-size: 11px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 0.5rem;
+  }
+
+  .sidebar-search {
+    margin: 0.5rem 0.75rem 0.25rem;
+    padding: 0.4rem 0.7rem;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text);
+    font-size: 12px;
+    font-family: sans-serif;
+    width: calc(100% - 1.5rem);
+    outline: none;
+  }
+  .sidebar-search::placeholder { color: var(--muted); }
+  .sidebar-search:focus { border-color: var(--accent); }
+
+  nav a {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.35rem 1rem;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 12.5px;
+    color: var(--muted);
+    text-decoration: none;
+    transition: color 0.15s, background 0.15s;
+    border-left: 3px solid transparent;
+  }
+  nav a:hover { color: var(--text); background: var(--surface2); }
+  nav a.active { color: var(--heading); border-left-color: var(--accent); background: var(--surface2); }
+
+  .week-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  /* ── Main Content ── */
+  main {
+    flex: 1;
+    min-width: 0;
+    max-width: 860px;
+    padding: 2.5rem 3rem 5rem;
+    overflow-y: auto;
+  }
+
+  .page-title {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--heading);
+    margin-bottom: 0.3rem;
+  }
+  .page-subtitle {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 3rem;
+    font-family: sans-serif;
+  }
+
+  /* ── Week Section ── */
+  .week-section {
+    margin-bottom: 4rem;
+    scroll-margin-top: 1.5rem;
+  }
+
+  .week-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .week-badge {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 0.2rem 0.55rem;
+    border-radius: 4px;
+    letter-spacing: 0.06em;
+    flex-shrink: 0;
+  }
+
+  .week-title {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--heading);
+  }
+
+  /* ── Sub-sections ── */
+  .subsection {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.1rem 1.3rem;
+    margin-bottom: 0.9rem;
+  }
+
+  h3 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.7rem;
+  }
+
+  p { margin-bottom: 0.55rem; }
+  p:last-child { margin-bottom: 0; }
+
+  strong { color: var(--heading); font-weight: 600; }
+
+  ul, ol {
+    padding-left: 1.4rem;
+    margin-bottom: 0.4rem;
+  }
+  li { margin-bottom: 0.2rem; }
+  li:last-child { margin-bottom: 0; }
+
+  /* ── Display math ── */
+  .katex-display {
+    margin: 0.7rem 0 !important;
+    overflow-x: auto;
+    padding: 0.1rem 0;
+  }
+
+  /* ── Tables ── */
+  .table-wrap { overflow-x: auto; margin: 0.3rem 0 0.1rem; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+  }
+  thead th {
+    background: var(--surface2);
+    color: var(--heading);
+    font-weight: 600;
+    padding: 0.45rem 0.8rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+  }
+  tbody td {
+    padding: 0.4rem 0.8rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover td { background: var(--surface2); }
+
+  /* ── Code ── */
+  code {
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 12.5px;
+    background: var(--surface2);
+    padding: 0.1em 0.35em;
+    border-radius: 3px;
+    color: #c8d3f5;
+  }
+
+  /* ── Note boxes ── */
+  .note {
+    background: #1e2235;
+    border-left: 3px solid var(--accent);
+    padding: 0.55rem 0.9rem;
+    border-radius: 0 6px 6px 0;
+    margin: 0.4rem 0;
+    font-size: 13.5px;
+  }
+
+  hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+  /* ── Week accent colors ── */
+  .w1 { --wc: var(--w1); }  .w2  { --wc: var(--w2); }
+  .w3 { --wc: var(--w3); }  .w4  { --wc: var(--w4); }
+  .w5 { --wc: var(--w5); }  .w6  { --wc: var(--w6); }
+  .w7 { --wc: var(--w7); }  .w8  { --wc: var(--w8); }
+  .w9 { --wc: var(--w9); }  .w10 { --wc: var(--w10); }
+  .w11 { --wc: var(--w11); } .w12 { --wc: var(--w12); }
+
+  .week-badge { background: color-mix(in srgb, var(--wc) 20%, transparent); color: var(--wc); }
+  .week-dot   { background: var(--wc); }
+  .week-header { border-bottom-color: color-mix(in srgb, var(--wc) 35%, var(--border)); }
+  .subsection { border-left: 3px solid color-mix(in srgb, var(--wc) 50%, transparent); }
+
+  /* scrollbar */
+  aside::-webkit-scrollbar { width: 4px; }
+  aside::-webkit-scrollbar-track { background: transparent; }
+  aside::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+  /* search highlight */
+  mark { background: #ffd70033; color: inherit; border-radius: 2px; }
+</style>
+</head>
+<body>
+
+<aside>
+  <div class="sidebar-title">02477 Bayesian ML</div>
+  <input class="sidebar-search" type="text" placeholder="Search..." id="searchInput" autocomplete="off">
+  <nav id="sidebarNav">
+    <a href="#week-1" class="w1"><span class="week-dot" style="background:var(--w1)"></span>Week 1 — Beta-Binomial</a>
+    <a href="#week-2" class="w2"><span class="week-dot" style="background:var(--w2)"></span>Week 2 — Logistic Reg.</a>
+    <a href="#week-3" class="w3"><span class="week-dot" style="background:var(--w3)"></span>Week 3 — Linear Reg.</a>
+    <a href="#week-4" class="w4"><span class="week-dot" style="background:var(--w4)"></span>Week 4 — Laplace Approx.</a>
+    <a href="#week-5" class="w5"><span class="week-dot" style="background:var(--w5)"></span>Week 5 — Gaussian Proc.</a>
+    <a href="#week-6" class="w6"><span class="week-dot" style="background:var(--w6)"></span>Week 6 — GP Classification</a>
+    <a href="#week-7" class="w7"><span class="week-dot" style="background:var(--w7)"></span>Week 7 — Multi-class</a>
+    <a href="#week-8" class="w8"><span class="week-dot" style="background:var(--w8)"></span>Week 8 — MCMC</a>
+    <a href="#week-9" class="w9"><span class="week-dot" style="background:var(--w9)"></span>Week 9 — HMC</a>
+    <a href="#week-10" class="w10"><span class="week-dot" style="background:var(--w10)"></span>Week 10 — VI & CAVI</a>
+    <a href="#week-11" class="w11"><span class="week-dot" style="background:var(--w11)"></span>Week 11 — BBVI</a>
+    <a href="#week-12" class="w12"><span class="week-dot" style="background:var(--w12)"></span>Week 12 — Bayesian DL</a>
+  </nav>
+</aside>
+
+<main id="mainContent">
+  <div class="page-title">Cheat Sheets</div>
+  <div class="page-subtitle">DTU 02477 Bayesian Machine Learning &mdash; All 12 weeks</div>
+
+  <!-- ══════════════════════════════════════════════ WEEK 1 -->
+  <section class="week-section w1" id="week-1">
+    <div class="week-header">
+      <span class="week-badge">WEEK 1</span>
+      <span class="week-title">Beta-Binomial &amp; Bayesian Inference</span>
+    </div>
+
+    <div class="subsection">
+      <h3>Model</h3>
+      <p>$$p(y \mid N, \theta) = \binom{N}{y}\theta^y(1-\theta)^{N-y}$$</p>
+      <p>Prior: $\theta \sim \text{Beta}(a_0, b_0)$, with</p>
+      <p>$$p(\theta) = \frac{\theta^{a_0-1}(1-\theta)^{b_0-1}}{B(a_0,b_0)}, \quad B(a,b) = \frac{\Gamma(a)\Gamma(b)}{\Gamma(a+b)}$$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Conjugate Posterior Update</h3>
+      <p>$$p(\theta \mid y) = \text{Beta}(a_0 + y,\; b_0 + N - y)$$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Beta Distribution Properties</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Quantity</th><th>Formula</th></tr></thead>
+          <tbody>
+            <tr><td>Mean</td><td>$\mu = \dfrac{a}{a+b}$</td></tr>
+            <tr><td>Mode</td><td>$\hat\theta = \dfrac{a-1}{a+b-2}$ &nbsp;(for $a,b>1$)</td></tr>
+            <tr><td>Variance</td><td>$\sigma^2 = \dfrac{ab}{(a+b)^2(a+b+1)}$</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="subsection">
+      <h3>Posterior Mean as Shrinkage</h3>
+      <p>$$\mathbb{E}[\theta \mid y] = (1-\lambda)\,\underbrace{\frac{a_0}{a_0+b_0}}_{\text{prior mean}} + \lambda\,\underbrace{\frac{y}{N}}_{\hat\theta_{\text{MLE}}}, \quad \lambda = \frac{N}{a_0+b_0+N}$$</p>
+      <p>As $N\to\infty$: $\lambda\to 1$ (data dominates). As $N\to 0$: $\lambda\to 0$ (prior dominates).</p>
+    </div>
+
+    <div class="subsection">
+      <h3>MLE &amp; Model Evidence</h3>
+      <p>$$\hat\theta_{\text{MLE}} = \frac{y}{N}$$</p>
+      <p>$$p(y \mid N) = \binom{N}{y}\frac{B(a_0+y,\; b_0+N-y)}{B(a_0,b_0)}$$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Credibility Interval &amp; Monte Carlo</h3>
+      <p>The $95\%$ credibility interval $[l, u]$ satisfies $P(l \leq \theta \leq u \mid y) = 0.95$.</p>
+      <p>Draw $\theta^{(s)} \sim p(\theta \mid y)$, then $\mathbb{E}[f(\theta) \mid y] \approx \frac{1}{S}\sum_{s=1}^S f(\theta^{(s)})$. Error $= O(1/\sqrt{S})$.</p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════ WEEK 2 -->
+  <section class="week-section w2" id="week-2">
+    <div class="week-header">
+      <span class="week-badge">WEEK 2</span>
+      <span class="week-title">Bayesian Logistic Regression</span>
+    </div>
+
+    <div class="subsection">
+      <h3>Model</h3>
+      <p>$$p(y=1 \mid x, \alpha, \beta) = \sigma(\alpha + \beta x), \quad \sigma(z) = \frac{1}{1+e^{-z}}$$</p>
+      <p>Prior: $p(\alpha,\beta) \propto \exp\!\left(-\dfrac{\alpha^2}{2\sigma_\alpha^2} - \dfrac{\beta^2}{2\sigma_\beta^2}\right)$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Log Joint</h3>
+      <p>$$\log p(\alpha,\beta,\mathbf{y}) = \sum_n [y_n \log\sigma(f_n) + (1-y_n)\log(1-\sigma(f_n))] + \log p(\alpha,\beta)$$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Grid Approximation (3 Steps)</h3>
+      <ol>
+        <li>Evaluate $\log p(\alpha_i,\beta_j,\mathbf{y})$ on a grid.</li>
+        <li>Subtract the maximum for stability, exponentiate: $\tilde\pi_{ij} = e^{\log p - \max}$.</li>
+        <li>Normalize: $\pi_{ij} = \tilde\pi_{ij} / \sum_{ij}\tilde\pi_{ij}$.</li>
+      </ol>
+    </div>
+
+    <div class="subsection">
+      <h3>Posterior Predictive</h3>
+      <p>$$p(y^*=1 \mid x^*, \mathbf{y}) = \sum_{i,j} \sigma(\alpha_i + \beta_j x^*)\,\pi_{ij}$$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Key Properties</h3>
+      <ul>
+        <li>Grid approximation is exact up to discretization; cost is $O(G^D)$ — exponential in dimension $D$.</li>
+        <li>Bayesian predictions are more conservative (wider) than MAP predictions.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════ WEEK 3 -->
+  <section class="week-section w3" id="week-3">
+    <div class="week-header">
+      <span class="week-badge">WEEK 3</span>
+      <span class="week-title">Bayesian Linear Regression</span>
+    </div>
+
+    <div class="subsection">
+      <h3>Model</h3>
+      <p>$$p(\mathbf{y} \mid \mathbf{w}) = \mathcal{N}(\mathbf{y} \mid \mathbf{\Phi w},\, \beta^{-1}\mathbf{I}), \quad p(\mathbf{w}) = \mathcal{N}(\mathbf{w} \mid \mathbf{0},\, \alpha^{-1}\mathbf{I})$$</p>
+      <p>$\mathbf{\Phi}\in\mathbb{R}^{N\times D}$ is the design matrix with rows $\phi(x_n)^T$.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Conjugate Posterior</h3>
+      <p>$$p(\mathbf{w} \mid \mathbf{y}) = \mathcal{N}(\mathbf{w} \mid \mathbf{m}, \mathbf{S})$$</p>
+      <p>$$\mathbf{S} = \left(\alpha\mathbf{I} + \beta\mathbf{\Phi}^T\mathbf{\Phi}\right)^{-1}, \qquad \mathbf{m} = \beta\,\mathbf{S}\,\mathbf{\Phi}^T\mathbf{y}$$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Posterior Predictive</h3>
+      <p>For $f^* = \phi(x^*)^T\mathbf{w}$:</p>
+      <p>$$p(f^* \mid \mathbf{y}, x^*) = \mathcal{N}(f^* \mid \phi_*^T\mathbf{m},\;\phi_*^T\mathbf{S}\phi_*)$$</p>
+      <p>$$p(y^* \mid \mathbf{y}, x^*) = \mathcal{N}(y^* \mid \phi_*^T\mathbf{m},\;\phi_*^T\mathbf{S}\phi_* + \beta^{-1})$$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>MLE (Ridge)</h3>
+      <p>$$\mathbf{w}_{\text{MLE}} = \left(\mathbf{\Phi}^T\mathbf{\Phi}\right)^{-1}\mathbf{\Phi}^T\mathbf{y}$$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Marginal Likelihood (Evidence)</h3>
+      <p>$$p(\mathbf{y}) = \mathcal{N}\!\left(\mathbf{y} \mid \mathbf{0},\; \beta^{-1}\mathbf{I} + \alpha^{-1}\mathbf{\Phi}\mathbf{\Phi}^T\right)$$</p>
+      <p class="note"><strong>Evidence approximation</strong>: maximize $\log p(\mathbf{y})$ wrt. $\alpha, \beta$ (empirical Bayes / MLII). No cross-validation needed.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Key Properties</h3>
+      <ul>
+        <li>Posterior mean $\mathbf{m}$ is a shrinkage estimator (pulled toward zero by $\alpha$).</li>
+        <li>As $N\to\infty$, posterior concentrates around MLE.</li>
+        <li>Posterior variance decreases as $N$ grows.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════ WEEK 4 -->
+  <section class="week-section w4" id="week-4">
+    <div class="week-header">
+      <span class="week-badge">WEEK 4</span>
+      <span class="week-title">Laplace Approximation</span>
+    </div>
+
+    <div class="subsection">
+      <h3>Core Idea</h3>
+      <p>Approximate the posterior $p(\mathbf{w} \mid \mathbf{y})$ with a Gaussian centered at the MAP estimate:</p>
+      <p>$$q(\mathbf{w}) = \mathcal{N}(\mathbf{w} \mid \mathbf{w}_{\text{MAP}},\; \mathbf{A}^{-1})$$</p>
+      <p>$$\mathbf{A} = -\nabla^2 \log p(\mathbf{w}, \mathbf{y})\big|_{\mathbf{w}=\mathbf{w}_{\text{MAP}}}$$</p>
+      <p>($\mathbf{A}$ = negative Hessian of log joint = precision matrix.)</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Steps</h3>
+      <ol>
+        <li>Find $\mathbf{w}_{\text{MAP}} = \arg\max_\mathbf{w} \log p(\mathbf{w},\mathbf{y})$ via gradient-based optimization.</li>
+        <li>Evaluate $\mathbf{A} = -\nabla^2 \log p(\mathbf{w},\mathbf{y})|_{\mathbf{w}_{\text{MAP}}}$.</li>
+        <li>Approximate posterior as $\mathcal{N}(\mathbf{w}_{\text{MAP}}, \mathbf{A}^{-1})$.</li>
+      </ol>
+    </div>
+
+    <div class="subsection">
+      <h3>Logistic Regression: Gradient &amp; Hessian</h3>
+      <p>Let $f_n = \mathbf{w}^T\mathbf{x}_n$, $S = \text{diag}(\sigma(f_n)(1-\sigma(f_n)))$:</p>
+      <p>$$\nabla_\mathbf{w} \log p = -\mathbf{X}^T(\boldsymbol{\sigma}-\mathbf{y}) - \alpha\mathbf{w}$$</p>
+      <p>$$\nabla^2_\mathbf{w} \log p = -\mathbf{X}^T S\mathbf{X} - \alpha\mathbf{I} \quad\Rightarrow\quad \mathbf{A} = \mathbf{X}^T S\mathbf{X} + \alpha\mathbf{I}$$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Predictive Approximations</h3>
+      <p>Let $f^* = \mathbf{w}^T\phi_*$, so $f^* \sim \mathcal{N}(m^*, v^*)$ with $m^* = \mathbf{w}_{\text{MAP}}^T\phi_*$, $v^* = \phi_*^T\mathbf{A}^{-1}\phi_*$.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Method</th><th>Formula</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Plug-in</strong></td><td>$p(y^*=1) \approx \sigma(m^*)$</td></tr>
+            <tr><td><strong>Probit</strong></td><td>$p(y^*=1) \approx \sigma\!\left(\dfrac{m^*}{\sqrt{1 + \pi v^*/8}}\right)$</td></tr>
+            <tr><td><strong>MC</strong></td><td>$p(y^*=1) \approx \frac{1}{S}\sum_s \sigma(f^{*(s)})$, &nbsp;$f^{*(s)}\sim\mathcal{N}(m^*,v^*)$</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="subsection">
+      <h3>Generative vs Discriminative</h3>
+      <ul>
+        <li><strong>Generative</strong>: models $p(y,x) = p(x\mid y)p(y)$; class-conditional + prior.</li>
+        <li><strong>Discriminative</strong>: models $p(y\mid x)$ directly; logistic regression, neural networks.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════ WEEK 5 -->
+  <section class="week-section w5" id="week-5">
+    <div class="week-header">
+      <span class="week-badge">WEEK 5</span>
+      <span class="week-title">Gaussian Processes</span>
+    </div>
+
+    <div class="subsection">
+      <h3>GP Prior</h3>
+      <p>A GP is defined by a mean function $m(x)$ and kernel $k(x,x')$:</p>
+      <p>$$f \sim \mathcal{GP}(m(\cdot),\, k(\cdot,\cdot))$$</p>
+      <p>Typically $m(x) = 0$.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Common Kernels</h3>
+      <p><strong>Squared Exponential (SE)</strong>:</p>
+      <p>$$k_{\text{SE}}(x,x') = \sigma_f^2 \exp\!\left(-\frac{(x-x')^2}{2\ell^2}\right)$$</p>
+      <p><strong>Matérn 3/2</strong>:</p>
+      <p>$$k_{\text{M32}}(r) = \sigma_f^2\!\left(1 + \frac{\sqrt{3}\,r}{\ell}\right)\exp\!\left(-\frac{\sqrt{3}\,r}{\ell}\right), \quad r = |x-x'|$$</p>
+      <p>Hyperparameters: length-scale $\ell$ (smoothness), signal variance $\sigma_f^2$ (amplitude), noise variance $\sigma_n^2$.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>GP Regression Posterior</h3>
+      <p>Given $\mathbf{y} = f(\mathbf{X}) + \boldsymbol\epsilon$, $\boldsymbol\epsilon\sim\mathcal{N}(\mathbf{0},\sigma_n^2\mathbf{I})$, let $\mathbf{C} = K(\mathbf{X},\mathbf{X}) + \sigma_n^2\mathbf{I}$:</p>
+      <p>$$\boldsymbol\mu_{f^*} = K(\mathbf{X}^*,\mathbf{X})\,\mathbf{C}^{-1}\mathbf{y}$$</p>
+      <p>$$\boldsymbol\Sigma_{f^*} = K(\mathbf{X}^*,\mathbf{X}^*) - K(\mathbf{X}^*,\mathbf{X})\,\mathbf{C}^{-1}\,K(\mathbf{X},\mathbf{X}^*)$$</p>
+      <p>Predictive: $p(y^*\mid\mathbf{y},x^*) = \mathcal{N}(y^*\mid \mu_{f^*}, \Sigma_{f^*}+\sigma_n^2)$.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Log Marginal Likelihood (MLII)</h3>
+      <p>$$\log p(\mathbf{y}) = -\frac{1}{2}\mathbf{y}^T\mathbf{C}^{-1}\mathbf{y} - \frac{1}{2}\log|\mathbf{C}| - \frac{N}{2}\log(2\pi)$$</p>
+      <p>Cholesky: $\mathbf{L} = \text{chol}(\mathbf{C})$, so $\log|\mathbf{C}| = 2\sum_i \log L_{ii}$.</p>
+      <p><strong>Hyperparameter optimization</strong>: maximize $\log p(\mathbf{y})$ wrt. $\ell,\sigma_f^2,\sigma_n^2$ via gradient ascent.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Key Properties</h3>
+      <ul>
+        <li>Posterior mean = kernel-weighted interpolation.</li>
+        <li>Posterior variance = 0 at training points (noise-free).</li>
+        <li>Short $\ell$: wiggly. Long $\ell$: smooth.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════ WEEK 6 -->
+  <section class="week-section w6" id="week-6">
+    <div class="week-header">
+      <span class="week-badge">WEEK 6</span>
+      <span class="week-title">GP Classification</span>
+    </div>
+
+    <div class="subsection">
+      <h3>Model</h3>
+      <p>$$p(y_n=1 \mid f_n) = \sigma(f_n), \quad f \sim \mathcal{GP}(0, k(\cdot,\cdot))$$</p>
+      <p>The posterior $p(\mathbf{f}\mid\mathbf{y})$ is <strong>non-Gaussian</strong> — no conjugacy.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Laplace Approximation for Latent GP</h3>
+      <p>Find $\hat{\mathbf{f}} = \arg\max_\mathbf{f}\log p(\mathbf{f}\mid\mathbf{y})$ and approximate $q(\mathbf{f}) = \mathcal{N}(\hat{\mathbf{f}},\; (K^{-1}+\Lambda)^{-1})$, where $\Lambda = \text{diag}(\lambda_n)$, $\lambda_n = \sigma(f_n)(1-\sigma(f_n))$.</p>
+      <p><strong>Gradient</strong>: $\mathbf{g} = \mathbf{y} - \boldsymbol\sigma(\mathbf{f}) - K^{-1}\mathbf{f}$</p>
+      <p><strong>Newton update</strong>: $\mathbf{f}^{\text{new}} = \mathbf{f} + (K^{-1}+\Lambda)^{-1}\mathbf{g}$</p>
+      <p><strong>Numerically stable covariance</strong> (Woodbury): $\mathbf{S} = K - K\Lambda^{1/2}\mathbf{B}^{-1}\Lambda^{1/2}K$, $\mathbf{B} = \mathbf{I} + \Lambda^{1/2}K\Lambda^{1/2}$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Predictive Distribution (3-Step Pipeline)</h3>
+      <p><strong>Step 1</strong> — posterior mean:</p>
+      <p>$$\mu_{f^*} = k(x^*,\mathbf{X})\,K^{-1}\hat{\mathbf{f}}$$</p>
+      <p><strong>Step 2</strong> — posterior variance:</p>
+      <p>$$\sigma^2_{f^*} = k(x^*,x^*) - k(x^*,\mathbf{X})\,(K+\Lambda^{-1})^{-1}\,k(\mathbf{X},x^*)$$</p>
+      <p><strong>Step 3</strong> — probit approximation:</p>
+      <p>$$p(y^*=1\mid\mathbf{y},x^*) \approx \sigma\!\left(\frac{\mu_{f^*}}{\sqrt{1+\pi\sigma^2_{f^*}/8}}\right)$$</p>
+      <p>Or MC: $p(y^*=1) \approx \frac{1}{S}\sum_s \sigma(f^{*(s)})$, $f^{*(s)}\sim\mathcal{N}(\mu_{f^*},\sigma^2_{f^*})$.</p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════ WEEK 7 -->
+  <section class="week-section w7" id="week-7">
+    <div class="week-header">
+      <span class="week-badge">WEEK 7</span>
+      <span class="week-title">Multi-class Classification</span>
+    </div>
+
+    <div class="subsection">
+      <h3>Softmax Model</h3>
+      <p>$$\mathbf{f}_n = W\phi(x_n) \in \mathbb{R}^C, \quad p(y_n=c\mid\mathbf{f}_n) = \text{softmax}(\mathbf{f}_n)_c = \frac{e^{f_{nc}}}{\sum_k e^{f_{nk}}}$$</p>
+      <p>Prior: $p(W) = \mathcal{N}(\text{vec}(W)\mid\mathbf{0}, \alpha^{-1}\mathbf{I})$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Log Joint &amp; Laplace Approximation</h3>
+      <p>$$\log p(W,\mathbf{y}) = \sum_n \log \text{softmax}(\mathbf{f}_n)_{y_n} - \frac{\alpha}{2}\|W\|_F^2$$</p>
+      <p>MAP: $W_{\text{MAP}} = \arg\max_W \log p(W,\mathbf{y})$</p>
+      <p>$\mathbf{A} = -\nabla^2 \log p(W,\mathbf{y})|_{W_{\text{MAP}}}$ (JAX Hessian), $q(W) = \mathcal{N}(W_{\text{MAP}}, \mathbf{A}^{-1})$.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>MC Posterior Predictive</h3>
+      <p>Sample $W^{(s)}\sim q(W)$:</p>
+      <p>$$\boldsymbol\pi^* \approx \frac{1}{S}\sum_{s=1}^S \text{softmax}(W^{(s)}\phi(x^*))$$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Uncertainty Decomposition</h3>
+      <p>$$H_{\text{total}} = -\sum_c \pi_c^* \log \pi_c^*$$</p>
+      <p>$$H_{\text{aleatoric}} = \frac{1}{S}\sum_s H\!\left[\text{Cat}(\text{softmax}(W^{(s)}\phi(x^*)))\right]$$</p>
+      <p>$$H_{\text{epistemic}} = H_{\text{total}} - H_{\text{aleatoric}} \geq 0$$</p>
+      <p>High $H_{\text{epistemic}}$ &rarr; out-of-distribution. High $H_{\text{aleatoric}}$ &rarr; inherently ambiguous.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Bayesian Decision Theory &amp; ECE</h3>
+      <p>Optimal action: $\hat{y}^* = \arg\max_a \sum_c \pi_c^* U(c, a)$, where $U(c,a)$ is the utility of action $a$ when true class is $c$.</p>
+      <p>$$\text{ECE} = \sum_b \frac{|B_b|}{N}\left|\text{acc}(B_b) - \text{conf}(B_b)\right|$$</p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════ WEEK 8 -->
+  <section class="week-section w8" id="week-8">
+    <div class="week-header">
+      <span class="week-badge">WEEK 8</span>
+      <span class="week-title">MCMC (Metropolis-Hastings)</span>
+    </div>
+
+    <div class="subsection">
+      <h3>Metropolis-Hastings Algorithm</h3>
+      <p>Goal: draw $\theta^{(1)},\dots,\theta^{(K)}\sim p(\theta\mid\mathbf{y}) \propto p_t(\theta)$.</p>
+      <ol>
+        <li>Propose $\theta^* \sim q(\theta^*\mid\theta^{(k-1)})$ (e.g. random walk $\theta^* = \theta^{(k-1)} + \epsilon$, $\epsilon\sim\mathcal{N}(0,\eta^2 I)$).</li>
+        <li>Compute log acceptance ratio (symmetric proposal): $\log r_k = \log p_t(\theta^*) - \log p_t(\theta^{(k-1)})$</li>
+        <li>Set $\theta^{(k)} = \theta^*$ with probability $\min(1, e^{\log r_k})$, else $\theta^{(k)} = \theta^{(k-1)}$.</li>
+      </ol>
+      <p>Asymmetric proposal: add $\log q(\theta^{(k-1)}\mid\theta^*) - \log q(\theta^*\mid\theta^{(k-1)})$ to $\log r_k$.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Bayesian Poisson Regression with Hyperprior</h3>
+      <p>$$y_n \sim \text{Poisson}(\exp(\mathbf{w}^T\mathbf{x}_n)), \quad p(\mathbf{w}\mid\kappa) = \mathcal{N}(\mathbf{w}\mid\mathbf{0},\kappa^2\mathbf{I}), \quad \kappa\sim\text{HalfNormal}(\sigma_0)$$</p>
+      <p>Log joint: $\displaystyle\sum_n [y_n(\mathbf{w}^T\mathbf{x}_n) - e^{\mathbf{w}^T\mathbf{x}_n}] - \frac{\|\mathbf{w}\|^2}{2\kappa^2} + \log p(\kappa)$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Importance Sampling</h3>
+      <p>$$\mathbb{E}_p[f(\theta)] \approx \frac{\sum_i w^{(i)}f(\theta^{(i)})}{\sum_i w^{(i)}}, \quad w^{(i)} = \frac{p(\theta^{(i)})}{q(\theta^{(i)})}$$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Ancestral Sampling</h3>
+      <p>Draw from joint $p(\theta_1,\theta_2,\dots)$ in topological order: $\theta_1\sim p(\theta_1)$, then $\theta_2\sim p(\theta_2\mid\theta_1)$, etc.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Practical Notes</h3>
+      <ul>
+        <li><strong>Burn-in</strong>: discard early samples until chain mixes.</li>
+        <li><strong>Step size $\eta$</strong>: too large &rarr; high rejection; too small &rarr; slow mixing. Target ~23–65% acceptance.</li>
+        <li><strong>Thinning</strong>: keep every $k$-th sample to reduce autocorrelation.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════ WEEK 9 -->
+  <section class="week-section w9" id="week-9">
+    <div class="week-header">
+      <span class="week-badge">WEEK 9</span>
+      <span class="week-title">Hamiltonian Monte Carlo (HMC)</span>
+    </div>
+
+    <div class="subsection">
+      <h3>Hamiltonian System</h3>
+      <p>Introduce momentum $\nu\sim\mathcal{N}(0,\mathbf{I})$ and simulate dynamics to get distant proposals with high acceptance:</p>
+      <p>$$H(\theta,\nu) = E(\theta) + K(\nu), \quad E(\theta) = -\log p_t(\theta), \quad K(\nu) = \frac{1}{2}\nu^T\nu$$</p>
+      <p>Dynamics: $\dot\theta = \nu$, $\dot\nu = -\nabla_\theta E(\theta)$.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Leapfrog Integrator ($L$ steps, step size $\eta$)</h3>
+      <p>$$\nu_{j+1/2} = \nu_j - \frac{\eta}{2}\nabla_\theta E(\theta_j)$$</p>
+      <p>$$\theta_{j+1} = \theta_j + \eta\,\nu_{j+1/2}$$</p>
+      <p>$$\nu_{j+1} = \nu_{j+1/2} - \frac{\eta}{2}\nabla_\theta E(\theta_{j+1})$$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>HMC Acceptance &amp; Sampling</h3>
+      <p>Accept $(\theta^*, \nu^*)$ with probability:</p>
+      <p>$$a_k = \min\!\left(1,\; e^{-H(\theta^*,\nu^*)+H(\theta^{(k-1)},\nu^{(k-1)})}\right)$$</p>
+      <p>Discard $\nu^*$ after; sample fresh $\nu\sim\mathcal{N}(0,I)$ each iteration.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Convergence Diagnostics</h3>
+      <p><strong>R-hat</strong> (run $M$ chains of length $S$):</p>
+      <p>$$\hat{R}^2 = \frac{S-1}{S} + \frac{1}{S}\frac{B}{W}$$</p>
+      <p>$B$ = between-chain variance, $W$ = within-chain variance. Want $\hat{R} < 1.01$.</p>
+      <p><strong>ESS</strong>:</p>
+      <p>$$S_{\text{eff}} = \frac{S}{1 + 2\sum_{t=1}^\infty \hat\rho_t}$$</p>
+      <p>$\hat\rho_t$ = autocorrelation at lag $t$. Want $S_{\text{eff}} \geq 100$ per chain.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Heteroscedastic Regression &amp; HMC vs MH</h3>
+      <p>Positivity of variance via softplus: $\sigma_n^2 = \text{softplus}(g(\mathbf{x}_n)) = \log(1+e^{g(\mathbf{x}_n)})$</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th></th><th>MH</th><th>HMC</th></tr></thead>
+          <tbody>
+            <tr><td>Proposals</td><td>random walk</td><td>gradient-guided</td></tr>
+            <tr><td>Acceptance</td><td>often low in high-D</td><td>near 1 with good tuning</td></tr>
+            <tr><td>Autocorrelation</td><td>high</td><td>low</td></tr>
+            <tr><td>Requires</td><td>$\log p$</td><td>$\log p$ + gradient</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════ WEEK 10 -->
+  <section class="week-section w10" id="week-10">
+    <div class="week-header">
+      <span class="week-badge">WEEK 10</span>
+      <span class="week-title">Variational Inference &amp; CAVI</span>
+    </div>
+
+    <div class="subsection">
+      <h3>ELBO Decomposition</h3>
+      <p>$$\log p(\mathbf{X}) = \underbrace{\mathcal{L}[q]}_{\text{ELBO}} + \text{KL}[q(\mathbf{Z})\|p(\mathbf{Z}\mid\mathbf{X})] \geq \mathcal{L}[q]$$</p>
+      <p>$$\mathcal{L}[q] = \mathbb{E}_q[\log p(\mathbf{X},\mathbf{Z})] - \mathbb{E}_q[\log q(\mathbf{Z})] = \mathbb{E}_q[\log p(\mathbf{X},\mathbf{Z})] + \mathcal{H}[q]$$</p>
+      <p>$\text{KL}[q\|p] = \mathbb{E}_q[\log q - \log p] \geq 0$, equality iff $q = p$.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Mean-Field Family &amp; CAVI</h3>
+      <p>$$q(\mathbf{Z}) = \prod_i q_i(Z_i)$$</p>
+      <p>Optimal factor (all others fixed):</p>
+      <p>$$\log q_j^*(Z_j) = \mathbb{E}_{-j}[\log p(\mathbf{X},\mathbf{Z})] + \text{const}$$</p>
+      <p>Cycle through all factors until ELBO converges.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Gaussian-Gamma CAVI Updates</h3>
+      <p>Model: $x_n\mid\mu,\tau \sim \mathcal{N}(\mu, \tau^{-1})$, prior: $\mu\mid\tau\sim\mathcal{N}(\mu_0, (\lambda_0\tau)^{-1})$, $\tau\sim\text{Gamma}(a_0,b_0)$.</p>
+      <p>$$q^*(\mu) = \mathcal{N}(\mu\mid m, v), \quad v = \frac{1}{\mathbb{E}[\tau](N+\lambda_0)}, \quad m = \frac{N\bar{x}+\lambda_0\mu_0}{N+\lambda_0}$$</p>
+      <p>$$q^*(\tau) = \text{Gamma}(\tau\mid a, b), \quad a = a_0 + \frac{N+1}{2}$$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Bayesian GMM Key Quantities</h3>
+      <p><strong>Responsibilities</strong>: $r_{nk} = \dfrac{\pi_k\,\mathcal{N}(x_n\mid\mu_k, \Lambda_k^{-1})}{\sum_j \pi_j\,\mathcal{N}(x_n\mid\mu_j, \Lambda_j^{-1})}$</p>
+      <p><strong>Effective counts</strong>: $N_k = \sum_n r_{nk}$</p>
+      <p><strong>Posterior cluster mean</strong> (shrinkage):</p>
+      <p>$$m_k = (1-\rho_k)m_0 + \rho_k\bar{x}_k, \quad \rho_k = \frac{N_k}{\beta_k}, \quad \beta_k = \beta_0 + N_k$$</p>
+      <p>Prior: $\boldsymbol\pi\sim\text{Dir}(\alpha_0\mathbf{1})$, $\mu_k\sim\mathcal{N}(m_0, \beta_0^{-1}\Lambda_k^{-1})$, $\Lambda_k\sim\text{Wishart}(W_0, \nu_0)$.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Mean-Field Underestimates Variance</h3>
+      <p>Optimal diagonal covariance: $\hat V_{ii} = 1/(V^{-1})_{ii} \leq V_{ii}$ whenever off-diagonal correlations are nonzero.</p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════ WEEK 11 -->
+  <section class="week-section w11" id="week-11">
+    <div class="week-header">
+      <span class="week-badge">WEEK 11</span>
+      <span class="week-title">Black-Box Variational Inference (BBVI)</span>
+    </div>
+
+    <div class="subsection">
+      <h3>ELBO &amp; Mean-Field Gaussian Entropy</h3>
+      <p>$$\mathcal{L}[q] = \underbrace{\mathbb{E}_{q(\mathbf{w})}[\log p(\mathbf{y},\mathbf{w})]}_{\text{expected log joint}} + \underbrace{\mathcal{H}[q]}_{\text{entropy}}$$</p>
+      <p>Mean-field: $q(\mathbf{w}) = \prod_{i=1}^D \mathcal{N}(w_i\mid m_i, v_i)$, variational parameters $\lambda = \{\mathbf{m}, \mathbf{v}\}$.</p>
+      <p>Analytical entropy: $\mathcal{H}[q] = \dfrac{1}{2}\sum_{i=1}^D \log(2e\pi v_i)$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>BBVI Monte Carlo ELBO</h3>
+      <p>$$\mathcal{L}[q] \approx \frac{1}{S}\sum_{s=1}^S \log p(\mathbf{y},\mathbf{w}^{(s)}) + \mathcal{H}[q], \quad \mathbf{w}^{(s)}\sim q(\mathbf{w})$$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Reparametrization Trick</h3>
+      <p>Replace $\mathbf{w}\sim\mathcal{N}(\mathbf{m},\text{diag}(\mathbf{v}))$ with:</p>
+      <p>$$\mathbf{w} = \mathbf{m} + \mathbf{s}\circ\boldsymbol\epsilon, \quad \boldsymbol\epsilon\sim\mathcal{N}(\mathbf{0},\mathbf{I}), \quad s_i = \sqrt{v_i}$$</p>
+      <p>Moves $\lambda$-dependence outside the expectation, enabling gradient computation via autodiff:</p>
+      <p>$$\nabla_\lambda \mathbb{E}_{q_\lambda}[\log p(\mathbf{y},\mathbf{w})] \approx \frac{1}{S}\sum_s \nabla_\lambda \log p(\mathbf{y},\mathbf{w}_{\epsilon_s})$$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Minibatching</h3>
+      <p>For large $N$, approximate the log-likelihood term using a batch $\mathcal{M}$ of size $M \ll N$:</p>
+      <p>$$\mathbb{E}_q[\log p(\mathbf{y}\mid\mathbf{w})] \approx \frac{N}{M}\sum_{n\in\mathcal{M}} \mathbb{E}_q[\log p(y_n\mid\mathbf{w})]$$</p>
+      <p>Unbiased estimator when $\mathcal{M}$ is resampled each step.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Analytical ELBO for Linear Gaussian</h3>
+      <p>$$\mathcal{L} = \underbrace{\sum_n \log\mathcal{N}(y_n\mid\mathbf{m}^T\mathbf{x}_n, \sigma^2) - \frac{1}{2\sigma^2}\sum_{i,n}v_i x_{ni}^2}_{\text{expected log likelihood}} + \underbrace{\sum_i\log\mathcal{N}(m_i\mid 0,\kappa^2) - \frac{1}{2\kappa^2}\sum_i v_i}_{\text{expected log prior}} + \underbrace{\frac{1}{2}\sum_i\log(2e\pi v_i)}_{\text{entropy}}$$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Likelihood Variants for Binary Classification</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Model</th><th>$p(y=1\mid f)$</th><th>Property</th></tr></thead>
+          <tbody>
+            <tr><td>Sigmoid</td><td>$\sigma(f) = (1+e^{-f})^{-1}$</td><td>Standard logistic</td></tr>
+            <tr><td>Probit</td><td>$\Phi(f)$ (Gaussian CDF)</td><td>Heavier tails</td></tr>
+            <tr><td>Robust</td><td>$(1-\epsilon)\sigma(f) + \epsilon\sigma(-f)$</td><td>Tolerates mislabelled data</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="margin-top:0.5rem">Optimize $\lambda = \{\mathbf{m}, \log\mathbf{v}\}$ (unconstrained, ensures $v_i>0$) with <strong>Adam</strong>.</p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════ WEEK 12 -->
+  <section class="week-section w12" id="week-12">
+    <div class="week-header">
+      <span class="week-badge">WEEK 12</span>
+      <span class="week-title">Bayesian Deep Learning</span>
+    </div>
+
+    <div class="subsection">
+      <h3>Heteroscedastic Neural Network</h3>
+      <p>Two-output network: $f(\mathbf{x}\mid\mathbf{w})\in\mathbb{R}^2$</p>
+      <p>$$\mu_\mathbf{w}(\mathbf{x}) = f_1(\mathbf{x}\mid\mathbf{w}), \quad \sigma^2_\mathbf{w}(\mathbf{x}) = e^{f_2(\mathbf{x}\mid\mathbf{w})} > 0$$</p>
+      <p>$$p(y_n\mid\mathbf{w},\mathbf{x}_n) = \mathcal{N}(y_n\mid\mu_\mathbf{w}(\mathbf{x}_n),\;\sigma^2_\mathbf{w}(\mathbf{x}_n)), \quad p(\mathbf{w}) = \mathcal{N}(\mathbf{w}\mid\mathbf{0},\alpha^{-1}\mathbf{I})$$</p>
+    </div>
+
+    <div class="subsection">
+      <h3>MAP Inference</h3>
+      <p>$$\mathbf{w}_{\text{MAP}} = \arg\max_\mathbf{w}\left[\sum_n \log p(y_n\mid\mathbf{w},\mathbf{x}_n) - \frac{\alpha}{2}\|\mathbf{w}\|^2\right]$$</p>
+      <p>Equivalent to L2-regularized MLE. Plugin predictive: $p(y^*\mid\mathbf{w}_{\text{MAP}},\mathbf{x}^*)$.</p>
+      <p>Approximate posterior predictive: $p(y^*\mid\mathbf{y},\mathbf{x}^*) \approx \frac{1}{S}\sum_{s=1}^S p(y^*\mid\mathbf{w}^{(s)},\mathbf{x}^*)$, $\mathbf{w}^{(s)}\sim q(\mathbf{w})$.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Last-Layer Laplace Approximation (LLLA)</h3>
+      <p>Apply Laplace only to last-layer parameters $\mathbf{w}_L = \{\mathbf{W}_2, \mathbf{b}_2\}$:</p>
+      <ol>
+        <li>Compute $\mathbf{w}_{\text{MAP}}$ (full network via gradient descent).</li>
+        <li>Compute features: $\mathbf{z} = f_{1:L-1}(\mathbf{X}\mid\mathbf{w}_{1:L-1,\text{MAP}})$.</li>
+        <li>Hessian wrt. last layer only: $\mathbf{H} = \mathbf{H}_{\text{loglik}} + \alpha\mathbf{I}$</li>
+        <li>Posterior: $q(\mathbf{w}_L) = \mathcal{N}(\mathbf{w}_{L,\text{MAP}},\;\mathbf{H}^{-1})$.</li>
+        <li>Predict: sample $\mathbf{w}_L^{(s)}\sim q$, compute $\mathbf{f}^{(s)} = \mathbf{W}_2^{(s)}\mathbf{z}+\mathbf{b}_2^{(s)}$.</li>
+      </ol>
+      <p class="note"><strong>Benefits</strong>: cheap (small Hessian), post-hoc (no retraining), captures uncertainty in final mapping.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Deep Ensembles (DE)</h3>
+      <p>Train $S$ networks from different initializations: $q_{\text{DE}}(\mathbf{w}) = \frac{1}{S}\sum_i\delta(\mathbf{w}-\mathbf{w}^{(i)})$</p>
+      <p>Predictive (Gaussian mixture):</p>
+      <p>$$p(y^*\mid\mathbf{y},\mathbf{x}^*) \approx \frac{1}{S}\sum_{i=1}^S \mathcal{N}(y^*\mid f_1^{(i)}(\mathbf{x}^*),\;e^{f_2^{(i)}(\mathbf{x}^*)})$$</p>
+      <p>MAP = degenerate ensemble with $S=1$.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Log Predictive Density (LPD)</h3>
+      <p>$$\text{LPD}(y^*) \approx \log\!\left[\frac{1}{S}\sum_s p(y^*\mid\mathbf{w}^{(s)},\mathbf{x}^*)\right]$$</p>
+      <p>Average LPD $= \frac{1}{N_{\text{test}}}\sum_n \text{LPD}(y_n^*)$. Higher is better.</p>
+    </div>
+
+    <div class="subsection">
+      <h3>Method Comparison</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Method</th><th>Uncertainty</th><th>Cost</th><th>OOD quality</th></tr></thead>
+          <tbody>
+            <tr><td>MAP</td><td>None (point)</td><td>Low</td><td>Poor</td></tr>
+            <tr><td>LLLA</td><td>Epistemic (last layer)</td><td>Low (post-hoc)</td><td>Moderate</td></tr>
+            <tr><td>Deep Ensembles</td><td>Epistemic (functional)</td><td>High ($S\times$)</td><td>Good</td></tr>
+            <tr><td>Full Laplace</td><td>Epistemic (full)</td><td>Very high</td><td>Good</td></tr>
+            <tr><td>HMC</td><td>Full posterior</td><td>Highest</td><td>Best</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="subsection">
+      <h3>Uncertainty Sources</h3>
+      <ul>
+        <li><strong>Aleatoric</strong> ($\sigma^2_\mathbf{w}(\mathbf{x})$): data noise, irreducible, from heteroscedastic likelihood.</li>
+        <li><strong>Epistemic</strong> (spread of $q(\mathbf{w})$): model uncertainty, reducible with more data, from posterior.</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<script>
+// ── Active section highlighting ──
+const sections = document.querySelectorAll('.week-section');
+const navLinks = document.querySelectorAll('#sidebarNav a');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      navLinks.forEach(a => a.classList.remove('active'));
+      const active = document.querySelector(`#sidebarNav a[href="#${e.target.id}"]`);
+      if (active) active.classList.add('active');
+    }
+  });
+}, { threshold: 0.25, rootMargin: '-10% 0px -60% 0px' });
+
+sections.forEach(s => observer.observe(s));
+
+// ── Sidebar search / filter ──
+const searchInput = document.getElementById('searchInput');
+const mainContent = document.getElementById('mainContent');
+
+searchInput.addEventListener('input', () => {
+  const q = searchInput.value.trim().toLowerCase();
+
+  // Remove existing highlights
+  mainContent.querySelectorAll('mark').forEach(m => {
+    const parent = m.parentNode;
+    parent.replaceChild(document.createTextNode(m.textContent), m);
+    parent.normalize();
+  });
+
+  if (!q) {
+    sections.forEach(s => s.style.display = '');
+    navLinks.forEach(a => a.style.display = '');
+    return;
+  }
+
+  sections.forEach((sec, i) => {
+    const text = sec.innerText.toLowerCase();
+    const match = text.includes(q);
+    sec.style.display = match ? '' : 'none';
+    navLinks[i].style.display = match ? '' : 'none';
+  });
+});
+</script>
+</body>
+</html>

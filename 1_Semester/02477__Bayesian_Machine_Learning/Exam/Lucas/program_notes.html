@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bayesian Machine Learning Course Program</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f6f7fb;
+      color: #222;
+    }
+
+    header {
+      background: #1f2937;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      background: white;
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    h2 {
+      color: #1f2937;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 0.5rem;
+    }
+
+    h3 {
+      color: #374151;
+      margin-top: 1.5rem;
+    }
+
+    ul {
+      padding-left: 1.4rem;
+    }
+
+    li {
+      margin-bottom: 0.4rem;
+    }
+
+    .note {
+      background: #fff7ed;
+      border-left: 4px solid #f97316;
+      padding: 1rem;
+      margin-top: 1rem;
+      border-radius: 6px;
+    }
+
+    .optional {
+      color: #6b7280;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Bayesian Machine Learning Course Program</h1>
+  <p>Weekly overview of topics, videos, and reading material</p>
+</header>
+
+<main>
+
+<section>
+  <h2>Week 1</h2>
+  <h3>Program</h3>
+  <ul>
+    <li>Introduction to Bayesian inference and the course</li>
+    <li>Basic concepts: prior, likelihood, and posterior distributions</li>
+    <li>The Beta-binomial model for estimating proportions</li>
+    <li>Conjugate models and functional forms</li>
+    <li>Simple A/B testing using the Beta-binomial model</li>
+  </ul>
+
+  <h3>Videos</h3>
+  <ul>
+    <li>Lecture1_part1: Introduction to the course</li>
+    <li>Lecture1_part2: Bayesian Machine Learning in a nutshell</li>
+    <li>Lecture1_part3: Recap of terminology and notation from probability theory</li>
+    <li>Lecture1_part4: The binomial distribution and maximum likelihood</li>
+    <li>Lecture1_part5: Bayesian inference</li>
+    <li>Lecture1_part6: Introduction to exercise sessions</li>
+  </ul>
+
+  <div class="note">
+    Parts 1 and 2 introduce the course and Bayesian machine learning. Parts 3 and 4 are a warm-up for part 5 and may be faster paced. Part 5 introduces the first Bayesian analysis of the Beta-binomial model.
+  </div>
+
+  <h3>Reading Material</h3>
+  <ul>
+    <li>The Beta distribution: Murphy1, Section 2.7.4, pages 63–64</li>
+    <li>Likelihood functions and MLE for Bernoulli: Murphy1, Sections 4.0–4.2.3, pages 107–111</li>
+    <li>Section 4.2.2 is technical and can be skipped</li>
+    <li>Poor man’s Bayes and MAP estimation for Bernoulli: Murphy1, Sections 4.5–4.5.1, pages 120–122</li>
+    <li>Prior, likelihood, posterior, and evidence: Murphy1, Sections 4.6.0–4.6.1, pages 129–130</li>
+    <li>The Beta-binomial model: Murphy1, Sections 4.6.2, 4.6.6, 4.6.7, pages 129–137</li>
+    <li>Credible intervals: Murphy1, Section 4.6.6, pages 146–147</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Week 2</h2>
+  <h3>Program</h3>
+  <ul>
+    <li>Foundations of probabilistic machine learning</li>
+    <li>Plugin approximations and Dirac’s delta distribution</li>
+    <li>Grid approximations</li>
+    <li>Marginalization and posterior predictive distributions</li>
+    <li>Applications to dose-response modelling</li>
+  </ul>
+
+  <h3>Videos</h3>
+  <ul>
+    <li>Lecture2_part1: Recap of central points from last week, 6 min</li>
+    <li>Lecture2_part2: Probabilistic machine learning, 21 min</li>
+    <li>Lecture2_part3: The plugin approximation, 12 min</li>
+    <li>Lecture2_part4: Grid approximations, 19 min</li>
+    <li>Lecture2_part5: Introduction to exercise, 17 min</li>
+  </ul>
+
+  <h3>Reading</h3>
+  <ul>
+    <li>Sets of related random variables, sum/product rule, marginalization: Murphy1, Section 2.2.3, pages 38–39</li>
+    <li>Independence and conditional independence: Murphy1, Section 2.2.4, pages 39–40</li>
+    <li>Bernoulli, Binomial distributions, and logistic regression: Murphy1, Section 2.4, pages 49–53</li>
+    <li>Univariate Gaussian distribution: Murphy1, Sections 2.6–2.6.2, pages 57–59</li>
+    <li>Dirac’s delta: Murphy1, Section 2.6.5, pages 60–61</li>
+    <li>Bayesian machine learning: Murphy1, Sections 4.6.7–4.6.8.1, pages 147–152</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Week 3</h2>
+  <h3>Program</h3>
+  <ul>
+    <li>Linear Gaussian systems and Bayesian linear regression</li>
+    <li>Hyperparameter estimation via the marginal likelihood</li>
+    <li>The evidence approximation</li>
+  </ul>
+
+  <h3>Videos</h3>
+  <ul>
+    <li>Lecture3_part1: Recap of central concepts from last week, 6 min</li>
+    <li>Lecture3_part2: Recap of multivariate Gaussians, 14 min</li>
+    <li>Lecture3_part3: Recap of linear regression and supervised learning, 17 min</li>
+    <li>Lecture3_part4: Bayesian linear regression, 15 min</li>
+    <li>Lecture3_part5: The posterior predictive distribution, 15 min</li>
+    <li>Lecture3_part6: Dealing with hyperparameters, 13 min</li>
+  </ul>
+
+  <div class="note">
+    Parts 1–3 may be skipped if you are confident with the concepts. Parts 4–6 contain the core new material. Linear Gaussian systems are strongly recommended.
+  </div>
+
+  <h3>Reading</h3>
+  <ul>
+    <li>Joint distributions: Murphy1, Section 3.1, pages 77–80</li>
+    <li>Multivariate Gaussian distribution: Murphy1, Sections 3.2–3.2.3, pages 80–84</li>
+    <li>Linear Gaussian systems: Murphy1, Section 3.3, pages 86–92</li>
+    <li>Linear regression recap: Murphy1, Sections 11–11.2.2.1, pages 369–371</li>
+    <li>MLE for noise variance: Murphy1, Section 11.2.3.6, page 377</li>
+    <li>Ridge regression and MAP estimation: Murphy1, Sections 11.3–11.3.1, pages 379–380</li>
+    <li>Bayesian linear regression: Murphy1, Section 11.7, pages 403–409</li>
+    <li>Model comparison and marginal likelihood: Bishop, Sections 3.4–3.5, pages 161–172</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Week 4</h2>
+  <h3>Program</h3>
+  <ul>
+    <li>Classical/frequentist statistics vs Bayesian statistics</li>
+    <li>Introduction to Bayesian methods for classification</li>
+    <li>Bayesian logistic regression for classification</li>
+    <li>The Laplace approximation</li>
+  </ul>
+
+  <h3>Videos</h3>
+  <ul>
+    <li>Lecture 4 part 1: Summary of last week and graphical models, 20 min</li>
+    <li>Lecture 4 part 2: Bayesian statistics vs classical statistics, 5 min</li>
+    <li>Lecture 4 part 3: Bayesian methods for classification, 20 min</li>
+    <li>Lecture 4 part 4: Bayesian logistic regression for classification, 8 min</li>
+    <li>Lecture 4 part 5: The Laplace approximation, 10 min</li>
+    <li>Lecture 4 part 6: Evaluating the posterior predictive distribution, 13 min</li>
+  </ul>
+
+  <h3>Readings</h3>
+  <ul>
+    <li>Graphical models: Section 3.6, pages 99–103</li>
+    <li>Credible intervals: Section 4.6.6, pages 146–147</li>
+    <li>Confidence intervals: Section 4.7.4, pages 157–158</li>
+    <li>Credibility vs confidence intervals: Section 4.7.5, pages 158–159</li>
+    <li>Binary logistic regression: Section 10.1–10.2.4, pages 337–343</li>
+    <li>Bayesian logistic regression and Laplace approximation: Section 10.5, pages 361–366</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Week 5</h2>
+  <h3>Program</h3>
+  <ul>
+    <li>Distributions on function spaces</li>
+    <li>Kernels and covariance functions</li>
+    <li>Gaussian processes for regression</li>
+  </ul>
+
+  <h3>Videos</h3>
+  <ul>
+    <li>Lecture5 part 1: From parameter space to function space</li>
+    <li>Lecture5 part 2: A visual introduction</li>
+    <li>Lecture5 part 3: Gaussian process regression</li>
+    <li>Lecture5 part 4: Covariance functions</li>
+    <li>Lecture5 part 5: Hyperparameters</li>
+  </ul>
+
+  <h3>Reading</h3>
+  <ul>
+    <li>Marginals and conditionals of a multivariate Gaussian: Section 3.2.3, page 84</li>
+    <li>Kernels: Section 17–17.1, pages 565–572</li>
+    <li>Gaussian processes: Section 17.2–17.2.6.2, pages 572–578</li>
+    <li class="optional">Section 17.2.3 can be skipped</li>
+    <li>Empirical priors: Section 4.6.5.3, pages 145–146</li>
+    <li>Stationary kernels: Murphy2, Sections 18.2.1–18.2.1.3, pages 676–678</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Week 6</h2>
+  <h3>Program</h3>
+  <ul>
+    <li>More on kernel functions</li>
+    <li>Gaussian processes for classification</li>
+    <li>Neural networks for probabilistic modelling</li>
+  </ul>
+
+  <h3>Videos</h3>
+  <ul>
+    <li>Lecture 6 part 1: More on covariance functions, 17 min</li>
+    <li>Lecture 6 part 2: Gaussian process software and tools, 3 min</li>
+    <li>Lecture 6 part 3: Gaussian processes for binary classification, 22 min</li>
+    <li>Lecture 6 part 4: Neural networks for probabilistic modelling, 11 min</li>
+  </ul>
+
+  <h3>Reading</h3>
+  <ul>
+    <li>Murphy2: Sections 18.4–18.4.2, pages 701–703</li>
+    <li>Murphy1: Sections 13.1–13.2.4, pages 423–432</li>
+  </ul>
+
+  <div class="note">
+    There is a typo in the equation for expected calibration error in the book and video, but it is corrected in the exercise and slides.
+  </div>
+</section>
+
+<section>
+  <h2>Week 7</h2>
+  <h3>Program</h3>
+  <ul>
+    <li>Connections between Gaussian processes and neural networks</li>
+    <li>Models with non-Gaussian likelihoods</li>
+    <li>Generalization error</li>
+    <li>Decision theory</li>
+    <li>Entropy and calibration</li>
+  </ul>
+
+  <h3>Videos</h3>
+  <ul>
+    <li>Lecture 7 part 1: GP and NNs</li>
+    <li>Lecture 7 part 2: Non-Gaussian likelihoods</li>
+    <li>Lecture 7 part 3: Defining the generalization error</li>
+    <li>Lecture 7 part 4: Statistical/Bayesian decision theory</li>
+    <li>Lecture 7 part 5: Calibration for classification models</li>
+  </ul>
+
+  <h3>Reading</h3>
+  <ul>
+    <li>Common univariate distributions: Murphy1, Section 2.7, pages 61–65</li>
+    <li>Generalized linear models: Murphy1, Section 12.1, pages 413–415</li>
+    <li>Gaussian processes with non-Gaussian likelihoods: Murphy2, Section 18.4, pages 693–697</li>
+    <li>Bayesian decision theory: Murphy1, Sections 5.1–5.1.5, pages 167–177</li>
+    <li>Evaluating predictive models and calibration: Murphy2, Section 14.2, pages 572–576</li>
+    <li>Entropy: Murphy1, Section 6.1, pages 205–206</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Week 8</h2>
+  <h3>Program</h3>
+  <ul>
+    <li>More on calibration</li>
+    <li>Monte Carlo methods</li>
+    <li>Ancestral sampling, rejection sampling, importance sampling, and transformations</li>
+    <li>MCMC and the Metropolis algorithm</li>
+  </ul>
+
+  <h3>Videos</h3>
+  <ul>
+    <li>Lecture 8 part 1: More on calibration</li>
+    <li>Lecture 8 part 2: Monte Carlo methods</li>
+    <li>Lecture 8 part 3: Simple MC methods</li>
+    <li>Lecture 8 part 4: MCMC and Metropolis algorithm</li>
+  </ul>
+
+  <h3>Reading</h3>
+  <ul>
+    <li>Monte Carlo methods: Murphy2, Sections 11–11.5.3, pages 477–486</li>
+    <li>Markov chain Monte Carlo: Murphy2, Sections 12–12.2.3.3, pages 492–498</li>
+    <li>Optional additional resource: Bishop, pages 523–542</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Week 9</h2>
+  <h3>Program</h3>
+  <ul>
+    <li>More MCMC theory</li>
+    <li>Hamiltonian Monte Carlo</li>
+    <li>ULA and MALA algorithms</li>
+    <li>MCMC convergence diagnostics</li>
+  </ul>
+
+  <h3>Videos</h3>
+  <ul>
+    <li>Part 1: More theory for MCMC, 16 min</li>
+    <li>Part 2: Introduction to Hamiltonian Monte Carlo, 10 min</li>
+    <li>Part 3: Hamiltonian Dynamics, 23 min</li>
+    <li>Part 4: Hamiltonian Monte Carlo, 15 min</li>
+    <li>Part 5: ULA and MALA algorithms, 8 min</li>
+    <li>Part 6: Convergence diagnostics, 10 min</li>
+  </ul>
+
+  <h3>Reading</h3>
+  <ul>
+    <li>Stationary distribution of a Markov chain: Murphy2, Section 2.6.4, pages 51–55</li>
+    <li>Metropolis-Hastings: Murphy2, Section 12.2, pages 494–497</li>
+    <li>Hamiltonian Monte Carlo: Murphy2, Section 12.5, pages 510–518</li>
+    <li>MCMC convergence: Murphy2, Section 12.6, pages 518–526</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Week 10</h2>
+  <h3>Program</h3>
+  <ul>
+    <li>Wrap up MCMC and sampling methods</li>
+    <li>Introduction to variational inference</li>
+    <li>Variational families and KL divergence</li>
+    <li>Coordinate-ascent variational inference</li>
+    <li>Mixture models and the Dirichlet distribution</li>
+    <li>Bayesian inference for Gaussian mixture models</li>
+  </ul>
+
+  <h3>Videos</h3>
+  <ul>
+    <li>Lecture 10 part 1: Wrapping up MCMC</li>
+    <li>Lecture 10 part 2: Intro to VI and KL divergence</li>
+    <li>Lecture 10 part 3: Minimizing KL divergence via the ELBO</li>
+    <li>Lecture 10 part 4: The CAVI algorithm</li>
+    <li>Lecture 10 part 5: Mixture models and the Bayesian GMM</li>
+  </ul>
+
+  <h3>Reading</h3>
+  <ul>
+    <li>Student’s t distribution: Murphy2, Section 2.2.2.3, pages 11–12</li>
+    <li>Wishart distribution: Murphy2, Section 2.2.5.5, page 19</li>
+    <li>Dirichlet distribution: Murphy2, Section 2.2.5.7, pages 20–22</li>
+    <li>Mixture models: Murphy2, Sections 28–28.2.1, pages 919–922</li>
+    <li>KL divergence: Murphy2, Section 2.7, pages 55–56</li>
+    <li>Intro to variational inference: Murphy2, Sections 10–10.1.3, pages 433–438</li>
+    <li>Coordinate Ascent VI: Murphy2, Sections 10.3–10.3.5, pages 449–457</li>
+    <li>VI for GMM: Murphy2, Sections 10.3.5–10.3.6.6, pages 457–464</li>
+  </ul>
+
+  <div class="note">
+    Some material from earlier course editions has been restructured. Sections on inducing point methods and sparse Gaussian processes are not part of the curriculum and can be skipped.
+  </div>
+</section>
+
+<section>
+  <h2>Week 11</h2>
+  <h3>Program</h3>
+  <ul>
+    <li>More on variational inference and KL divergence</li>
+    <li>Free-form vs fixed-form variational inference</li>
+    <li class="optional">Hyperparameter estimation in VI</li>
+    <li class="optional">Alpha-divergences</li>
+    <li>Black-box variational inference</li>
+    <li>Gradient estimators and mini-batching</li>
+  </ul>
+
+  <h3>Videos</h3>
+  <ul>
+    <li>Lecture 11 part 1: Interpretation of the ELBO, 7 min</li>
+    <li>Lecture 11 part 2: Free-form vs fixed-form, 12 min</li>
+    <li class="optional">Lecture 11 part 3: Hyperparameter estimation, 5 min</li>
+    <li>Lecture 12 part 1: KL divergences and alpha-divergences, 15 min</li>
+    <li class="optional">Lecture 12 part 2: KL divergence and MLE, Information gain, 8 min</li>
+    <li>Lecture 12 part 3: Introduction to BBVI, 9 min</li>
+    <li>Lecture 12 part 4: Score function gradient estimator, 12 min</li>
+    <li>Lecture 12 part 5: BBVI algorithm, 12 min</li>
+    <li>Lecture 12 part 6: Stochastic optimization, 12 min</li>
+    <li>Lecture 12 part 7: Reparameterized gradient, 8 min</li>
+    <li>Lecture 12 part 8: Mini-batching, 5 min</li>
+  </ul>
+
+  <h3>Reading</h3>
+  <ul>
+    <li>Free-form vs fixed-form VI: Murphy2, Section 10.1.2, pages 441–442</li>
+    <li class="optional">Hyperparameter estimation using VI: Murphy2, Section 10.1.3, page 442</li>
+    <li class="optional">Relation between KL and MLE: Murphy2, Section 5.1.6, pages 230–231</li>
+    <li>Entropy: Murphy2, Section 5.2, pages 234–236</li>
+    <li>Score function gradient estimator: Murphy2, Sections 6.3.3–6.3.4, pages 273–275</li>
+    <li>Reparameterization trick: Murphy2, Sections 6.3.5–6.3.5.2, pages 275–277</li>
+    <li>Black-box VI: Murphy2, Sections 10.2–10.2.3.2, pages 445–455</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Week 12</h2>
+  <h3>Program</h3>
+  <ul>
+    <li>Wrapping up VI</li>
+    <li class="optional">Quick discussion of variational autoencoders</li>
+    <li>Bayesian neural networks</li>
+    <li>Motivation and challenges</li>
+    <li>Monte Carlo Dropout</li>
+    <li>Last-layer Laplace approximations</li>
+    <li>Deep ensembles</li>
+  </ul>
+
+  <h3>Videos</h3>
+  <ul>
+    <li class="optional">Lecture 12 part 1: Variational autoencoders, 13 min</li>
+    <li>Lecture 12 part 2: Summary of VI, 7 min</li>
+    <li>Lecture 12 part 3: Introduction to BNNs, motivation, challenges, and priors, 24 min</li>
+    <li>Lecture 12 part 4: Approximating the posterior of BNNs and Dropout, 12 min</li>
+    <li>Lecture 12 part 5: Mean-field for BNNs, 7 min</li>
+    <li>Lecture 12 part 6: Laplace approximations for BNNs, 17 min</li>
+    <li>Lecture 12 part 7: Deep ensembles, 10 min</li>
+  </ul>
+
+  <h3>Reading</h3>
+  <ul>
+    <li>Intro to BNNs: Murphy2, Chapter 17, pages 647–650</li>
+    <li>Posteriors of BNNs: Murphy2, Sections 17.3–17.3.9.4, pages 651–660</li>
+  </ul>
+</section>
+
+</main>
+
+</body>
+</html>
