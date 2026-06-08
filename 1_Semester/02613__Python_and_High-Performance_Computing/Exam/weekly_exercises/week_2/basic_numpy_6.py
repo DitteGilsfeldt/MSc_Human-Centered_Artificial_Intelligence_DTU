@@ -1,0 +1,14 @@
+import sys
+
+def diagonal_matrix(numbers):
+    numbers = [float(i) for i in numbers]
+    size = len(numbers)
+    matrix = [[0]*size for _ in range(size)]
+    for i in range(size):
+        matrix[i][i] = numbers[i]
+    return matrix
+
+numbers = sys.argv[1:]
+
+print(diagonal_matrix(numbers))
+
