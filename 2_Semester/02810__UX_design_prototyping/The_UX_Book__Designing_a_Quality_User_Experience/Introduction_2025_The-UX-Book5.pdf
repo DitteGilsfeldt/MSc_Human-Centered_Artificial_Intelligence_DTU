@@ -1,0 +1,5300 @@
+%PDF-1.7
+%
+
+1 0 obj
+<<
+/Font 2 0 R
+/Encoding 3 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Helv 5 0 R
+/ZaDb 6 0 R
+>>
+endobj
+
+3 0 obj
+<<
+/PDFDocEncoding 4 0 R
+>>
+endobj
+
+4 0 obj
+<<
+/Differences [ 24 /breve /caron /circumflex /dotaccent /hungarumlaut /ogonek /ring /tilde 39 /quotesingle 96 /grave 128 /bullet /dagger /daggerdbl /ellipsis /emdash /endash /florin /fraction /guilsinglleft /guilsinglright /minus /perthousand /quotedblbase /quotedblleft /quotedblright /quoteleft /quoteright /quotesinglbase /trademark /fi /fl /Lslash /OE /Scaron /Ydieresis /Zcaron /dotlessi /lslash /oe /scaron /zcaron 160 /Euro 164 /currency 166 /brokenbar 168 /dieresis /copyright /ordfeminine 172 /logicalnot /.notdef /registered /macron /degree /plusminus /twosuperior /threesuperior /acute /mu 183 /periodcentered /cedilla /onesuperior /ordmasculine 188 /onequarter /onehalf /threequarters 192 /Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla /Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis /Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply /Oslash /Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn /germandbls /agrave /aacute /acircumflex /atilde /adieresis /aring /ae /ccedilla /egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis /eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide /oslash /ugrave /uacute /ucircumflex /udieresis /yacute /thorn /ydieresis ]
+/Type /Encoding
+>>
+endobj
+
+5 0 obj
+<<
+/Subtype /Type1
+/Name /Helv
+/BaseFont /Helvetica
+/Encoding 4 0 R
+/Type /Font
+>>
+endobj
+
+6 0 obj
+<<
+/Subtype /Type1
+/Name /ZaDb
+/BaseFont /ZapfDingbats
+/Type /Font
+>>
+endobj
+
+7 0 obj
+<<
+/K 8 0 R
+/ParentTree 9 0 R
+/ParentTreeNextKey 1
+/RoleMap 10 0 R
+/Type /StructTreeRoot
+/ClassMap 11 0 R
+>>
+endobj
+
+8 0 obj
+<<
+/K 20 0 R
+/P 7 0 R
+/S /Document
+/Lang (en-GB)
+>>
+endobj
+
+9 0 obj
+<<
+/Nums [ 0 [ 13 0 R 13 0 R 14 0 R 14 0 R 14 0 R 14 0 R 14 0 R 14 0 R 15 0 R 16 0 R ] ]
+>>
+endobj
+
+10 0 obj
+<<
+/PART_TITLE /P
+/Story /Sect
+/introduction /Sect
+/PART_text_flush /P
+/NormalParagraphStyle /P
+/Article /Art
+>>
+endobj
+
+11 0 obj
+<<
+/Pa2 12 0 R
+>>
+endobj
+
+12 0 obj
+<<
+/O /Layout
+/LineHeight 12
+>>
+endobj
+
+13 0 obj
+<<
+/A 26 0 R
+/K [ 0 1 ]
+/P 21 0 R
+/S /PART_TITLE
+/Pg 38 0 R
+>>
+endobj
+
+14 0 obj
+<<
+/A 25 0 R
+/K [ 2 3 4 5 6 7 ]
+/P 21 0 R
+/S /PART_text_flush
+/Pg 38 0 R
+>>
+endobj
+
+15 0 obj
+<<
+/A 24 0 R
+/K 8
+/P 23 0 R
+/S /Span
+/Pg 38 0 R
+>>
+endobj
+
+16 0 obj
+<<
+/A 17 0 R
+/K 9
+/P 18 0 R
+/S /Span
+/Pg 38 0 R
+>>
+endobj
+
+17 0 obj
+<<
+/O /Layout
+/LineHeight 18
+>>
+endobj
+
+18 0 obj
+<<
+/C /Pa2
+/K 16 0 R
+/P 19 0 R
+/S /NormalParagraphStyle
+>>
+endobj
+
+19 0 obj
+<<
+/K 18 0 R
+/P 20 0 R
+/S /Story
+>>
+endobj
+
+20 0 obj
+<<
+/K [ 21 0 R 19 0 R 22 0 R ]
+/P 8 0 R
+/S /Article
+>>
+endobj
+
+21 0 obj
+<<
+/K [ 13 0 R 14 0 R ]
+/P 20 0 R
+/S /introduction
+>>
+endobj
+
+22 0 obj
+<<
+/K 23 0 R
+/P 20 0 R
+/S /Story
+>>
+endobj
+
+23 0 obj
+<<
+/C /Pa2
+/K 15 0 R
+/P 22 0 R
+/S /NormalParagraphStyle
+>>
+endobj
+
+24 0 obj
+<<
+/O /Layout
+/LineHeight 114.5
+>>
+endobj
+
+25 0 obj
+<<
+/O /Layout
+/LineHeight 10
+>>
+endobj
+
+26 0 obj
+<<
+/SpaceAfter 42
+/O /Layout
+/LineHeight 32
+>>
+endobj
+
+27 0 obj
+<<
+/Nums [ 0 28 0 R ]
+>>
+endobj
+
+28 0 obj
+<<
+/St 335
+/S /D
+>>
+endobj
+
+29 0 obj
+<<
+/Count 1
+/Type /Pages
+/Kids [ 38 0 R ]
+>>
+endobj
+
+30 0 obj
+<<
+/Subtype /XML
+/Length 5341
+/Type /Metadata
+>>
+stream
+<?xpacket begin="ï»¿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.0-c316 44.253921, Sun Oct 01 2006 17:14:39">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/">
+         <dc:format>application/pdf</dc:format>
+         <dc:identifier>doi:10.1016/B978-0-443-13443-2.02004-5</dc:identifier>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">Introduction</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <dc:description>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">The UX Book, Third Edition, (2025) 335. doi:10.1016/B978-0-443-13443-2.02004-5</rdf:li>
+            </rdf:Alt>
+         </dc:description>
+         <dc:publisher>
+            <rdf:Bag>
+               <rdf:li>Elsevier</rdf:li>
+            </rdf:Bag>
+         </dc:publisher>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:prism="http://prismstandard.org/namespaces/basic/3.0/">
+         <prism:aggregationType>book</prism:aggregationType>
+         <prism:publicationName>The UX Book: Agile UX Design for a Quality User Experience</prism:publicationName>
+         <prism:edition>Third Edition</prism:edition>
+         <prism:copyright>Copyright  2026 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.</prism:copyright>
+         <prism:isbn>978-0-443-13443-2</prism:isbn>
+         <prism:pageRange>335</prism:pageRange>
+         <prism:startingPage>335</prism:startingPage>
+         <prism:doi>10.1016/B978-0-443-13443-2.02004-5</prism:doi>
+         <prism:url>http://dx.doi.org/10.1016/B978-0-443-13443-2.02004-5</prism:url>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/">
+         <pdfx:robots>noindex</pdfx:robots>
+         <d2UUdn9f8ntj7z96Gnwn-zcNNmdqSlt-Mnd-GowiQmdyNmPr.mMmRo9eQod6Knt2Mot-Tma/>
+         <pdfx:doi>10.1016/B978-0-443-13443-2.02004-5</pdfx:doi>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:tdm="http://www.w3.org/ns/tdmrep/">
+         <tdm:reservation>1</tdm:reservation>
+         <tdm:policy>https://www.elsevier.com/tdm/tdmrep-policy.json</tdm:policy>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:xap="http://ns.adobe.com/xap/1.0/">
+         <xap:CreatorTool>Elsevier</xap:CreatorTool>
+         <xap:CreateDate>2025-03-01T20:33:05+05:30</xap:CreateDate>
+         <xap:ModifyDate>2025-03-01T20:42:21+05:30</xap:ModifyDate>
+         <xap:MetadataDate>2025-03-01T20:42:21+05:30</xap:MetadataDate>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:xapRights="http://ns.adobe.com/xap/1.0/rights/">
+         <xapRights:Marked>True</xapRights:Marked>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:xapMM="http://ns.adobe.com/xap/1.0/mm/">
+         <xapMM:DocumentID>uuid:16158419-c673-4027-8a75-b1b953c7a454</xapMM:DocumentID>
+         <xapMM:InstanceID>uuid:ce966520-880f-4800-824f-98bcb488bd6a</xapMM:InstanceID>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>
+endstream
+endobj
+
+31 0 obj
+<<
+/CreationDate (D:20250301203305+05'30')
+/Subject (The UX Book, Third Edition, \(2025\) 335. doi:10.1016/B978-0-443-13443-2.02004-5)
+/Creator (Elsevier)
+/ElsevierWebPDFSpecifications (6.5)
+/robots (noindex)
+/ModDate (D:20250301204221+05'30')
+/doi (10.1016/B978-0-443-13443-2.02004-5)
+/Title (Introduction)
+>>
+endobj
+
+32 0 obj
+<<
+/Linearized 1
+/L 37167
+/O 38
+/E 27849
+/N 1
+/T 36480
+/H [ 1036 270 ]
+>>
+endobj
+
+33 0 obj
+<<
+/MarkInfo 36 0 R
+/PageMode /UseOutlines
+/ViewerPreferences 37 0 R
+/Outlines 65 0 R
+/Metadata 30 0 R
+/AcroForm 35 0 R
+/Pages 29 0 R
+/PageLayout /SinglePage
+/OpenAction 34 0 R
+/StructTreeRoot 7 0 R
+/Type /Catalog
+/Lang (English)
+/PageLabels 27 0 R
+>>
+endobj
+
+34 0 obj
+<<
+/D [ 38 0 R /FitH -32768 ]
+/S /GoTo
+>>
+endobj
+
+35 0 obj
+<<
+/Fields [ ]
+/DA (/Helv 0 Tf 0 g )
+/DR 1 0 R
+>>
+endobj
+
+36 0 obj
+<<
+/Marked true
+>>
+endobj
+
+37 0 obj
+<<
+/NonFullScreenPageMode /UseNone
+/Direction /L2R
+/FitWindow true
+>>
+endobj
+
+38 0 obj
+<<
+/CropBox [ 0 0 540 666 ]
+/Parent 29 0 R
+/StructParents 0
+/Contents [ 69 0 R 46 0 R 70 0 R 71 0 R ]
+/Rotate 0
+/BleedBox [ 0 0 540 666 ]
+/ArtBox [ 0 0 540 666 ]
+/MediaBox [ 0 0 540 666 ]
+/TrimBox [ 0 0 540 666 ]
+/Resources <<
+/XObject <<
+/Fm0 62 0 R
+>>
+/Font <<
+/TT0 53 0 R
+/T1_0 45 0 R
+/T1_1 50 0 R
+/T1_2 56 0 R
+>>
+/ProcSet [ /PDF /Text ]
+/ExtGState <<
+/GS0 63 0 R
+/GS1 64 0 R
+/GS-7098480789 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9742682568 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2000805986 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9750469207 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7572533686 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8450180107 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8659871878 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5824662338 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1848524175 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7888911063 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-979344929 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2708199956 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6703682664 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-735569487 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8784015711 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9668333493 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-250812044 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1275322832 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7720966295 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4525072762 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5563853605 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4869070959 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7959582482 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2163799337 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4824990222 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5845047960 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7592840450 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-578830786 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6611578703 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6837590713 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6235467693 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2668124169 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1186010726 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8268612002 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1733050384 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2114655688 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6186664300 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6857870938 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9538628408 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1316047934 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7733119529 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7845208436 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2525737140 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-192510541 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-352453411 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8834764880 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7312274522 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4533867633 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4734724052 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2514629607 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2917584337 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2759204048 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2515018183 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1095114838 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4482664138 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4899791308 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6475524782 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7264808453 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3800713913 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8937889778 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8222999160 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1930335077 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5570030280 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2603819679 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2867949010 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4884597603 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8002102467 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7231931070 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1518621681 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9068155788 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5465325437 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2336276203 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2804311269 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5373953175 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1836459056 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-763689818 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2015858073 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7845598753 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8733129249 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1134607662 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1200572554 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2878243308 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6446110018 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9032007329 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2438005141 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4155299594 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8216336917 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9830273366 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6940581245 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9666360055 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8751175115 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3393038419 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1785873005 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4801453234 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6171473612 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8774543434 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-773902752 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1812800957 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9316581364 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3435889024 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2578717835 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2679135840 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8863144234 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7759683746 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6471646251 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5749991914 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8174456066 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1850541778 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4260663631 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5732191492 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4855138939 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-439563316 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1809410679 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8038868131 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3533402477 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6139336428 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-205906461 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4783095591 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9589856190 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1118421231 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1522472357 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1315389639 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9650931040 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1301311082 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5954081134 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9082567378 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3006724240 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3771050173 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2660796153 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9404981323 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9661286329 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8358714605 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6575621423 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2481645994 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6868610400 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6679327711 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8554544174 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4774049913 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8013122474 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3965944031 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7136537325 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-499283259 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5463912608 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7840610153 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4516204513 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6917312177 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4402188329 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6660567572 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5135190550 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2357037083 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4988141565 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2052374886 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-58077548 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7966274394 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8801722535 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1538118521 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5145712527 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2409652745 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1973171314 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2525837900 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9221442262 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4964920662 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8982415506 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3277802320 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9727944989 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9156372825 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4981312810 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2671122592 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-13232239 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4945549703 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9086794356 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5914018232 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8946708651 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3802574878 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6540482195 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5223608034 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8978777711 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7533580426 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2216723899 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4736426616 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4859988235 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1893409980 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8040823920 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8438329062 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2118009427 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7606244471 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2897660785 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7633098794 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1795366796 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9927868060 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-854846142 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6164234815 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4342537788 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1367073150 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5466799406 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3005556993 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-584291964 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2140833571 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-116393244 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-270278600 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-974928127 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1840686583 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-970016696 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2035931279 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-249223223 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5809687459 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9497245902 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6793019106 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6664176610 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1851834275 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5214614953 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5290620322 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2938018015 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9945137636 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4562195722 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5848834491 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1839058647 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7547267059 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8525850681 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9871248753 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3879787875 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5083821634 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5348526993 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7900263502 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-512199547 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5618284099 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5859707063 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2306248562 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6236973239 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3579594663 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1581024189 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2327676785 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3928180328 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1669120280 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8664098964 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6791056307 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4213021797 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2388681973 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9068127507 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4515492111 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6171327640 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8809248177 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9065114372 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6370065572 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8743677144 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5999962280 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-718550268 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5211922171 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3680655635 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7198045819 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-613970749 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1221100365 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2372867106 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9889806298 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-836507550 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9196589293 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4282518445 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3562682930 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9318394668 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3970381585 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1879091805 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-829047795 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5281450113 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1748626711 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1017008379 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5402646456 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6817725617 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6498898716 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5311975701 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5405352878 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1081860871 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5693843472 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-15487066 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8859331503 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1467408027 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1433995909 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-431367356 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2109184890 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8278770604 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9057917077 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4856367111 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5023547361 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5251979023 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6396811258 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7159020843 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8524115833 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5905189187 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9562924917 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7897971424 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4563392208 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1422549596 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2598101183 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9900124872 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9001073747 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1808890969 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6125056455 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6905502531 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3762914604 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2327838162 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4416009885 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3595041091 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5283104274 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3250484391 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-680378050 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9605813833 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3828650600 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6463576255 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-303600011 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-137496377 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8768865585 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7178546737 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-852421779 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9050979945 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-709397142 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3326455741 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8734806742 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3978849732 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3879402373 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2500439016 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4457191554 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-826548185 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1225987192 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-153386739 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3478054363 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6372654582 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8866579905 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3480531616 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8473430546 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3894916849 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1837079454 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-885180293 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9565811614 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7883388611 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7214910029 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3294894296 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4740573347 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9284874934 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1080317813 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2555149151 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1074016255 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-323338977 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3968223930 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-164481143 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-966049382 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-418262646 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4595048708 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6263217830 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6387252433 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5555821561 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6717495938 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1720870019 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4985067939 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-997088984 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5469736195 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6985564664 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1272851078 <<
+/Type /ExtGState
+/CA 0
+>>
+>>
+>>
+/Type /Page
+/Annots [ ]
+>>
+endobj
+
+39 0 obj
+<<
+/XObject <<
+/Fm0 62 0 R
+>>
+/Font <<
+/TT0 53 0 R
+/T1_0 45 0 R
+/T1_1 50 0 R
+/T1_2 56 0 R
+>>
+/ProcSet [ /PDF /Text ]
+/ExtGState <<
+/GS0 63 0 R
+/GS1 64 0 R
+/GS-7098480789 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9742682568 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2000805986 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9750469207 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7572533686 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8450180107 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8659871878 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5824662338 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1848524175 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7888911063 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-979344929 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2708199956 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6703682664 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-735569487 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8784015711 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9668333493 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-250812044 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1275322832 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7720966295 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4525072762 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5563853605 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4869070959 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7959582482 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2163799337 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4824990222 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5845047960 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7592840450 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-578830786 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6611578703 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6837590713 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6235467693 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2668124169 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1186010726 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8268612002 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1733050384 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2114655688 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6186664300 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6857870938 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9538628408 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1316047934 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7733119529 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7845208436 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2525737140 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-192510541 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-352453411 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8834764880 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7312274522 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4533867633 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4734724052 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2514629607 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2917584337 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2759204048 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2515018183 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1095114838 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4482664138 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4899791308 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6475524782 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7264808453 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3800713913 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8937889778 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8222999160 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1930335077 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5570030280 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2603819679 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2867949010 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4884597603 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8002102467 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7231931070 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1518621681 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9068155788 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5465325437 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2336276203 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2804311269 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5373953175 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1836459056 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-763689818 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2015858073 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7845598753 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8733129249 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1134607662 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1200572554 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2878243308 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6446110018 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9032007329 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2438005141 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4155299594 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8216336917 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9830273366 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6940581245 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9666360055 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8751175115 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3393038419 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1785873005 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4801453234 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6171473612 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8774543434 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-773902752 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1812800957 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9316581364 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3435889024 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2578717835 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2679135840 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8863144234 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7759683746 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6471646251 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5749991914 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8174456066 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1850541778 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4260663631 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5732191492 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4855138939 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-439563316 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1809410679 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8038868131 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3533402477 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6139336428 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-205906461 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4783095591 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9589856190 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1118421231 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1522472357 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1315389639 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9650931040 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1301311082 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5954081134 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9082567378 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3006724240 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3771050173 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2660796153 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9404981323 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9661286329 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8358714605 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6575621423 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2481645994 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6868610400 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6679327711 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8554544174 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4774049913 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8013122474 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3965944031 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7136537325 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-499283259 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5463912608 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7840610153 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4516204513 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6917312177 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4402188329 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6660567572 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5135190550 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2357037083 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4988141565 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2052374886 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-58077548 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7966274394 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8801722535 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1538118521 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5145712527 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2409652745 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1973171314 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2525837900 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9221442262 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4964920662 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8982415506 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3277802320 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9727944989 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9156372825 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4981312810 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2671122592 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-13232239 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4945549703 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9086794356 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5914018232 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8946708651 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3802574878 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6540482195 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5223608034 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8978777711 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7533580426 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2216723899 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4736426616 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4859988235 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1893409980 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8040823920 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8438329062 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2118009427 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7606244471 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2897660785 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7633098794 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1795366796 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9927868060 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-854846142 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6164234815 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4342537788 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1367073150 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5466799406 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3005556993 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-584291964 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2140833571 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-116393244 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-270278600 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-974928127 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1840686583 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-970016696 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2035931279 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-249223223 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5809687459 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9497245902 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6793019106 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6664176610 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1851834275 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5214614953 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5290620322 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2938018015 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9945137636 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4562195722 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5848834491 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1839058647 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7547267059 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8525850681 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9871248753 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3879787875 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5083821634 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5348526993 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7900263502 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-512199547 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5618284099 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5859707063 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2306248562 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6236973239 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3579594663 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1581024189 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2327676785 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3928180328 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1669120280 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8664098964 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6791056307 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4213021797 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2388681973 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9068127507 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4515492111 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6171327640 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8809248177 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9065114372 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6370065572 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8743677144 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5999962280 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-718550268 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5211922171 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3680655635 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7198045819 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-613970749 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1221100365 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2372867106 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9889806298 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-836507550 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9196589293 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4282518445 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3562682930 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9318394668 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3970381585 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1879091805 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-829047795 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5281450113 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1748626711 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1017008379 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5402646456 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6817725617 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6498898716 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5311975701 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5405352878 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1081860871 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5693843472 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-15487066 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8859331503 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1467408027 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1433995909 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-431367356 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2109184890 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8278770604 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9057917077 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4856367111 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5023547361 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5251979023 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6396811258 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7159020843 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8524115833 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5905189187 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9562924917 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7897971424 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4563392208 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1422549596 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2598101183 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9900124872 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9001073747 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1808890969 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6125056455 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6905502531 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3762914604 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2327838162 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4416009885 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3595041091 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5283104274 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3250484391 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-680378050 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9605813833 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3828650600 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6463576255 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-303600011 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-137496377 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8768865585 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7178546737 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-852421779 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9050979945 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-709397142 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3326455741 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8734806742 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3978849732 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3879402373 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2500439016 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4457191554 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-826548185 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1225987192 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-153386739 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3478054363 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6372654582 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8866579905 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3480531616 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8473430546 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3894916849 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1837079454 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-885180293 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9565811614 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7883388611 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7214910029 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3294894296 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4740573347 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9284874934 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1080317813 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2555149151 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1074016255 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-323338977 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3968223930 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-164481143 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-966049382 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-418262646 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4595048708 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6263217830 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6387252433 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5555821561 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6717495938 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1720870019 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4985067939 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-997088984 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5469736195 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6985564664 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1272851078 <<
+/Type /ExtGState
+/CA 0
+>>
+>>
+>>
+endobj
+
+40 0 obj
+<<
+/Fm0 62 0 R
+>>
+endobj
+
+41 0 obj
+<<
+/TT0 53 0 R
+/T1_0 45 0 R
+/T1_1 50 0 R
+/T1_2 56 0 R
+>>
+endobj
+
+42 0 obj
+<<
+/GS0 63 0 R
+/GS1 64 0 R
+/GS-7098480789 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9742682568 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2000805986 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9750469207 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7572533686 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8450180107 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8659871878 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5824662338 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1848524175 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7888911063 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-979344929 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2708199956 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6703682664 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-735569487 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8784015711 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9668333493 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-250812044 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1275322832 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7720966295 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4525072762 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5563853605 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4869070959 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7959582482 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2163799337 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4824990222 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5845047960 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7592840450 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-578830786 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6611578703 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6837590713 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6235467693 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2668124169 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1186010726 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8268612002 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1733050384 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2114655688 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6186664300 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6857870938 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9538628408 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1316047934 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7733119529 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7845208436 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2525737140 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-192510541 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-352453411 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8834764880 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7312274522 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4533867633 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4734724052 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2514629607 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2917584337 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2759204048 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2515018183 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1095114838 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4482664138 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4899791308 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6475524782 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7264808453 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3800713913 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8937889778 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8222999160 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1930335077 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5570030280 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2603819679 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2867949010 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4884597603 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8002102467 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7231931070 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1518621681 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9068155788 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5465325437 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2336276203 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2804311269 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5373953175 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1836459056 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-763689818 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2015858073 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7845598753 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8733129249 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1134607662 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1200572554 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2878243308 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6446110018 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9032007329 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2438005141 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4155299594 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8216336917 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9830273366 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6940581245 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9666360055 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8751175115 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3393038419 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1785873005 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4801453234 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6171473612 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8774543434 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-773902752 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1812800957 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9316581364 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3435889024 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2578717835 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2679135840 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8863144234 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7759683746 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6471646251 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5749991914 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8174456066 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1850541778 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4260663631 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5732191492 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4855138939 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-439563316 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1809410679 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8038868131 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3533402477 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6139336428 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-205906461 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4783095591 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9589856190 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1118421231 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1522472357 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1315389639 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9650931040 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1301311082 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5954081134 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9082567378 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3006724240 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3771050173 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2660796153 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9404981323 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9661286329 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8358714605 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6575621423 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2481645994 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6868610400 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6679327711 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8554544174 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4774049913 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8013122474 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3965944031 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7136537325 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-499283259 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5463912608 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7840610153 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4516204513 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6917312177 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4402188329 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6660567572 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5135190550 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2357037083 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4988141565 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2052374886 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-58077548 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7966274394 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8801722535 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1538118521 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5145712527 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2409652745 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1973171314 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2525837900 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9221442262 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4964920662 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8982415506 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3277802320 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9727944989 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9156372825 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4981312810 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2671122592 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-13232239 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4945549703 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9086794356 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5914018232 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8946708651 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3802574878 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6540482195 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5223608034 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8978777711 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7533580426 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2216723899 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4736426616 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4859988235 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1893409980 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8040823920 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8438329062 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2118009427 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7606244471 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2897660785 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7633098794 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1795366796 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9927868060 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-854846142 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6164234815 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4342537788 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1367073150 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5466799406 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3005556993 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-584291964 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2140833571 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-116393244 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-270278600 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-974928127 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1840686583 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-970016696 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2035931279 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-249223223 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5809687459 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9497245902 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6793019106 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6664176610 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1851834275 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5214614953 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5290620322 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2938018015 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9945137636 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4562195722 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5848834491 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1839058647 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7547267059 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8525850681 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9871248753 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3879787875 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5083821634 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5348526993 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7900263502 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-512199547 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5618284099 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5859707063 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2306248562 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6236973239 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3579594663 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1581024189 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2327676785 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3928180328 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1669120280 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8664098964 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6791056307 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4213021797 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2388681973 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9068127507 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4515492111 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6171327640 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8809248177 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9065114372 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6370065572 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8743677144 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5999962280 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-718550268 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5211922171 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3680655635 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7198045819 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-613970749 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1221100365 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2372867106 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9889806298 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-836507550 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9196589293 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4282518445 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3562682930 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9318394668 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3970381585 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1879091805 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-829047795 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5281450113 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1748626711 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1017008379 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5402646456 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6817725617 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6498898716 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5311975701 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5405352878 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1081860871 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5693843472 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-15487066 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8859331503 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1467408027 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1433995909 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-431367356 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2109184890 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8278770604 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9057917077 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4856367111 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5023547361 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5251979023 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6396811258 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7159020843 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8524115833 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5905189187 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9562924917 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7897971424 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4563392208 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1422549596 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2598101183 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9900124872 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9001073747 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1808890969 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6125056455 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6905502531 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3762914604 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2327838162 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4416009885 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3595041091 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5283104274 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3250484391 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-680378050 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9605813833 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3828650600 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6463576255 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-303600011 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-137496377 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8768865585 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7178546737 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-852421779 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9050979945 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-709397142 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3326455741 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8734806742 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3978849732 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3879402373 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2500439016 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4457191554 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-826548185 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1225987192 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-153386739 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3478054363 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6372654582 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8866579905 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3480531616 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-8473430546 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3894916849 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1837079454 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-885180293 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9565811614 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7883388611 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-7214910029 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3294894296 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4740573347 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-9284874934 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1080317813 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-2555149151 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1074016255 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-323338977 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-3968223930 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-164481143 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-966049382 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-418262646 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4595048708 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6263217830 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6387252433 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5555821561 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6717495938 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1720870019 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-4985067939 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-997088984 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-5469736195 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-6985564664 <<
+/Type /ExtGState
+/CA 0
+>>
+/GS-1272851078 <<
+/Type /ExtGState
+/CA 0
+>>
+>>
+endobj
+
+43 0 obj
+<<
+/StemV 64
+/FontName /WPTNWQ+FrutigerLTStd-Light
+/FontStretch /Normal
+/FontFile3 58 0 R
+/FontWeight 300
+/Flags 32
+/Descent -250
+/FontBBox [ -152 -250 1000 911 ]
+/Ascent 911
+/FontFamily (Frutiger LT Std)
+/CapHeight 698
+/XHeight 510
+/Type /FontDescriptor
+/ItalicAngle 0
+/CharSet (/space/C/D/P/a/d/e/g/i/n/o/p/r/s/t/y)
+>>
+endobj
+
+44 0 obj
+<<
+/Length 305
+/Filter /FlateDecode
+>>
+stream
+H‰\‘ÛjÃ0†ïýº\/Jkb
+&0ºr±Ëö ©­tÅ1Nz‘·Ÿ•fHôý’uHõsíû’÷8Úgèzï"Nã5Z„3^z¯²\oçÛmýÛ¡*¡àf™fjßÊH>È9Íq‡'7žq£’·è0öþ_‡fIsáô3¤PUà°£D/mxm„dÛÖŽüý¼l)æOñ¹„|½gRŒN¡µ[AeR:˜J¡wÿüY)açÎ~·Q™œÅiJF™ÝãÊdˆwÂ;âB4kÊle2Ä¢)YSÂ³ÖÌ{á=óQøÈ|¦"–üšóë\8g–z4×£å-ÍoiÉI†¼uÂ­ÒFà>G{‘F¸®mO­÷xßlPêW€ ƒZ’x
+endstream
+endobj
+
+45 0 obj
+<<
+/Subtype /Type1
+/FontDescriptor 43 0 R
+/LastChar 121
+/Widths [ 278 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 667 667 0 0 0 0 0 0 0 0 0 0 0 500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 500 0 0 556 500 0 556 0 222 0 0 0 0 556 556 556 0 333 389 333 0 0 0 0 444 ]
+/BaseFont /WPTNWQ+FrutigerLTStd-Light
+/FirstChar 32
+/ToUnicode 44 0 R
+/Encoding /WinAnsiEncoding
+/Type /Font
+>>
+endobj
+
+46 0 obj
+<<
+/Length 650
+/Filter [ /FlateDecode ]
+>>
+stream
+xÚ”ÛNÛ@†ïWÊ;Ì¥-g×§$B*„V-E‚ÆˆJMU-ö:ÙâëMiÞ¾³¶-È¹ˆ÷ÏÿÍ?“ÀÏ™|\RX×dò!§°(É5™,+^Àññä/Ö`‰b|³´'—gŸ@áäätqä4"Ô	\< óðqÿ(b?)0ˆRâ5? |ø3‡R¼:^ QN¾[WÊf3«Ô¥ÞUÎx‘È„köè39Èù%ê¼ÁÂz,¯hâwØéYQËuQÛÑ¯!ÁÝ~¢M@Ö¦Èö)²VŽu·ÔÈ¹Sw/wÅ•dî”)h%¸ÎE¡¡LaS>‚.!ç÷n¾AÒÀA¥:;j2M…«¾0Ú{áÈ°!ó$\	ÜŠ1Ebë­Ô´,Hrx§#®¥Þ®F\Ë²@æœþNì˜}§ÜÚcæZR‰Tñ\ôp@o¢@ÊcÃª±‰¸J_Ë¬gíQ“®cµÉ;Ìmh›C`½ð +”©ôÆ[ÓßÄŸ*ãxÚ•ün+³¶È"ÆŽ¨%
+fâ·È[WÔ›&"“z‡÷ýÂ¬FCÃ!À®¿ï´jÃÖñ%†¥¬úÚi©@ðxÓrLc{¯mwX´5y7´¦C™{0UÄeV®wöÜµŽÐ-{ËŠø"/Í†g ó
+/œgV½6§¼0pði lêãÊc IÉCó‡|
+aš£[(^¹0{xÄF¾ò€ìí€ &šãçMŒœþŸY¾=Vg{;®_›7Q7Ý3¨Í}³j“ðè´©¥?Ðþù?Óíå w[¹1uèÔ‡(†nñlÖÊãpQgŽ²ý@o§¾õÕ¡=«üs>­K
+endstream
+endobj
+
+47 0 obj
+<<
+/StemV 68
+/FontName /HQGBUU+FrutigerLTStd-LightItalic
+/FontStretch /Normal
+/FontFile3 59 0 R
+/FontWeight 300
+/Flags 96
+/Descent -250
+/FontBBox [ -143 -250 1031 917 ]
+/Ascent 917
+/FontFamily (Frutiger LT Std)
+/CapHeight 698
+/XHeight 510
+/Type /FontDescriptor
+/ItalicAngle -12
+/CharSet (/fi/space/comma/period/four/colon/D/P/U/W/X/a/b/c/d/e/f/g/h/i/k/l/m/n/o/p/r/s/t/u/v/w/x/y)
+>>
+endobj
+
+48 0 obj
+<<
+/Length 392
+/Filter /FlateDecode
+>>
+stream
+H‰\’ÝŠƒ0…ïó¹l/Š?ÕL"´¶/ö‡u÷¬Ž]a%Úß~géÂ
+š/‰s8'/ËO¹mGí½»®*pÔMkk‡C÷pê+ÞZ«‚P×m5.³ù[ÝË^yT\LÃˆ÷Ü6Jí}Ðæ0ºI¯uwÅµòÞ\®µ7½úÊŠµöŠGßÿàí¨}¦ºÆ†„^Êþµ¼£öæ²M^Ó~;NªùûãsêQ‡ó<3UWãÐ—ºÒÞP%>=©N.ô¤
+mýoIÙµ©¾K§’àB?û¾1ôîS•„þ<§8Î˜ÏÂgâm43Äáq$ë¯Ç¢³NÇÌ Ì;á±	ÄGÀ
+‡Ì[á-³èÖ7¢iXÓ˜%³èÖ7¢ofý½0g4Gá#³d4œÑœ„OÌ’×p^³œh’8ˆO`Ÿ >}‚øö	âØ'ˆO`Ÿ >}‚øö	â“¾¼å–ø©Ûô³Gª‡sÔsKÎ}ÁÑZ|vmßõšªøU¿ <®½ä
+endstream
+endobj
+
+49 0 obj
+<<
+/Differences [ 31 /fi ]
+/BaseEncoding /WinAnsiEncoding
+/Type /Encoding
+>>
+endobj
+
+50 0 obj
+<<
+/Subtype /Type1
+/FontDescriptor 47 0 R
+/LastChar 121
+/Widths [ 556 278 0 0 0 0 0 0 0 0 0 0 0 278 0 278 0 0 0 0 0 556 0 0 0 0 0 278 0 0 0 0 0 0 0 0 0 667 0 0 0 0 0 0 0 0 0 0 0 500 0 0 0 0 667 0 944 611 0 0 0 0 0 0 0 0 500 556 444 556 500 333 556 556 222 0 500 222 833 556 556 556 0 333 389 333 556 444 778 444 444 ]
+/BaseFont /HQGBUU+FrutigerLTStd-LightItalic
+/FirstChar 31
+/ToUnicode 48 0 R
+/Encoding 49 0 R
+/Type /Font
+>>
+endobj
+
+51 0 obj
+<<
+/StemV 84
+/FontName /CGTXCE+Times-Roman
+/FontFile2 57 0 R
+/FontStretch /Normal
+/FontWeight 400
+/Flags 34
+/Descent -428
+/FontBBox [ -203 -428 1700 1271 ]
+/Ascent 1271
+/FontFamily (Times)
+/CapHeight 662
+/XHeight 449
+/Type /FontDescriptor
+/ItalicAngle 0
+>>
+endobj
+
+52 0 obj
+<<
+/Length 235
+/Filter /FlateDecode
+>>
+stream
+H‰\ÁjÃ0†ï~
+ÛC±›íh£eÃÚ±làØJfXl£8‡¼ýd·t0-Ä¯Oü’<uç.øò¢í1Ãèƒ#\âJaÀÉqlÀy›ïUýíl’÷Û’qîÂ…Ö ?X\2m°{qqÀ½WrH>L°û:õ{ýšÒÎ2(h[p8ò 7“.fF;tŽuŸ·3Ÿ[Bhj}¼™±Ñá’ŒE2aB¡Gú•£Ü?½¹QÃh¿	ýôÌ½Jq*d£jÅ©÷ž2ƒW…‡A»±·zjªØñ'K1Så‰_ X!qÝ
+endstream
+endobj
+
+53 0 obj
+<<
+/Subtype /TrueType
+/FontDescriptor 51 0 R
+/LastChar 52
+/Widths [ 500 ]
+/BaseFont /CGTXCE+Times-Roman
+/FirstChar 52
+/ToUnicode 52 0 R
+/Encoding /WinAnsiEncoding
+/Type /Font
+>>
+endobj
+
+54 0 obj
+<<
+/StemV 136
+/FontName /XWGOKO+FrutigerLTStd-Bold
+/FontStretch /Normal
+/FontFile3 60 0 R
+/FontWeight 700
+/Flags 32
+/Descent -250
+/FontBBox [ -166 -250 1000 935 ]
+/Ascent 935
+/FontFamily (Frutiger LT Std)
+/CapHeight 698
+/XHeight 515
+/Type /FontDescriptor
+/ItalicAngle 0
+/CharSet (/A/P/R/T)
+>>
+endobj
+
+55 0 obj
+<<
+/Length 250
+/Filter /FlateDecode
+>>
+stream
+H‰\PÁnÃ ½ó>¶‡Š$Jo(ÒÔjRk§eû N†´ "ä¿Ÿª“f	ü,û=æ—þÚ[¿§Œ0«®n
+aÄÙXV7 Š*ßj‘žq"ûqéíä˜À?¨¹Æ°ÃáE»ŒßƒÆ`ì‡¯Ëp>lÞÿà‚6B]'z“þ&ži§^SßÄýDœ¿‰ÏÝ#4¹®‹å4®^*ÒÎÈDEÑx¥èZý¯.¬qRß20ÑÖ4[U”˜8WS"ÜÜ$ÜÜvI½)S”’úC'½Cë€ç'ÔùÏ;ËÆ“ecñ¹Vï<+ö+À %xÀ
+endstream
+endobj
+
+56 0 obj
+<<
+/Subtype /Type1
+/FontDescriptor 54 0 R
+/LastChar 84
+/Widths [ 722 0 0 0 0 0 0 0 0 0 0 0 0 0 0 556 0 611 0 556 ]
+/BaseFont /XWGOKO+FrutigerLTStd-Bold
+/FirstChar 65
+/ToUnicode 55 0 R
+/Encoding /WinAnsiEncoding
+/Type /Font
+>>
+endobj
+
+57 0 obj
+<<
+/Length 15194
+/Filter /FlateDecode
+/Length1 38529
+>>
+stream
+H‰lV	tM×þþýï›QD"Å£î9¹H)i¨YÍ•š’–ÖTCH"4!ˆD‰)f"èóÖ{:Öê¢5µx}æyZ]”2 W5¦–Š(¹÷ý÷Þ¬®,«g­ÿ|{ÿ{Ÿ}ÎùÎþ¾ÿ€ `61ÑƒZEî˜,™ëcÆ%Ç¦´éwØ
+Pg ~ä¸ô4sí„®€“ mMHŸüYÚr/ÀXXOÊLØ7¨ï Iˆ\žw;<ÖMÖk›(‰ ÊÀÓÒO—~ãÄä´Œ•eu¥ÿ Î²¤Éãbó†äÉZ]Â ÿ¨äØŒ”€2ïB JîsRlr|Ù·G¤Ÿ#÷¿“2yJÚ…¸
+`€¬×#*%5>åÁé¬ËÀŠ€×Q°ÞC¹° jŸZ"+,ó "F¹ÞÒ5$ƒ@	”3æpT)™©S Ïü\yÁ!}¿pN6A_F[¼ÞÒÏõ4î‰~,1.á]àAß›ô¿çÁ€rÖ‚ƒý<"è-ïnlÔk
+í-“üdØÛ½ºŸ|†È¢ jH±4fÑ
+ZEëi;¦ët‹îÓrªºª2TkÕN“w<©
+ÕÖ\ƒ9ˆC¸.7à¦Ü’#¹=÷æhžÊÓ9‹—ð2Îåõ¼‰·óA>Ä§ù~¬u+=PÖ«õçzƒþNïÕGôe]¬ÑwõýÌúoëZëë-«Ýú»õ™ñŠÑÐèm0†ÃŒÆHc¦±ÓØg3ÎŒkF±qÏxhüa¼0f€bÖ7­¦Í3#ÌŽf/sƒùM(‡ú†Ö	µ…†…¶eS6/[ -ØVßfµµ°EÙÆØâ›äW8Ÿ+§ÓÍ¶›ë(˜¬4–2(G¸XGÛè¥BºM¿Q…‚ª§¬*L¸ªöªª@¸ [Ü\Ôæ:ÂE#çá¢›p‘ææ"[¸Èá•¼7óáâ0çó#]KGèh«×è<½UïÖ‡ôy] oê;úž®°B¸Xg½j-µÞ¶>2`Ô3L#Êˆ©âb´1ÛØmì7NçŒKF¡QbÜ7åF¥éoÖ6ë™¯š¦›‹n.¾®ÆEóÐ1U\Uã"ÎÍ	²9œOœ¥Î[‚/$î¹Èq†(Qfá+9o”ø‚îÊ¦žéÎÏ¤÷›{Î!G²ÀQqlulÁZÀ!cŽžŽåŽG’oéè${/¨|ZYŽ••_\«|€ŒÊS’9^YêÑ†ÓæAÇ.‰m_;6•n·'öŽ¥¹öö‚}ì½í=íÝí]íoÙ»Ø;Û;Ù;¸ó‘¯—úÚ›	6¶7n¶+ùÒ³ZÉü’5%ƒ=nt)9P<±8SòwJÚå-•–­(­$°¸¼øbQÄÕ‡Þ,]<çz¢Û"æ‰*Ã-êt÷9M"Õ5ÃžœÊ®–_$‘[ÕÎqŸÅ‡Ô¼t¸}j£:¦ò/©U&(_@Uü5§Üƒ<öå««òâ3œPÕNªvžÈ“8µÚ¼¤jí¸¿Z£þvQSøù”„5¸ƒÈÁR|ŽMØÈ[°W1«ñ±ÿÂ"ÙEø_`3žà”#[p'±c1¹ˆÃÄãòñ#Îâ~À¯HÀœÇOØ†ñ²§Vâ.âg$â.îc1&b>B2’0	ë0#©˜‚©HC:¦¡˜ŽL|‚™˜ï±^ök–ìÑ9¸‡ØCŠ˜4YÈ‹¼Q	ù¯x¡?œªA4“xFõ©e‰dR(Ù¨5¦&¦ÕzšâO\¦fÔœZP8Í¥y¼•ZQÍ¦9ÔšÚÐ›Ô7q‹ÚQ{Ê¦…Ô‰:SÑývz‹ºR7êN=¨'¶cõ¢Þ4ŸP½C}©õ§xŽ(…{)Žâ)Æã6~ámü-_äóü?þIe«ùjZ¨©Å\¦V©ÕêSõO²ò^ÞƒÜÀ5©¯…Rt® ˜wR*M¡4þŽ¦Rºøûq:A'ÅÙ2i:¡³¼‹¿¢CâÑ›õcú^?×•KˆÅª;òlDOé9”7•+P¥RJ+å§[ª ¨jóLô§Ô‡ô\‘òR¬,ÊWùó\USÕ’Êñ‚÷ñ~> þ„º}ï
+_å|’/sŸ’šÏgø_—Úð£ÚÆóÄ)æKR#"x¹8æ
+© gùœ~CGr_î§µ¶pÀ9Z{ioŽáwù=Äƒù}þ€‡híËCyçü!Ô~ÚŸGñhÃ±<–Çé:€ã8žx¼®©9‘'ˆ*>â$N}LÖÁº6§ðÇœÊS8§qgêæº…øø'\H¸ˆ‹¹DjU¹~Ê·¸”íÚi…,Šoð¯´ŸoÒ>ìÆq;±Ç1G°Ð’‡ýªTíñ^ÊÏ#)O•~IeU"ÿ{mW›é+´üdxI-÷¯ÔrÔVò+„`ÔF^AÔE=üõÑ ¯J…³Â*
+¡1š ¯¡)š¡9Z ¯£%Z!o ­Ño¢-Ú¡=: #:¡3ºà-t•¿—îèžè…Þx}…wÐýÐ0ÑˆÁ»xƒäÏå}|€!ŠaŽø#1
+£1±òü.ˆHµ'Š¶'Šº“Dß“DÛ)¢n—¶ÓDÝ.mgˆ®§‹²gˆ¶³D×.UÏÇ?'Z(~³X<h)–‰ûä¨6â/+±JüèSüŸýrŽª:ãøùÎ¹w—YØðÊæ»^B²á!Ï–d7S0<„]Jq×$˜„2µc†)Z0ES:vh­¦V”a¤Sd¸@ìl@0V
+tdEåýP ­Z
+$·ÿ{7‰I
+3¦uÚIÎÜ½çžsî¹ßù¾ßù'/@­jø(øþìe>Šõ*[ýXEz­ãÙl=Ïa cb¡q› P›õýÉ¶²mFõxFXÛÎv°7ÙN¶‹½ÅêÙÛˆì;ˆóö.Tm´m?-ªdï*vj¦ë×Qv;óC(dtož`'±?O$ˆ» îHÂá»ðÐEÂ÷AëTl]$t	—¿'>Ãé£§Œ+@B¯.þG5§Gýthœâî]Ø]IèýIè:'Ü™„s­$\hCÂ†VÎ·’p±	 AkO-ì@ÂaÖrNXn¶¶!¡‰ýAiGþëè¨	/ƒ„} 1JÂ€.Mèþ²CZ—&üG4¡•’¨ìÛH ™Ê¿ËÿTA:åÄ8¤ë¿H,â¥cô}HÇé#ú˜>¡t’NÑi:Cgé§t‘>¥Ïè]¦+Ô@§Ðçô}Iÿ¤«:	t­…º%nÐW ákºÙBÝb5t›©‰4Î8qÎ—¸ÌMÜüï$ðnÜÂcxwÛB‚Ø(^	{¸•÷à=¹Þçq¼ïÍûð¾¼çvžÀyOæ)¼?ÀÜÉïã
+ÈSyÄÓù`žÁ3¹‹»ù>”gña|8ˆÒI`]ÙA×â$X)™¢š@fdêÃ)ÈºS	•R,«$+õ žÔ‹-¦Þ-š@ý(>ª	Ô§£&P_Cž¦A”N©	i´ÌÐ„³TE¿ 4’†R=KËi´N¡ñß@Ù”Ë6SåtÔšH^òÑdC
+¨š~‰s‰®	çéA*Ä9¡ˆ¦A.°‹4Ë8'Ì¦9ì}ú!Í¥Ñ<zÙì
+=CóÙzŒ–²Ór%ãr!KÁe5úÙQ;‹«×¥¦\Æô¾¦ÚQÑ¾ªÕ/Þ41ñJ†~è/ºÜè¦ce9x®ÅWO"s`Õƒl#= LEäÒ6#’>èá.¼±ª{‘û8¨eÛµ¿ mVa×AR
+¢ìÇ,+ÙKÚnäÑOÙ5m­v	<TcÄí©B/S©˜³ÑróJm9Ø˜
+Ë¶³ÔOË{#AŒ×ˆ®®ôÏ¢o'4ò%c5nP66ÌFÔžg5Páwi =E¯H­L« 7s0óBìçÝ°õ"û‚âè-Ú«%kµš†o+ 2×è_×s=VuÞ‹¨4Ðš-1R³jÃµ[ß^ó€Ð¹xc!(ª†-{ áØI|5FÑÃô8øÓ^ž+zKfyª¶Vvƒ¿' <ûŸ€¥«c^-›PÞæŸ%)|¯âWEœðHÓäEÚÓÚfm—ö""c7ŽÅWõQ‰¼¦Sú[”?#Ÿ|€X}ÎÉL6Š‡µPÂËPª8èFß/~"Âb³Ä¤ÕÒ'rŽ¼¼i}Ó9í1íí€öVÏ±ëSùÑÍ»s"vÜì²øzÁÇKÈl[ÉÁãÇ‘‰°«¨?Ö9šri=I¯Ñn:H7 ‹6¨×`”å|J=?ÈˆD‘"ÒÅ01O¼(ÖˆÒór‰üSùwòÓeó¯šŠ›Jš5ý¼éM­P«Ñ^×êaÖè1Õµà°f&"8y\÷uXg	ölÃnÒ÷S‘]Â¶Óì*˜»?X?Øá‰,‹]˜;ó°ã
+¨¢™ˆÏlòSÙx	-Åî]ò
+­Å:jQêh CÈ,ÇC® Ü€Ö›¡Ò
+ÔØÃQf£„x1/ãå|!e=ßÌkyD0‘#òEEõâˆ8&NŠ¯¥D©RzJz[:(—ÎI_J×e›œ%?,Ï2ÙMcM‹LëLÛÌÌ›ÌÇ¡Gp’ØÑN‹Ùbþ"¿É–ò°ÏöAÔ÷óÉˆÄÚFëà©?‚Û‘(£xP†¡Ä ,ƒ3X†gPZê@å>§c@ÿ”ä¤Ä{|¿¾}z÷Š³õìaícéf6É’àÄ\>%?èPÓ‚ª”¦LžìÖŸ•Bm‚ªMùíÇ¨Ž 1ÌÑ~¤#çwé‰Žô´Ž$›#›e»]ŸâPÿæUš3Íús^%àPŒú£¾Ê¨[Qw:ñ‚Ãg/ó:T
+:|jþ¢²°/èÅtu¸,ÆíðEw}b•å…–”ÙqÓGøÔDÅëS¯Ñ'R}¡µhšßçMr:n—JyÅÊ£*SrÕž™Í¯ëï90tºßv»ÊuûÙŠØ¥dEÄÃêµÐ\¿*B•õoÄeªñŠWò¼ý›Ç–šoe›N•§æ‡JÃùpÍŠÉÑÇ þZ‰§ÂLË«~•ªQ#Û£«(U|zK°Â¡Z”\¥,\„ÏÙtÿÖDO¢O	y*+òoMð$nW}éx'œRçžäž¤ßÇ;íK£÷‹ÏDÛ×w7Æí>…{áôV¿þ%¥ fªŽbã#
+l£ÿ”Žaáâ1†¿ a•åª%/¶Ã[ªœjSákR®´o	5·˜Rm×˜^ÕÃÙJú›ë6ÈUa–"ÿ¢_"¤UG˜7¥9F<2Ýé:å^¼‡Á.4d8QËp9òau¾7GØ.(	;òe¸”jÜÑQÅrføËñ;ÓïT=¤Öji 0ódêóHÆ<á f¨hž¡Â˜4bËU¥ù§ùÕ*o’êñàðS_äWëáÅ@ £Ü­–â¾¤ÜÞlóØìÎ@eht–˜SÂáè“âTëÃá¤°¾¢Ïb<ÍfL T"TUdtU)Î$½Aq*N˜ðâSYÀ«%¼6ìÛ=<¼­‡GÀÚá†‡Gv’‡ï¿º'¾³‡ÇÀæÑº‡Çþ÷<<®‡‘i8‹Õà4&åòj9È¦Íò$3É\ XŒ,Á-&s±„n–ËÎüéöÌÌ©W³§4fOµ]ÏžbkÌf³³mWñ3,kDœ3n.§¼(rë¦\xóˆøèvªqîÇ±~¯<5+«öø™ Ùj’,\XÑ½¬VAV+¤FÂdÝA•°)–jÞˆrLlL„ú{,l%K:%q)B£þÅ~ÕÇVyVñó¾÷ý¸·úA«Pz/w×–²¶\Ú7ÐtÔf(N§HKƒ´¬Ú¥1ê×4[BÔÍÌM·„9c)ÄMÌ˜¨›
+.n“‰7è?S[¢¶}ýó>ïíÛÛÛé¿åå×ßy¾Ïó<ç9çÜ—ÂÖ½Ö³VÀ:‡_Y4G½5¯âÍëÙl¿³}ÝÈuª­…Rï¯ËI$´œÜþ'zÊ—G²/ä¬ø
+m{H‹Ì¯Ì©ÌæDs"ÕzÃh¾ö·º‡/]zfäUã#?Ú=zRkèNþB¥Û®8kÝûZNPÊ'j¶	_ù}ôüèÎá§æÏ¸Åê¿R~¢¹FwŽîœ{<õ—‘yÂ|oÁýa$èÓBzú©xÐê£#V‚6ié½v «Pßc|jÐ åÏ€¯ê	2PŸ5ÀV`!°¸(Ú¸}¿ôñ
+¹cÔcï ³Ðg‰ÙHQ ’u3†0G'-„ç2Ö‹
+)rŒÛìBicÔ _„cyLÚ£ÌˆØÇ(æqe¨Ÿ‡yÎè	çUp}àTgÈÞw¡Ç'!Ûà
+p\‚>¬;ï;z—`ÜÈ1œM2£
+ñôAÇV´¨3‰aÝRpXŒ9«tT;N=ÌÆfÑq‰Ú{%ïËÛëÏ:M‚
+ÖÏ¥ß`¸åÓ-¹)hTÒuG€'õßRMàYç2ß£•Gu{€j±¿ÇpV·Œf*Ãù‡DÏ3Ô‚r…ïužñ]gwàíFÛBëiÌÝLõ8-ÑñÛJÿ2E¬Â~?Åú@÷å˜÷œØC³óWÔe¢‰qvB¢×ƒ°ù!¶ÑäYa]¬¿¼Ú ç?hÿ'æYlÀ\?^a} ÃA>w¾{­q´Ï¼CAÛQ vRðý·aî}<†Çc®y¼†ºaÛ±¬î¨ÆÚD{½ûò wÑ‡{èsÞP<‚1gÝó£*”oà½pæf{ZÂvÛy€m”í„mDÞìOlû`;—óußNƒ¾‡z X`a
+Õ†{VqËºª¹[ÙÆØv<f›å=²MMà”¾¢Ë æÄY°½MÇÞú©¬dÞG®ËÎeè¨ÃfÎûå³NÈãìïžßž¼}¼?¹„ë<†»åysì"©¬döQU¸Qî8”ÊÞÙ)nbß"ïèv™uæ{W{š+¿Tš¼[uïIöÖõÖ#ªc?¥Þ`Ûrn©¶ROôŠkk°3öY®MD’÷ ÎÎ;Sñ;ÞžqNV?+ŸYN°Ô".”û [=|àZ  {© b|'·5<àº"nÃ|]Ò·ãcˆ#C8ËN:‚µ–w`ÏM¹ŽËû Û0ÇÕàcêþª!hBÿŠsÁÅXç!žKéÚ„ýöp¬aÛeÛÑ—R/Ðª}‹ÊÙÆ±Ï»ùÍ»ðÎuÜ9Žoò¬½óC»…ù¶òüö×iæ-’øÕ({(0‚‡°ç)h¼Kµæ{Ðï=Ñq™ÙL‹àÃŠE~ê™%Þ5R=ÆÄÌaŒ¦µ¨/0Ð§›
+í&Zfï‘9
+ìÏËÜËÐ¿Æ>î‚`MèÅ±©g‘Áe¼‹<œC3î,ç<G•Üz`CóEÊã¹™Q÷MŒkÄÊæ?Ä>óÄ‹‰®¨3¢"œoYà‡ßºcî<YëeptÕQŽX[@
+ï$åÅúWNÓ"Yã’ÔG½þVÐtË0Û0ÿiŠ¢æÏƒ¯/ç˜¿Ý;ÚRŽ=z|t'ÇÄ•j‰-ÍÐ±EâoõPÊ¿àã´Å~ž¶ð›¿ùÃ(E‚åÝg.¢ÈÜÉº|p>êò%^¨Ü…sö_ì»¬“@Bò¾—XðÅ2NŠÌuQpuQ~‹žOæÜëgâ.F8/Ë¨¦Hh³ä2qÄ§…öbø3Ì¼N¹Ìý=¿-1*á¼íóo3õKãü¿ÄwÄhŸÿöüÄ8¿Éºß†nû$–Ä}>7uo\Ä¿ž/^¤÷Ëc\¦r¨*þzqŠmÄNÃcqËsSòLã¿QÎ}çâ‹e“³ø‘„ø"ð¿}ç9ŽÇÇ6çZ*³mñ}§òd1ÏÇSž¯Ê-B§‡ˆs.ÿ!%.¦rÓ„ø5Žñûd½b{ñs:æ7ÊïÌÇéã­Ç’ë;ß6Ý¼}qÒÎ.Ã<¾Š<Ý _ªúúIó§žUà^–‚èq#J?Om÷å@c÷tÂe3 ­NsÞ9•y9¯ŸÕ¼ù¾u
+Ø?³OæøÄ~šãûq½·ëõõúq,cŸÎ±ŒÇ'qŒý9Ç$ô¿7/R±Œ}:bØ|öåIV¶rœfÖÏQ±—ÓóoN~#êw™kÛnnþý±x-¿%k_ªŒ¯ÈïËõn%úö*1,¹—_«˜ææ9Œ±¥kroªle‰/*	4rNàŒ˜ë«Y‹st÷wÄ2ã0Æª1*a”j?vþœáœD_êôƒ\ï—¥ÝÍ{Ù†Ö¥ØRþ˜­8Ï¡_‡k3ÎpúÜÖy!ù–SÞ–òg>{un¨òÆÙ¥ÇïÌˆeM>?¾ŸéØç÷å%RçìÝ‰—«rn*y)ç œsöqèüu¥\æœSòLä˜*¿,F{³Ê+yž&ÉM§€ÕîÜfØ1Zg¯tú­­Î µØ…úíÎm^#ì›ÔëÂéWd¨œwRß¤^N¿Â *e`/{x?ØËôQ…l†q–zf­Ó¯0èþP{Ÿ »º~al]ûuè{Kô-ž
+Ám³c¶AÇmâƒ›¦‚õ:Ö±0fÆ vëÜÄàÇ3¡Ÿ:wï½sáø¡îÑÓ¹Ø»Ã™Ücðeç6#ô¨ÓêÆÚW¡ïg3nýt÷’iR¯§_aÐ•2¦Ûw(zCÔ›ñU§_aÐ•2¦´AØ¼à"5°ÍoÈÞ'è{keÀN\àwÎí
+ðð–^¸v¢ñÛaÀ&Ziî¶IAÊòÆ Üq+ÃÆY¤Û'¯k7¸@>ÜÜA§<ãËY¯)¿"þArcå¦»Çé öêÇ“iä+
+o)æúó~y:»Ÿ)’w÷?Â»'…û7_¹4¥=]½ÈÞýýß¸ÿzÑõ%~óŒÉî`Üy ÷ÆO¯Uê{zö›ýf¿Ùoö›ýf¿Ùoö›ýf?ÒˆÌt,È!Ò)ßZ"û/Ö¯ÈàVŠj}Âü¯peL”\Y'›:• }IÉeÒw”lRžW²…úÓJ¶©œ^veü¹‹þ¬dæ£dBZ¦’”­å‰¬aìrín‘Yƒ5Ú" ß£õˆl@^¥ýHdòJí¦È÷Ñ‰lóX}Æi†™,ý¨Èäyz·È6ä9úS"‡¤þ‘3ùÄôS"Ï‘>?9[ê#räý"çÊüC"Ï—>7EÎ“±ÿyËSä^+#r¡Ô±=ËYž“!õñ„ã‰ÄŠ²D"¼þÀý-áu´è:Ür(ü‰öÝåan]ß¿·½ãð´„×o‡½ñðf®ú\Çþ®Ã{;Ú;ÇF¨ÖÖ–ð}í‡Ãu]‡ZvuIóæ½m-›ZéÚ¿ëÈáMm»Ú×†ãUå+šã-UkÃ+WÄ×”­¨,‹¯ú/[UfUÕE×Z{DBºáÑC‡t÷Ð]™;3™yoxó†îf(Á¤0Á ,ºPTÊ.ZQlPP”ÿáŸÜïÆ¾gï½vœ{×¾Åà¦úÚRµkK×µ4Ÿßöi.g/Î	ûã¼8ÉŠ¿5íÉÉ™é†ÂþÔÄ@¬¯­ç¸´Ò2×oÊ	××ƒ”PÐ÷ïûõP^ZÄ—ô|}dºç‹[˜J[èžÞ­qnfñy`æ•à¹”¼ [íë{Áq^ 6Ñ:·ðý¹ ™ø±‰ÐªÂþHÈ¸SŸçp¼vžŽó%úƒq^rZŠç0Êü¯WFØçE"7±=‡îìÂé)á$Ï¿ì9¹3=è¿–•ÿßœâüw¬ÛËDÿ?¸wÜKÙž		$'îp¸ÝoDáà#ËŽ!aÄ!à¨á¬“º"äî)ð#=à!éNòß¦ÉÔî`ºaéEŸ~9úLô¹è+û&l-tpÓ-H'Ýå9ªDTÍ¨NQí¢š¸{Ã[5CÌÝÓó6?÷];®zò‡ãÈLÆ‘ûã¢“dòGVÇ—Ù“eGäD.Ç›¹‘y‘ùQ —FE1G	”„Ï1ci”AY”CyT@ETBeTAUTsXÑ¨‰Z¨:¨‹z¨hˆFŽ‹£	š¢š£Z¢Z£Ú¢Ú£:¢:£‹+%ÝÐÝµ¦'z¡7ú /ú¡?` a0†`(†¹B‡#Öm‡x×ÀD×¾HrÅ§¸í
+!ÕM°ãñˆkí(ŒÆŒuL>0“0S0Ó030³0s0˜‡ùX€…Ž£Àb,Áƒx»Yò(QX†å¼+ñ8žÀ“x
+«°Oón<Ë,x/`Ö2+^rÓà¬ÃzlÀFlÂ«x¯ã76c¶òlÇìÄ.ìÆìÅ[xû°ðÞÅA¼‡÷ñá0Žà(ŽáC|„ñ	>Ågø_àK|…¯q'p§pgÜÇù¾Å9|‡ïq?àGü„Ÿñ~Åo¸€‹øà.ãOü…+øÿà*ÝLb6ÞËìÌÁœÌÅû˜›y˜—ù˜ŸX…X˜EX”ÅXœ%X’>–bi–aY–cyV`EVbeVaUVcuÖ`4k²k³ë²ë³²ïgc6aS6cs¶`K¶bk¶a[¶c{v`GvbgvaWÆ°»³{²{³û²ûs rs‡rýÎXÆÑc<˜È G0‰ÉLa!¦r$ÃLÃ6F˜ÎQÍ1ËqÏ	œÈIœÌ)œÊiœÎœÉYœÍ9œËÎã|.àB.â\Ì%|ña>ÂGù—r—sWòq>Á'ùWq5Ÿæ3|–Ïñy¾À5\Ëù_æ+\ÇõÜÀÜÄWù_ç|“›¹…[¹Û¹ƒ;¹‹»¹‡{ùßæ>îç¾Ãwyïñ}~ÀC<Ì#<Êcüñc~ÂOù?çü’_ñkç	žä)žæžå7ü–çø¿çyþÀùæ/ü•¿ñ/òwþÁK¼Ì?ù¯ðoþÃ«‚(É¥»t·²(«îQ6Ý«ìÊ¡œÊ¥û”[y”Wù”_TP…TXETTÅT\%TR>•Ri•QY•SyUPEUReUQUUSuÕP´jª–j«Žêªžê«ªé~<¦ÆXª&X¡¦xFÍðœš«…Zª•Z«ÚªÚ«ƒ:ª“:«‹º*FÝÔ]=ÔS½Ô[}ÔWýÔ_4Pƒ4XC4TÃä×pÅ*Nžâ• D4BIJVŠ‚
+)U#Vš"J×(ÖÕ8×MÔ$MÖMÕ4M×ÍÔ,ÍÖÍU†æi¾h¡é-Ö=¨‡ô°Ñ£zLKµLËµB+õ¸žÐ“zJ«´ZOë=«çô¼^Ð­Õ‹zI/ë­ÓzmÐFmÒ«zM¯ë½©ÍÚ¢­Ú¦íÚ¡Ú¥ÝÚ£½zKokŸöë€ÞÑ»:¨÷ô¾>Ð!ÖÕ1}¨ô±>Ñ§úLŸë}©¯ôµŽë„Nê”NëŒÎê}«súNßë¼~ÐúI?ëýªßtAõ»þÐ%]ÖŸúKWô·þÑUƒÑdfQv—ÝmY,«ÝcÙì^Ën9,§å²û,·å±¼–Ïò[+h…¬°±¢VÌŠ[	+i>+e¥­Œ•µrVÞ*XE«d•­ŠUµjVÝjX´Õ´ZVÛêX]«gõ­5´Fv¿5¶&ÖÔšYska-­•µ¶6ÖÖÚY{ë`­“u¶.ÖÕb¬›u·ÖÓzYoëc}­Ÿõ·6ÐÙ`bCm˜ùm¸ÅZœyo	–haI–l)´¥ÚH[šE,ÝFÙhccmœ·	6Ñ&Ùd›bSmšM·6ÓfÙl›cs-ÃþÇuU¶m6á-÷œíØNÛ´KÇß˜·®cü¶¥‰›¦I“,q
+tŠ­ØJdÉ´MÆef3333333ï{%Ù’öý°ï¹WïÝ=wï`Í¤Y4›æÐ\šGói-¤E´˜–ÐRZFËi­¤U´šÖÐZZGëi]HÑÅt	]J—Ñåt]IWÑÕt]K×ÑõtÝH7ÑÍtÝJ·ÑítÝIwÑÝtÝK÷Ñýô =HÑÃô=JÑãô=IOÑÓô=KÏÑóô½H/ÑËô
+½J¯Ñëô½IoÑÛô½KïÑûô}HÑÇô	}JŸÑçô}I_Ñ×ô}KßÑ÷ôýH?ÑÏôýJ¿ÑïôýIÑßô6ÂÆ¨ `DE•ˆ#$ª0ƒ1ÕŠaØ5ŽM±6ÇØ[akñ"²¶ÅvØ;`Gì„±vÅnØ{`Oì…Ø#ÅËÊ¾Øûã ˆƒp0Á¡8‡‹×—#p$ŽB-F¡õHa´x©ƒFŒ/6Í‡´¢G£H£ã11	]8Çâ8É8º‘A2zC
+zÑhÐQÄ0aÁÆTLÃtôc 'â$œŒSp*NÃé8gâ,œsp.ÎÃù¸ 30³0s0ó0°‹°K°Ë°+°«°k°ë°p!.ÂÅ¸—â2\Ž+p%®ÂÕ¸×â:\p#nÂÍ¸·â6ÜŽ;p'îÂÝ¸÷â>Üð ÂÃxâ1<Ž'ð$žÂÓxÏâ9<ð"^ÂËx¯â5¼Ž7ð&ÞÂÛxïâ=¼ð!>ÂÇøŸâ3|Ž/ð%¾Â×øßâ;|ð#~ÂÏø¿â7üŽ?ð'þÂßø‡7â¹‚‰ÁÌŽrŒ+9Î	NrâÁ<„«y(ãM¸†‡ó¦¼oÎ[ð–¼oÍÿámx[ÞŽ·çxGÞ‰wæ]xWÞwç=xOÞ‹GðÞ<’÷á}y?ÞŸàù >˜áCù0>œÿËGð‘|×ò(®ãzNñhnà1ÜÈc¹‰›y·p+·ñÑÜÎœæNÏx"Oâ.>†åãøxžÌ'°ÄÝœá,ËÜÃ9Î³Â½ÜÇ*Xc‹<…6Ùb›§ò4žÎý<À'òI|2ŸÂ§òi|:ŸÁgòY|6ŸÃçòy|>_À3x&ÏâÙ<‡çò<žÏx!/âÅ¼„—ò2^Î+x%¯âÕ¼†×ò:^Ï’âƒAžbKêd]Í.J†¥HjVééqô*Ó.$çÔÑ’ŠfÉâ3ÏÝšŸ*J¦d&‹†>Ýw#|v‹Ó>³(ed¤lCÖ¤Œ¡kQÉ“‘Z±aª‘\­Õsº&÷E%O&ê2Š‘±=ª<=‘	p¼.«[R&#kV<ãÃH}Fr\f]M•"É¥H)/’ìŠx*ð û0š*Å—=IyeW$Blr!6¯œ“9«¨ª4bäÈ}’¹ÉIÛ’cBîòÆ˜nÉ@^üEÅ]VŽ(®ˆ6–RJ²±DVñdEãØ
+¥716äµ7ÀÉ¦0¾0f—NDuE²9¼Oý×>¯ª+âÍAÒjp-ž/ÍóÕö¥…}µx¾4¯°SlÑ{†’Ë[Z´µ”^:¶VïØtWTµæm-'vA•l«Jk‘v/¶áÅnÇ6Â±Û½Ø†':<+Ó;“ŽPõÌ ÇÒ%1«"iÏÜrÒÎ™YÎ™uzgf{gÖYÊÆ.eÓéec»‚;EË±íüWuþ+3;¬E;K'm—ÆbBˆå´žÂýŽty9¸"ÞœÜ@Ð®]ŒxI1ÃJ:¬X!%&îSåL¡;æ: *ê,»5 ÒËÞYr éGJ"«È†l*¦ÀQ§BWÀ±tíl1ˆ—NÃ‰áÕF SW•¬mªº–Ó§Ê†*õ‹ÕA­9'åYîs» ^0’¬XyJcå	• VnþXytbå±‰•;Vî²X¹Ãbå6çZµ˜—0J¶$nãx½¬Zhªh*‚ºÄUJ‰é¼@h5á&q•ÄPº³RÅ8»¢Å®˜¨ˆ±PœV´)Ôž×¹CÉ$JKv´ÓsEmy…êÄ¯ÍTâAª,¹,º9‡gQ¹D`À!à\´\ŠC Ï% º¢ÛõS¡ÙÓ1”.2òzÜt(ô(š¤²Élì›¢`’?¡²î°©”œç‹*+RÕ[6G‰ëx¸k«ÚšdÉf¡[WÝåX¿ny¥²5eŸÑ£SžLöä¨TLÒr¦eè…Í.ÈâY$ühª>M6\³*¯Iºu·Ùj\Íé<Ã”³åÕ*·}»eaåhn—µ„hÏ2RîÎòBÒiQßÎíË²64 ƒÛò¾æÎDYä†ïØed‰>v—PIV÷G³(J©)n‚b-Þ§[whª³âaÝo)}’Ø¯;+5ýE=ç<¤a“˜HK•M³7âVM¯¬Íô¢[•L|”ìÃñl`} }˜èÊË]¡JnTÌ¼nXþ¥&É‡)5€… jeXÙê/¶¾SF M¦ý•ÁõŸhSÞ›H›AuA‰Ž`OUG>hCÆHFÖé°òBr’8ÿj‡Þc…¯V§Ê½$ Õè½º!/ÛEË6‚Œ}2õ½±l7„p.À•>êÜÿ{¶¥|Tt’oï÷a¢9Há–Ö-×ø8™6ƒ
+'­’h
+Yô…³¬ýîjkjg¢UlÈ=\¶æÛAîÉ£;C–¼dgáeÊ$l’X”C~ýgKÇjYÉ<@wKç´¤Ž.³\ñÔâ\X±w÷BJS®Ü@sÕŠ©
+Ÿ©×Or_È]P–ºÚNkA••¿$MF•Ï¨òÕåüFÜŒ*ŸQåoiqcúN•¿Ô*«Uþ\[ŠVù›\åûfåè•¿1+ŸíU~ ’ª«'Æ:ˆ"ë¯	5è¡!ºzkÈ¸–=7@¡¿8$Tž'RËEr;ðVá¯’³%aø”œÏA˜ìÝ	ß›ÏÖì•!‹j»d'|[_¼SÎUòP¶¨+HÆ¥ôî‘lªÞ‚•~x~ÄBŸÛÂ’­~á©›´Hn¯áéÃ;Né!i"±â„Ç¼à'ÚÝ¿d»ûdîBé:émX6¼!¾–•jY~xOdeƒôpl5{cXÖœòŒi›¥¶¥Ô~¨Ô~¨Ô6YjJQj¡Jm›¥Ã´Ô¶fj}¤ÖGj}§ºõy¼ñÂ…hU˜Êûq LM¬^Ä±ô@=±ŸäËÎÞI»öèËßG_^V¯G·Ý¾…¯K^Î=i¦ÒÒ¸ÒpifÒÄÂÔgÙQ/Ïåzœkê»8›kq>T_}•¡ú*yú*Âºe({ù¸d%'7\O¹§¹§^öÊý,Çó"Í4K9_.ž\Ú*bÙ³ÊõèÈ~:²wG‹]á³|;ÜŠ4¡0%+½É×„§ÜË‘Öcò1ånV^º±¤>'¿p-³òåCÒ¢çˆ§ÜS'»O38u×˜!ž+®¸Y!àZPrI+·A¨lÖàpòû‘=âÂàªå87oÅç¾¶›[êB(§Cº#’}Vnq”Ý,‹Ï™W­’ß‘tŸ•[cäbÒªs=*ÙÄ½ n[q/·MÜåžÚÙô.à4lãæÚX@µ&* Âô _DjÙ4“•@Ù¡q™‘_Í
+@ìU¦G¥	þ‡rO>c™^°ì×ÔÊ§9ºVsä+ï:+¥ƒwzÍ§|Mù²¯ùSmùµi~wraáFš¥0Å•ËR­Ü­ÜR¹Å/ªå*óê
+ÃOc•K_ˆi¥ÜÆsmVPø*s\ËšûJó¹¦ùüªòY«Ìo©eH-oUËZRf!evkfšU#ìØZÈ¯I<›éÏ…W/Z®®^Á\
+ÿHó&çàÙ¹wäF4Þ;5ÞH­Ô±R‘±Rw4¹÷Ä¿!þ{Å¿Qü÷"MÕ¦¾1â{±çjßóñ¹â$h³•ÈÝR>*Ÿ­ZßÄ–Ö÷Á\ß­Ða)Ã8–gÚ/.&¿13yc³nfZÝÄä×grþ3™zœÿŠ¶…ŸÂÿU#ý™y…oò€|—æ›¬šwùëþ¦ö—÷Ì+}£9¤™-~SÌïjÿ£–¿¨åŠó—â|¤–Ê-?Ñ$”wäŸ”ÖNi=ÑzíÈõiûÙfbÇïéIwü‘þ/ZŠÊË¼†ERò,ðL@k!fMo!­…˜y½… .´™ò…·•-±aË…÷4_âB¸ô%.4€¿&ñŒ¶æåÂ¢£<…äWýõQN3ÇœfŽ9+ÌœçÀ¬°}¬8U^ <Wy\­¥k&ÉMÀ5“ä&àšYs3k÷@Öü@Ö3åÅj–åïîC˜â£jñA-ä:|`†¾ñwùc¿`ûØy®Ø,ÏÙ$n†«+i»™µO>’Ý;@=©ÐË…gêU ÏDÊV Ú—=òëÓ¼R=ÈÇIn&×Ån;Ú‡v{P}*ç‹ÔòñÙto$Áâî!ÜDäÌ:cX;Û¸•nlèÎö8cùsæÇÉ&Š×+/Þ*4>„^ŒÌÚ|»|dÑžÐåÇ°ðUVîZš;±H…H1Êv¿kI;@<èÖæ|½ö¶q²Åš/ªÞßl#þæ³$*mø­ÿ‘aeù1®¼ä@›oVÉ­ç–ü9ÉÖí¤BÑ†-N|Î—óõs™'qºá'~)ùáÀM>GabÝÔ9æâ,þoæþ»WdÑÙgŸ¥i,©Ž_Lä2­>¶IÎ§‹¸; ^ÜxûØò öt ïî æ„ûÛÇÎfIÆ^ðâo©rLäâú@þ>v9>4Úù°î>{QÄ*æù¸rïûêÝYÙhÁñ,]‹&«¡¼x^‰‚JV¬!j)“ÕI®‚éÞ§Vÿ³îÕ}RƒÏ/Û§ø0þ¿/eæÞÊø°üÍ‡¿’)ùÍ—ùï¾¤eßœŒlØ‰´ã+Ø¦´¾O`Ç™u`ÑÏn·;NáUìêÉ­“˜ÜjàÕ¬lÅ¤Ö¼\˜œÿY¦z8ù,ßcªzªÇ4ß#È÷pU®z¸ù<ßãNõˆT»|(ßc¦zÄªÇ,ß#Î‡bS¡ë§•n&Þs²•”<å^j—5½`]‹{ù¸äKè¥sˆŸ KSrr]r9¸‡Xù!V±5Ê‡"'W b%Š%K]ÕµÆs¡ì#n*²p«Í.4U®G¥uŽÉQ1¹3Ê(¦ŒfùŒâ|F3Ê(¦Œf¹Œâ\FÔùC¹gÚrÈ£Z¿½ê·)ûO±AíÖ›Cè'ì›{8?Œ×¬Õ›ïmyÈ7ßŸ½EÃyÛI+ âlékuÊµ¨á®ƒ4ofFçš»f/Ôá,Hºg	´2Õ:º«Wœ§R«0ù”!‰b¥sç»ÊNº\ÝhQáZò•X£/q•´Ü¯°¯^a_½jÁ¶a;°]Ølv ;„µ`G°cXìÃWØ‡¯°7¡ß„~úMè7¡ß„~zMè5¡×„^zMèµÀßü-ð·Àßãka|-èµ ×‚^z-èµ2=Œ¯…ñµ¡ß†~úmè·¡ß†~úmè·¡ß†~úmè·¡ß†~úmèw ß~úèw ß~zèu ×^zèuÁßü]ðwÁßãëb|]ètÁßÍx‘ü=ð÷Àßü=ð÷ÀßãéA§‡ñô ×ÃxzÐíaþzÐïC¿ý>ôûÐïC¿ý>ôûÐïC¿ý>ôûÐïC¿ýôÐ@o ½ôÐ@o ½ôÐ@o ½ô™Æ;Àx‡ÐBý!ô‡ÐBý!ô‡ÐBý!ô‡ÐBý!ô-è[Ð· oAß‚¾}úô-è[Ð· oAß‚¾}úôGÐAýôGÐAwÝtGÐAwÝtÇàƒo¾1øÆàƒo¾1øÆàƒÏF¾6òµÁoƒß¯^¼6xmðÚàuÀçd÷lð9às¯ƒùwÀï€ß¿~üNÆ¼'à€wÞ	ø&à›€o¾	ø&à›Œ+–¼aˆëMÅËâ"Ä_xÈ–•©þ%Ð‚ZÞhÓk‹h^™éc-(þÒïaQ(n«òžôN«-6Š*Ÿ3Ývpº¥ô&°ž…réÒ²³í
+ˆÄíîgéÚnI›šÒ-¬²€Ö¶PÁ¡š6¤iJ4BŒŠÊ³4ËE0êƒ/D½D£IGMú@býÏ™ÚÝ93MŒ›ÌùÏÿ}ÿíÌÎ—¶-aït3a0ÙŸNzò€ÞCéd~ })§Ëy€¥•ñ(Ÿ»;9N–ó€-—¡4×œƒÍÈ‚Šs>G³veœÏr–p —Èz•q>Ÿ˜ˆ~½äÝ¨âœOéÊœ»;Üø@zŸfÊùf?äÍA9ŸOœ”–»qÒœKÉŠ9Ï2e.‡õ_buYR+fÍbÍ—X].kn¾ÒÙ»¼{¹ØÑ ¥Ä2«5ŸSi‡XÝ
+;n¯À«´CæÎðïÀ¹Û\’ÐÇóË,Él¨
+Âj–Û`[:›¨Â†ØÓçF/QyÅ«œâU^ñ<`ª–Gù\Sñ<`ËÍ	Lå¯Z¯rŠW¯:(^å¯:)^uP¼Æ)^³*^›Gñ§xÍIñšƒâ5Nñš“â5ÅkVÅkÅkÎŠ×¬Š×¯Ù¯Y¯9(^³+¾Í®xÄoA¬Šo³É¸Ò™zµãö
+¦âíC…œâÛlŠÏG˜âó«âÛx!WØS²6Ø–n*Þ†ØÓçF_Æ+õµTzàµÞWR¯¦—ñJÌã–rÏ¨3ÅgyíÿÀ¼,Ÿ[‘ÿ‘7$ÿq1Ç—+Ï{­æÍžžÿXéyUe}•äÈþŽ™—å‹ºvÃgZÕ×fÑÚZÅ³àÛö$pãw~|.UÂFA¶úØZÂV„)‹(4áÆEøµYpü»P ë†UÇ3H‡ÝmADèì.ÁN@çzÑÝQÁE­ˆÆa?ûcB!X¹Q/ ½€ôÒˆí/v²ŠÍàÑ®ÍÌ‚×^y2t“Á“™GÑÀ¢rßÅÛqËUù²¯˜ÜÄMx;êA×ÃÍäþù„ÇÙú–Rì“~ñI?ú¤qŸtÔ'ÝÂ'PˆýlÅJq\ú>.=—ãÒÓqéÞ‚j€(PÊj¤Ïk¤lt¡F:R#ÖHëk ;ƒb@_`ë;Š/&ý“¾‰IïÅ¤ã1é˜ôRLZ“z–K«–KË–KYüæ”ç¤gÂƒÀöÊ„tr°‡—ëe¢fñƒ«!R[·‘dñ¨‘¨ó¶‘¸HÔr<„ü.':†üµGP„ÙÃ8Èì!düë†ì‡´#ü>˜>#<·c
+0r¯šô)#ÑEÔ84[³EDj×áS@¯3êîu1^‹x5À«PˆÑÕ(ÄÂWÎÚ"#±Â¯À 3þ,Æù{$+à)òHn!².@²"˜ßüYá¢A~–Á(•ä'¹‹üŽ‘¯¡ÂW‰ir[ÞO®×±„O#7iuô	â3Ê"ò‘|Š|(’ÂŒ>bõN'˜y×à…2,Þaþí°ˆìƒŠ{ëšÈ.€Ï(¨ÛDZåä¹Ÿ4›´3ÏË×Ùq(’ê%ªì%Ï„ï-8‰A6Ótƒ<i6o°ãÕ‡·‘Z8žkŠ¬KÔ“•Ð+ëIÛËîî6÷&÷wÐ½Æ½Úý„Ûë.KÅ±X|L\(Šb‘èá¹Ë²3¿*µ 5TVTBM‘‹®.¶/è
+£€E­,ž9®ã±ŠÁÆªÆÒðâÍÏE–îÙµÖéçÕO7µ¶ëŸy;ôº™ñv4éZ}/¶_Ã÷ñÝhä¾GMø+ðýhÃWD::ªšômñö,¾MgH'u…’÷ Ð•$4é;Xä(r%¨:ÂFä§uà‘ÝÈÂFÍ0ª@X„6d&Ó,ìËŒø£‘ŒßÏB
+h„…ŒhÜpsò ¤F2²Ì¢ê8Èæ.ÔY!/+
+AH8DC2!È„-çè:“n1éFwæè€IŸ7éó@;ÞãÿñKmýoq—;ÏMFSÕÑîêh
+®nýÄàž*ýXÏ—:K	Ÿ^°¦»g×j“)ýlu*¢UG|™ÎIz’ÒÕ‘šŒ&Ú3“J*bt*ÑjøC/õE-½Fçzõ9£Åúh¯á¨¥ô0í¥½¢´×°2ÌzÑ³EÓ­[~ìèúG€ ¢f¬™
+endstream
+endobj
+
+58 0 obj
+<<
+/Subtype /Type1C
+/Length 1509
+/Filter /FlateDecode
+>>
+stream
+H‰D“PTeÇïÝÇ·DÛ:²\2ÖöÞ
+“©d’øÆYy£å]v¯°ºìÒÝeaƒÚE%FÈpòÅ˜¥‘Îhášºv}´:Ô(:¾š12ò1Ms.Æú®M5wæ»ç»çžóýþçœet†eYËâÜÂìÅycçJ•~W©(Ù
+üÎçm®Ò2¿êæ«$è”‘FS°éÏÚ?ŸÑÃµað`ø×#Iv£aÙûfy+‚’!ŒOŸ:5…®éi×I)Â„´´	B¦Ó["
+AŸ_,÷	Y‡WªðJv¿èL2Ýn!_ö	ù¢O”êÇi—O°~ÉîËíÒÁ»J˜/ºœ¢»D”T÷l©Ò±¦Üîs”¹<¢GÈœ—"ˆÕw¥ÏÝAÁírˆŸèüe’·²´L°¹<^°B¤F‰d—‚Â¼ò’ù)‚ÝãÊíABJb©‹bJ4Èå¢ä·Ó÷êJÉåsº~—×ãK7· PM2IpŠ«†¥“Ä2ãf&ÃÌa™ù³€ar4L†YÂ0Ãi¡™…L.ó>s‰5³uìuÍ8ÍÍ	­N»P{@{G÷’®F÷M¤±[èféšÔ­mÔ)s‡6hÂf@›ú	
+x”u3Ôj"ÅmÈ@º'J§Z¨îL8ÙU¡ˆr'Âj•³ƒ3¸¥S[K,èÆ‘8ËÐ#pT¾Ôºë3~CDïsÌ©_nA[2‡Ùyâ!«K^ç?ÌÓLåÇ{9ªÄGµ0f0Ž»G Ì³Ñ…«‘›†Kø|27‡˜> -°2’°‰ÇLbŠtàXöFØQhŠjo$DáØ¯†ÿö=$ÀˆÉgñqg(×‘Ÿº_ˆqcBÏðKid(Àæ0ŒÇ}…Í²¹Ë\«Ä$|GÖhì<”•xbÑqŒ+Îª©vZ³ÕÝ~Ôr½sÅ$þµGà‚µø2oîZ¾kŒ’/ì;µÇº‰ÔCW¸9LÎ[ºûè á=`­Û‰I=M)CuU\E¤§)UƒuœûÈîºW{G[ð¹Ôá8{c@èíÙsf?¿‰˜k_”æ®!Ú¸;@ÀºÏÑ˜šêD#ýÝèrÇªŠÅa˜fEamJúe®º|~5-º&ï&0<Üÿ„À“¹ƒIÈ½€ZLÃçe$0ý«ã›·¶âiØÃ];ÞßÿËÁ‰¬&t‡arX™ýK; ±ÿŽÇa©%È ÷îZÍWÏFÌy†SËV¼;ï?5ú|¦œùöÃT5˜ôÆâäÂ‚­;Öõ6ýÚOUŸ³À¬ÓOó&ôt”Ö*H»ÆöÉÚ¾Yiµ*8Û™˜:ÔR¢>vËæ‹ÔÈõƒ÷ÀpsÿÂ±V”eè3€né5Œ{JÌ_°6ó‘[Ù†æ’F‡3‘v@É³´Õ·¢Ú/(.ò½éÞKÇ‘~&Äc:¦ÏÄxä­Ñˆ=y4 9™B‰csSPƒšÜÛK«“€%j2ÊÒ+Ã±¨y Wq2to"Y_¯¾lá<4Æå€ŸCÆ™á­á)Í•æ~½Z%…Å6.ÙDí¡ŒýýŸ«}c'’d«I J—…‹ÎÖ«ZÍ{U¡ïŸ?ÝÝ­Û6l±š·œ5˜÷6½lªµ,X¹(ß¯æ>õ›ÍÐ¼ª1Phzå©‡dXÕîoç‚Gºê»,ï}ªÂ4lÝN<sdç™Gêj÷Y[Žé·µTX¦¤‹Ïò˜;ð±Ä¼E«s–,ß²C¤4!uX0ÊZèQZ9:£ˆ­RÃFÝÅo©Í ëìlkyßº¡G¿.X³ÞgyåõÏ¾äá*ÄLÍt˜'U±ï*ÚK4|.¬¡-oë³ª‚ÅE¨¹9Ä×é×w|°q—åÂÁóç?àa¥rUŸEpôÐtýÛôî´f·ã²v¨n'ðqëïmCJ‹ö¶üÑ6ô ýkÇ¼Íkÿ2>Ž•UŽÆ+6îo ,š9
+endstream
+endobj
+
+59 0 obj
+<<
+/Subtype /Type1C
+/Length 2653
+/Filter /FlateDecode
+>>
+stream
+H‰|UiTW®¢}Æ¥Uj
+J»Ë-jDEÜ¢¨
+#¨0qKÆ¦) ¥YìnºÁ1"Š
+*à€AT¢Ç-nˆšñ¸DÛÓ÷q‹Î$—9Æ8·ÚKræ5jÎÌ™SçT½[·î÷¾ûÝ{_ñ\+Žçùn‘Ó"ÆÇÇ÷›dÍ²›“ktÜ{bÿhsrŠ}²Ýh1›¼uW%^h•ÛÖGíÒVÄXüzÓë¾šÚ«:žèÒæˆ?çÃó/~‘™cõ†ÊƒFŽÄî#ƒ[îC‚äàà9,1#A‘gäØìJšMžœnÊ°ffXv%q€f±ÈÓ½Á6yºbS¬ïËw´d³M6Êv«1QI3ZSåŒ$9R1'*–ÅêuO´f™RÓŒ6SŠ9]I—Ã"‚d%ÛdÉ²™Š%Gfy(é6%Q¶§X3²’Sähsz†='Sa‹«Ñš#G¤%DÉÆôD9Í˜#3’V%ÙÌhZY9]6)V»‘=çgYÍ¶D³ÉnÎH·8iFœdˆœ¨$qÏ.®Çµç8‘ã$ŽëÅqƒ8nÇà¹ñZ.šp3|¹4ŽëÁ¤ç"¹)\gãŽr7ùNüLþ3þ{Ÿ®>{4þš¹šÚVÝ[eµòI$ì$_Ò0º‰>ôõÝìûD;Z[®=ç§õí·Øï9¤¬>¥>=Å?P<±ÍŠñ‚ˆ¡PÆªCQÆ3"xæRßfúqËB‘ÙT=-zWèµt²NÆ@Hç“ Z“„b=…öNFR¼ú>â¹æDÀ]Zyßûb5,ˆ©SƒÜþkÔJ!S¨†óTÈ< CÉKº±Žô¤?©HmÒœºh2P,©á•DŠè æ â…„*Äj «*¾EîÖ\ún©ƒ«ëÔëu¼zÃ­•ñ!…¾ÿŒÂ`t €1É€íéÈ’)K¨Œ"HÁ o0Æ€X¸o•ÎÖÁn†`aá*½s-»¶éiìfC±þ*ºi#œ%Ï(té
+¼½»ïÂ ¶ñîŸ[çÑ;ù»ng‚gªEßkžC·EÅ6RŸ©õ/Ž–_,;b¸Md2Ã²hŠ5ÑØãi(ü†=-Û¡×©çVßRkn­vú¿|=˜‰5*àÜPëá˜‡~áÈ=
+¯<SIÅfRóŒ XÛbÌfF$cã¨rx¦:ùy‹f^ “¢Üð>ºÉŠ*õðN±cw8LÆQƒ÷	S!×åpÀzrùW¸aeCž[8®FÂFqÝá’ê­¯¦Õ¡OÌ´ìEÉúü(R¹ÿÂÎZér)Ü±jQá"C‘Ó^´@ÂŽ8Ú‚}‡_Š½mN^?·íâ†"*,Z‘U¸  SÛ@‹”__£Žã­"´}ù}ÕÖÂ*Iþ$¾¶–fÎÙ{Á ó2QS\íôWg»…c°Æ³TœLQÿK ²óSòæç%k¿¦e7ì+®Ò²Ž}\Q=ýg	Æþ>€¡ ‰ûý†ÏM“d(¤Ðg‡ø¨:r¶ŽaÑ©åúC W t4èjs]j¨Ë¹Õ¿Æ-¸…j5Y]%
+îõ¦®7J8«¶ÃHô¹‚í¡÷éÃ¥eÛedIª²X‘‚Âoÿ]n½‚^‡kçmù/Ê5n¨üZ8©>h!ŽYm.gG“pØ ÝÑ÷TOhÿÝ—‡ÎV·¨“ï\>¿ ƒ%T´ý/ÖÑ
+'ñùcZ×A0tzttb0’‘Øéà¤Kô-…‚]îâkàJƒFÍ„<±xoÉÞÏAsÛâˆÞ8Çb×ï'B›{5›6ìÑ¯­'M-Œ–M9÷ìÓ5Ÿ•6¸Ä¦Êoï?“îˆ‘[¸xÕ'Ý‡Uu®f»–8ýëU­Ðt•ë3u.Zî"(Ð²CäNåæÛ×¥=›–®57+Î¡iÝ^d“°ÉàlÃ’™¬ùéâx>T‡s©!®\§ÿ~·Ð”SÄÌú3ùµ˜ªCø!ÃxI„›ëÿº®fm•6šæ¥,KYnÖR¡éÞŸ'íû@ÂÐAØ‡¢O}_h÷Í…í§Ž1Õ–%16i‰ð=)næ†}³Mp›5T#ôMÇ˜d~SPB¡¿ÑÍ$«z[^pkv±”ÎB1nÛYðéâ~%Æ¼2+¾aî'ô<|FÊö—<ø$âô@ý¨¥%Ç0>7à_gp¥N¾Ïï‚¬8àÔRæ?ÈÇÑœáäúÛS¥z+$8¡ÜÉïRs[¾<`Â
+r—¢ª¡¤?ÅÍ˜Àzä‰:üá¾g)Çð!ž¥Þ}Õ¸–4˜Œð»u»[¸éõžä‡-gÀï¥T¿}ÞeyZ¾Å0·‘ÿëº »IYuiÍÖÀ¦çŠ7q¾¾^+øãá	R¸É5‡Íp¬dsÉÎâ½¬$…™+ÌË­ZÝ€‚·NÁ
+~ÛkÿR–î-;ôFÊè¨”ø½yíæâ·ÈÖ•Y¬Øº–9äÙä¼pkj IDáVøÃÄ±ã::ˆ†ì†cõî<AÝžÞÛ†±WçøËô:œæ`ÍË ¼$…¨tOs0Il¤_ÁWì¯ªMøV‚qhÐØP;)Êoö¦{§dËÚEŸ3R+•eó–)ÚÝ#
+O»ÊÆ°Ý£ƒÃ±u¬÷ÑwBïþíÝ´Ä7æ—zvï
+¸DOC	ýŸ¤Í[VåW„òŠKDØ]¼pa‰Cšü§ÄY©ÞÍêS  uEÚòt­®äîFÜÿsílÑò=;›H¿ûºý;‡üwéß	ÓI]º8{ïÆ­käc“˜09VÚR!IMþ·Ø÷Ø	¿™¥l,Jüg-L—ã¯e9ÆgÀêÌùÇ$Qu¶ÚPÖlQ¿ËXÛJ+­â¥B6'_Z:oÂ”yr²6VVµWH§•-Ü¼fòšIkå~ŸÀú]œá%ÙV}—w.b…”o“Ê…Ž\øÞqJxÇ•@S=Ù"·±þæ,øÍø›IÚ;sãñµý'­‘?ú}-0Åý^ÈÚ’Ýœš!¥}>üù©Óë®“wm•Ù Ê`IÿÂ‰k9øŽu_ˆ~æ‡£pÁ& Ñ.lÂ~×ÿñf‹ ¾¬ÞlçÿLV`|?d»/üà¸ ¬!ÏüìÖ\b×@5d3PM/Û~ úlßç3£ÛïB°î( ŒÛï0'Èñbã;ÎÀŒI?f3'‰5ø}Ïyñ;‡õ2ÛoÞï¿g|oeµfûmö;Èè{«Ûwöß­¬|Ç€åØO“rÆ€»™4 ]¬ƒ›ÿxÿáôìå?“¬X“+2“ã¥kjú¦5È×„²6Ì›ß±PúÂ†GWÉóAŠV™û¥Âu‘ð‚…ëPázwáú=øOŒ(¼ø~.€ìA0¨ê§ÿô›þ;fú÷ŠélßWNú<ùÏ‰ìßWLü:ùÏ¿éœrÜ§6ÿçá<ÈuûÇ‘¢¢  ƒØ
+endstream
+endobj
+
+60 0 obj
+<<
+/Subtype /Type1C
+/Length 664
+/Filter /FlateDecode
+>>
+stream
+H‰4_HQÆgÖÝk¥l¤m…{	ëA7]mÃ!Xéj‰ŠšFØŸÙëîäîŒÜ™UŠ"S0ƒy’"(¢—
+Ä
+Z!ó­"ˆz|ˆð¡ âÌzéŽæ}8çûÎáüø¸¢àv	¢(ïwœí(k¦)C‰ÚÖÓmÈGOj	ÙÙ[Dk¯Û:˜ïculrýÚz½–wÃÏ=™lkàÅµSÚPš*±¸+kkj¼Ö7k(€«‚Á*Ü(k‚»ÓºA’:nU£Ò¨d¹7&¸Ë9ÖqÑ	v†ÛY°¢c	T’IR¢ƒXÀ-D‘I"B¨³>MSÑÁ¤¤GãŠJTÜ`2M¤te˜$Ò8¡D‰ªqª¥bqÜ¦¨š‘"\D¨DÓ8œŒ´°¤Ê8)¥1IILá1)?RT%Ôx¿š¢Š.+QCÑT½¼¢¹»Ç„°Lþ	•Â1á¸àá*´SÂ1$ž³ÆÆ3Ö¯ŒÈkI&gÜme;í1“ì5À´VÃlÞŽ±ïæÚèÒ¦†Æ=²ÞúÅçÍ<†¸`ðøHÁ½lOáWë2<ô±+¨põÌz&[³|p-AÈÏÐ{Æ[b³íV…¼Ö<GÌp„.ñ#`8Gr€X+¾7èó’VW×f4ù/ðHvžog”BÞ"TC=ó¿d?kâà9éüéÝ†¼FŸ¾Ýª¸Ùì¿è@JÈÜ+´83Òwßÿ©"æ†G×Ÿ¦^Éý¹?Ì…ËEÐËÂ·Yi1+ÛŠh­p2È€s@Þ˜Û~pÙÏ™ú‘÷†™m7YŸ	º‰àÉÔÚ´½nænûM5wðáßi{ÃÜù{à¼;ùÞ  kHÝ
+endstream
+endobj
+
+61 0 obj
+<<
+>>
+endobj
+
+62 0 obj
+<<
+/Subtype /Form
+/Length 10
+/Filter /FlateDecode
+/Matrix [ 1 0 0 1 0 0 ]
+/Resources 61 0 R
+/BBox [ 0 666 540 0 ]
+>>
+stream
+H‰0    
+endstream
+endobj
+
+63 0 obj
+<<
+/OPM 1
+/BM /Normal
+/CA 1
+/OP false
+/SMask /None
+/ca 1
+/AIS false
+/op false
+/Type /ExtGState
+/SA true
+>>
+endobj
+
+64 0 obj
+<<
+/OPM 1
+/BM /Normal
+/CA 1
+/OP true
+/SMask /None
+/ca 1
+/AIS false
+/op true
+/Type /ExtGState
+/SA true
+>>
+endobj
+
+65 0 obj
+<<
+/First 66 0 R
+/Count 1
+/Last 66 0 R
+/Type /Outlines
+>>
+endobj
+
+66 0 obj
+<<
+/Parent 65 0 R
+/A 67 0 R
+/Title (Introduction)
+>>
+endobj
+
+67 0 obj
+<<
+/D [ 38 0 R /FitH 668 ]
+/S /GoTo
+>>
+endobj
+
+68 0 obj
+<<
+/Length 165
+/C 181
+/Filter /FlateDecode
+/I 203
+/L 165
+/O 127
+/S 46
+/V 143
+>>
+stream
+xÚb``c``µ` ‚´fTÀ
+Ä,ÓÒÒ::ää ˜A”aÃ¾{þ0là> Æ2AL!¦i/k‹ôþÆ©Ì3¨3r°¬á9÷ì˜šV…nCckÔ G†l ÍÄ›˜Èß¤Ù€öŸ['ÍÀPÖ¤™€ØˆÙ
+Û´P\•<C!ÄF3€  ZÊ_
+endstream
+endobj
+
+69 0 obj
+<<
+/Filter /FlateDecode
+/Length 10
+>>
+stream
+xœ+ä  î |
+endstream
+endobj
+
+70 0 obj
+<<
+/Filter /FlateDecode
+/Length 10
+>>
+stream
+xœä  ® \
+endstream
+endobj
+
+71 0 obj
+<<
+/Filter /FlateDecode
+/Length 4855
+>>
+stream
+xœ…\K²e¹mœ×*j¶ù+ÐXÖÐá™#<±
+¼}'.ÞÐ•¥Ý<Ñä#@È$yÎ?~üÛ_þö/«œ-»¬}~þ÷ÿþ¨?õŸÿËò¯ãçÿýøÿüY~þ×‚ß¿ÛoÅïÿüøÛ¿þøÇ§ýYÒæncî_·ŸŸ–÷w…ö­”²Ë8{þºýþ´¼¿'ýýQdžVÖ¯Û×v‡nÐCk¬6zŸlUn[ƒºØ2JÝ¥ÒQ\¢!{Â	«îEÙ®Ñ±›ÌÙzg]ÜipˆÓQ£I]ƒtq-pˆ†¬½÷©µÌþë.ú&‡T§‹œFb²_8DW´Uv=ç2§ýàí˜« &Úœòë.äàíX}Œyd“¨Q)°Ö–RÇª•tqçÒ!Né™s÷Þåù× ‡hGðf+B<1®ÑŽÚÖè­mÌ×¯»¸áâjµ[Ú!¡9¯Ñ°dµ5É(æ(‡´ÆÆì{ôYØ(®ÑÙóäÝAÂ{]R`¡±®öMY×‡´BêìëœÞIp®;›qRñçåœÒÅ¾Þ!§,dNY3öë.îŸwˆ£Xã4,ôóë.Îõ£Ctç@Îê¨¬ «c'sV,Ô¬Áz±ô0:k•Ui/VC¦ÜÕú¹&[óÕ‹ÙÃèYä>,{©“jõzö0ŽÿejelÌ»ÍK´côñžÈA…ÄZµªöÅTÞVïe”¾I&«V•¾˜Ò!\6‘6©³µ›WFïNøÅ¥·ÕŠÓÓLïOÌVó«˜WFïžÑ÷ÔUD{1¯>LÞíuêbîÌ»b–<Ìy¾wDÑ`Õ¿'bŽ)+ ±´²¥³¨³$ÿÅ”$Q0V_UØMÃÃTüNµ!5¼Z±øbtK-]¨V.¾#iNÖ”½™=V1¾˜sÇ:]ð/[‹ÛÆð0cUä¨Îr”Õ/Æ±È‚EMÊ c±™y˜2Ý@T7T!Æß­z|1å…ÞŒc%µÃÃ4-h­ÅckðaÒU£ª$Q‡ýšÈÿlJà?¿¿ÿ³à'Hs›åù´¼¿#´ùPçJóÒýÓq²„ Ò0MJ·­AÅ”5°nãIuÞ¶+tº}ŒlÂyÛ:Ä.ú.ZÐ«éPSíŠªvEÕ?w±OG9‹©Ãn3iÝ¹ÁÓ ˆ*£ZýúÑ!º³ž^z…&Þ¯¢/ÆX¥ôÒX’kC4¤MpDþ"B,6¢!‰çÈ-¡²ª]YÕ®¬ŠÑ‰˜8k2ºJÚ®¬jWV…›Q£¢¨]QÔ®(ŠÑÙ1)`WÄyÿ¼CE "P›T–yýèÝy
+ZeÑTµ+ŠÚE!.À¨zBåÈ
+‡8#­÷©ÚŽÍÈºÞ!Ža) 1Þ}ÃÒ!Fçè«ƒNÑ”}ýè–Ùî±UØæÅ¾NpHYkö¹Ò?ÕDíj¢v5QpE©c]ñæ¹>pˆ®P¦›Z,užë‡èŠ­d°èLÒÅõCtEGaŸLô«ªk¦îš©»Ð¤‡îÆmË¶ÖŽ9¾PŠ@hI«6†‡q,SZ³6»Õ«êÃ8;§tØ´:åÙÕ,y˜,­n OŒ—6+Ï[@ö@q‡y×ÊëãLoÝÓè,Œ«»fê®™º~Ù(O»É”CwÎâ½;8©ªg’”5SwÍÔ]bŸð/ëÅ*Ô“_¨œþŸöbcxÇÒ»Vÿ-•ê2óêÃ´Ž’Ê‚èecNçS¼ìRÁÈUšÃüñ0úeB A?ÌJÙ¡Yò0Uñ)$]èX¦ÅÉÃ”+Q5vTÆXùýb.Ì-€e†<L 2¡ÛÙÆ·ŠÃf"±™Há"}€±‚Þ°^Ì’‡‰¨éîb¦³p±jþÅ”¤¦êH3&{·ùãašè={áAg´à‹y¢ÇÑM>aéÅÊúSèÊBL¨<Ö‹ùãa"]KTœÊ,²êþÅ$,0}2f¡	Ó
+üsìÝ"¡
+§ZÿbbåMÇÑ1QL¶ÊG¶ÊG¶JðHoêÃ¶´?-ïï	íet~:K’åÓÔ¡Æ.@QÆ*?”«zåª^	®,Gj¡©Þñ;D;62ý©g~l× ‡hG½–?‹­Ý¶=t1QQˆ¥±Íë‡è‹V@¤±R˜×iJ‘}RÇ!]ôû×â Î SwŽ˜n–«›åêæ0§ `Òj£m‘mÂb4ÌFë¬:Èýói½D÷dá=n<8Ä°8sU¬,ûçò(
+–Íåêf¹º9¬ó3¤l•T7ËÕÍrus0¤èµ‡ÕYÂš×‡hhÐ\MóÅºkÃ!.‘¾V-£T&ÓÖ‡´D&äÑ™•É´u-pˆ†€ì
+Ô&ÕÍru³\Ýã<–É‘}-pˆ†€%€,=›Ý–½b\Ì±ÆlU˜!ç„CŒ‹&»ª|gZæ\¢!sëa–;Ò´dAöïmÑ‹ªvÅT¯˜ê…Þ"ÊÏH/ÓZ;Æè@	Ðø ûŸÕ‹ÙÃ4»ºè5ƒ±±TÃÃ´äŽHay´zU|½»ÀŽu£§1ZÚl“_ÎÑì€ÊT1¹*&WC&dcüº¥`…é‹Ñ¹zÍGs€ž‚]Úá˜¨Ë€À)ø¥½4kí˜ª><fº2âP­B}19ÜÌ—ooˆMðÃ¼ŒM¦ÞcBÓ,y-‚CŠÿ`WTìŠ‰^1Ñ*wé«°#˜bBSLhÆ Û37&Ýicxø'´ªAÃlzeÂÊÞãéöâô kY¬=Œ1·ôNÐi¦ªÌZ?L‰Ùeµ6¨Î´ºóÅÌ°:8Åª2óÆÃä•*cÕ6Úo#/qwÌe¨ Õé1-WebªLL•‹–"²Sˆåçüùwû­øè»‡U²öiy{hZSÉÝè­OËû»B{9Z®üfó÷Ý š êÞt²Ðû+·­A´Bñ.­7zà¶5ˆ†œÕêÖa÷tQ®æÕtójºÐ}_m³¢Õ®¢/>$4›µkC4¤Mp¬4¦°ÛµÀ!¢<³5¦APçæÕcóê±h†€ØzUKn[‡ØØ¿!vvF#wüÑ(J)u7z'òN„CŽM™(“mkC4¤#029“1ãZà™Co+´JofÚ*5ˆQiÚAa
+Õc÷Ï;ÄQì³öZœñ®ëG‡èÎ5:$DvUm]?:Dw"_AÒA#³Ë–«RÎZºå9ÄŽÿ®inèÐbJè&+‡˜³ê>%ä°ƒú}à}OB#÷ÃÒÞ¾Npˆ¾ØÒ•Â–¿Ïu‚C*A¨È¥aåô\'8D_¬‰ˆÈ"¡u®R\ <Ugo2#çF¶Cp½*UÎ^”é/fŽÑuÑUÒË®VÈ¦º|Ú‚H-ì2‰
+ÂiÂpš0³î'S• =S½SöKm¢›¯Ì£AÒìoÑ+Õ+ëÃ\™ŽÁ˜(ÑoNãX é0?G8ã0§>ŒÎÕ36}ý€Þ¶
+ùÅ·cK;õÐ³ nîxÝÕùÂx±XÄ>L‘1szco!T+×_Lëp\zéVÌ¥3©Ü•t+Ù_Læ¨äFé¦rÎªöY¥@`ÑÕ<ÌŽ‡‰“•>x=0˜®cØ68åCÌ¸œ›&ç¦É¹o-ª…eÙ¦ôr×ô
+Ë,VÂ¿}«[hÊŠ®Ãå„Ý1:W/yã¿NÆ™«Uá/ær<ð/QÄ¨@µ1<Ì4«j¾=t›ÇªàS~úäÒéý_+„_L+ñ€zêKsT š%ÓR<ºÝ¤×˜ÀÜ¹?s‡-«©Äu1[äÓòþŽÐùQ/U;ÚŸ–÷÷„ö˜ÔSÆžÂrIù4u¨¡‹5dAUºdîè¢[eú(ô`½8DCôåÅ&ü²W³™0ˆsÑÁmÀá7‹ñ~-pHÓ:ó¹DŠBåÓÖ`Å.º¾Éëf¿Npˆ¾ÐýŽ6û`éG,ª’!ay‹qÝè½9&²ÉV
+OÚ>m’+ #Àgè«œãúÀ!º¢u¥Î{ÐœØ1¾'¤áY
+þy-pˆ†€zèå²É™×‡´PÇÖ»º•mÀ¬;qFP×Ä?L¬1,ºòÈdv"¾®É°…Úøì}-pˆ†l”4(Ê
+·e=ƒ8
+½‘SÆìì‹sÂ!Æ…´ÚKƒža]\?:Dw¶{ËáÐK®–¸RÞÓ¬‰²L_)žÁ“-ï´Êë,{?Œæè…61zÏ©LkíËÓCLzþòŠ‘c´~ÑH:=9ñzô0YÔÁoçàç/^’Æ9Ÿ„0[•J‡fcx˜RòÁÿf£GÏé>­¦j&‡ÂÀ¾— ·JocÇ”Û)º5N•¸/¦¬¨^_hþÍÕmân›¸‹]Ù‘ÒsÇÃ”äÑ1J»ç­û·±ct$µÞ‹îôlKÌ‡¹d-}?„Óþa†<Lñ¿7ü2Ûamµû‹)ÓÂ–²~sph†<L)
+ôyìÓèNÀ´!<LLYO ZéÒ´Åó000¹1ú¢9õarnWÞŒzNms1]ú&Ñ`õ¸Zýbfð {E™*3óêÃ4ÑÐT²ÛB¯V¿Ý2@ôK$ôüÝjá£[à°=?Ç4\˜mfÛ„Yè¥`úŠžý±“Ãz¿,Sï§ejx-_'e
+;ci·­A]L-cT˜Ýy»mFêB>Ky±íøyÛ¬dˆ¾Ð¼Æ*´º›ÿÌ£FOjª9âaòH-[_Èß´tlkíxÒX&Ô»è«·ô¯Ú‡bª})&Že@0Ò{ÃÝ¼ñ0yeC£tÝqerÍæöašä*sIÙ…méu›Þ‡ižQ‘º¾ÅRØ›‰63ÓI×mäß,ÞÆŽÉµ­jN’Í®œÂÃ4”ÝôL­ÌÂ¿üRíÓ/Õ¾ýz9òÙ€Êa–<L©ˆìš•Ø{Š&ó"*úi}éƒôb–<LTÂƒ´Ïö:§'Ç.³ä'MþÚdµÉTûšLèeUÝçÔOPUYíK.Õ>ågZ¿ú„RÈÞÆ_žßs¢ÃTC!WöÅ£e–<Lp}å%ím1û0ÅîÚ˜!p~öÊ±ÖóbÔ»ø ÚìzÝ1¯>ü“ôÒôÝà‡n¯¼‡¾mœM_ëWâjíßCš©sJùì×QaåUäû¤ý”ÕÝÀ¬âíßCöÑ.ú¾ÐùÝ×fªn¦ú÷fâ²ÂŠ*´^Î|…ò=dòð¹²×½+ÚÜ¢ïC2­/´^L¦úÓ-ú>ä¬u¿AYéu&¯•xHq$Rg) 6Tú=ñ’ú8£ˆ~ÊXýc8Õ¿†“RêÖ·½ÞÛÝ5ß‡ä£ŽÙdC:"q×|’ Žû­§G…î™ïC^!Sßí4µêYcõ¯ëTÿ¼N´lC—ŽÂ/‡·ÿ>äÂ#ÐüˆIºB¼†þá!¹¨};µP¥0Ý3ß‡LJ‘?ÎìtÇÉëè’a{ÍýFÑ¹=ß‡d˜¾s¨_Ð¢Ÿrñjú‡‡?­«z•™gz0rMD½ð›ó?ãíï!¹H¿õ)‹¬ŸÇÿßC^f½iŠ]ôÅo¯«xÈsuÙôû7§‰Õ?›Sý»9qDgí-zRÀ:z’æ=dÓôŽ¸Û†=÷ã9õ~=§Æ÷VKA
+*L4Êmk0b¢·€Oå_°ÆS/»Mˆ¬ÊD+f‹c|îkB1Ò;›6„‡i(õ~ð‰ã´iWì’)Y:;ÉÑjÓ©ö5Ð‹Þƒ…_{ƒ¬›;&· ÕL(›Ãv~ºYòðO,‚A½Òë~Ý,y˜,Úú!¬Ï°€3K&‹ú> Ýs³mX±˜˜‚ìb©Š}9Õ£ß1G®Þx(tÓRÌ“[ %P{á\&`Í‡É ý<¤ž±:7lÓXV«pn)ì”iSó0OQ;PõÒ˜”˜fÉÃd‘,(ï±öiSó0M‘~xs£rÓ[»øÓ¨zïµíZNóêÃä]™¡þeW¡—yõaÎtŽ©œ-óêÃäÝÞ:âå0:³Ì©“sus@o¹³òeN}˜;é¿ÒÍóéÃ¼Š&¤Ëé,[nséÃäZ©¨EºŸK:1g<ÌEñ#7ö¢rÜ†ð0ÃèM¿*ÁÞ¯´Ù}˜fy‚'´¡Ÿóá[ö}£j8
+½ lQ†ÀÖÙÝb›Þ‡iš'«î/°Ïí›ß‡ižëjeë…Búõsëò\½M´~ó„æíßCòñ9Kwè÷Z‹“ŸïCö²è’I_Qøl—4ß7i¾o¿ë³Ç@Ó±e{û÷}ÝVC…+t7¿º‹¿ðõÿl[^î
+endstream
+endobj
+
+xref
+0 72
+0000000000 65535 f 
+0000000016 00000 n 
+0000000066 00000 n 
+0000000112 00000 n 
+0000000156 00000 n 
+0000001483 00000 n 
+0000001582 00000 n 
+0000001668 00000 n 
+0000001793 00000 n 
+0000001861 00000 n 
+0000001969 00000 n 
+0000002099 00000 n 
+0000002134 00000 n 
+0000002183 00000 n 
+0000002263 00000 n 
+0000002356 00000 n 
+0000002424 00000 n 
+0000002492 00000 n 
+0000002541 00000 n 
+0000002617 00000 n 
+0000002670 00000 n 
+0000002742 00000 n 
+0000002813 00000 n 
+0000002866 00000 n 
+0000002942 00000 n 
+0000002994 00000 n 
+0000003043 00000 n 
+0000003107 00000 n 
+0000003149 00000 n 
+0000003186 00000 n 
+0000003248 00000 n 
+0000008673 00000 n 
+0000009001 00000 n 
+0000009092 00000 n 
+0000009361 00000 n 
+0000009420 00000 n 
+0000009487 00000 n 
+0000009523 00000 n 
+0000009610 00000 n 
+0000025660 00000 n 
+0000041459 00000 n 
+0000041494 00000 n 
+0000041568 00000 n 
+0000057236 00000 n 
+0000057574 00000 n 
+0000057953 00000 n 
+0000058362 00000 n 
+0000059090 00000 n 
+0000059489 00000 n 
+0000059955 00000 n 
+0000060049 00000 n 
+0000060492 00000 n 
+0000060766 00000 n 
+0000061075 00000 n 
+0000061270 00000 n 
+0000061580 00000 n 
+0000061904 00000 n 
+0000062147 00000 n 
+0000077432 00000 n 
+0000079033 00000 n 
+0000081778 00000 n 
+0000082533 00000 n 
+0000082556 00000 n 
+0000082718 00000 n 
+0000082842 00000 n 
+0000082964 00000 n 
+0000083039 00000 n 
+0000083109 00000 n 
+0000083165 00000 n 
+0000083445 00000 n 
+0000083528 00000 n 
+0000083611 00000 n 
+
+trailer
+<<
+/Size 72
+/Root 33 0 R
+/Info 31 0 R
+/ID [ <031D9B96316FF847AFA404FAAACBCDE900> <9795621325D01043AA8D76CAED6F3D03> ]
+>>
+
+startxref
+88541
+%%EOF
